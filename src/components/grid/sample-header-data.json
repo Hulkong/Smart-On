@@ -1,0 +1,92 @@
+{
+  "data": [
+    {
+      "header": "자치단체명",
+      "name": "orgNm",
+      "align": "center",
+      "valign": "middle",
+      "sortable": true,
+      "sortingType": "desc"
+    },
+    {
+      "header": "회계구분명",
+      "name": "accountNm",
+      "align": "center",
+      "valign": "middle",
+      "sortable": true,
+      "sortingType": "desc"
+    },
+    {
+      "header": "세부사업명",
+      "name": "detailNm",
+      "align": "center",
+      "valign": "middle",
+      "sortable": true,
+      "sortingType": "desc"
+    },
+    {
+      "header": "집행일자",
+      "name": "excuteDate",
+      "align": "center",
+      "valign": "middle",
+      "sortable": true,
+      "sortingType": "desc"
+    },
+    {
+      "header": "예산현액",
+      "name": "budge",
+      "align": "center",
+      "valign": "middle",
+      "sortable": true,
+      "sortingType": "desc"
+    },
+    {
+      "header": "국비",
+      "name": "nationalFee",
+      "align": "center",
+      "valign": "middle",
+      "sortable": true,
+      "sortingType": "desc"
+    },
+    {
+      "header": "시도비",
+      "name": "megaFee",
+      "align": "center",
+      "valign": "middle",
+      "sortable": true,
+      "sortingType": "desc"
+    },
+    {
+      "header": "시군구비",
+      "name": "ctyFee",
+      "align": "center",
+      "valign": "middle",
+      "sortable": true,
+      "sortingType": "desc"
+    },
+    {
+      "header": "지출액",
+      "name": "expenditure",
+      "align": "center",
+      "valign": "middle",
+      "sortable": true,
+      "sortingType": "desc"
+    },
+    {
+      "header": "분야명",
+      "name": "fieldNm",
+      "align": "center",
+      "valign": "middle",
+      "sortable": true,
+      "sortingType": "desc"
+    },
+    {
+      "header": "부문명",
+      "name": "sector",
+      "align": "center",
+      "valign": "middle",
+      "sortable": true,
+      "sortingType": "desc"
+    }
+  ]
+}

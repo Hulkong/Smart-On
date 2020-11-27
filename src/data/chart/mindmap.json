@@ -1,0 +1,81 @@
+[
+    {
+        "value": 150373,
+        "name": "사회복지",
+        "color": "rgba(96,0,115,1.0)",
+        "radius": 30,
+        "isMax": true
+    },
+    {
+        "value": 57710,
+        "name": "곡토 및 교통",
+        "color": "rgba(96,0,115,1.0)",
+        "sin": 0,
+        "cos": 0,
+        "radius": 18
+    },
+    {
+        "value": 37994,
+        "name": "문화/관광",
+        "color": "rgba(96,0,115,1.0)",
+        "sin": 1,
+        "cos": 1,
+        "radius": 16
+    },
+    {
+        "value": 32862,
+        "name": "공공질서 및 안전",
+        "color": "rgba(96,0,115,1.0)",
+        "sin": 2,
+        "cos": 2,
+        "radius": 14
+    },
+    {
+        "value": 32715,
+        "name": "문화/관광",
+        "color": "rgba(96,0,115,1.0)",
+        "sin": 3,
+        "cos": 3,
+        "radius": 12
+    },
+    {
+        "value": 32507,
+        "name": "보건",
+        "color": "rgba(96,0,115,1.0)",
+        "sin": 3.5,
+        "cos": 3.5,
+        "radius": 9
+    },
+    {
+        "value": 30798,
+        "name": "사회복지",
+        "color": "rgba(96,0,115,1.0)",
+        "sin": 4,
+        "cos": 4,
+        "radius": 7
+    },
+    {
+        "value": 30740,
+        "name": "산업/중소기업",
+        "color": "rgba(96,0,115,1.0)",
+        "sin": 4.5,
+        "cos": 4.5,
+        "radius": 5
+    },
+    {
+        "value": 28394,
+        "name": "수송 및 교통",
+        "color": "rgba(96,0,115,1.0)",
+        "sin": 5,
+        "cos": 5,
+        "radius": 5
+    },
+    {
+        "value": 27748,
+        "name": "환경보호",
+        "color": "rgba(96,0,115,1.0)",
+        "sin": 5.5,
+        "cos": 5.5,
+        "radius": 5
+    }
+]

@@ -1,0 +1,172 @@
+[{
+    "value": 182171,
+    "category": "A",
+    "name": "공공질서 및 안전"
+  },
+  {
+    "value": 108709,
+    "category": "A",
+    "name": "농림해양수산"
+  },
+  {
+    "value": 81566,
+    "category": "A",
+    "name": "문화 및 관광"
+  },
+  {
+    "value": 65498,
+    "category": "A",
+    "name": "일반 공공행정"
+  },
+  {
+    "value": 70948,
+    "category": "A",
+    "name": "환경보호"
+  },
+  {
+    "value": 44736,
+    "category": "A",
+    "name": "수송 및 교통"
+  },
+  {
+    "value": 57357,
+    "category": "A",
+    "name": "산업/중소기업"
+  },
+  {
+    "value": 17357,
+    "category": "A",
+    "name": "사회복지"
+  },
+  {
+    "value": 17357,
+    "category": "A",
+    "name": "보건"
+  },
+  {
+    "value": 17357,
+    "category": "A",
+    "name": "국토 및 지역개발"
+  },
+  {
+    "value": 17357,
+    "category": "A",
+    "name": "교육"
+  },
+  {
+    "value": 17357,
+    "category": "A",
+    "name": "과학기술"
+  },
+  {
+    "category": "B",
+    "value": 222467,
+    "name": "공공질서 및 안전"
+  },
+  {
+    "category": "B",
+    "value": 156608,
+    "name": "농림해양수산"
+  },
+  {
+    "category": "B",
+    "value": 126094,
+    "name": "문화 및 관광"
+  },
+  {
+    "category": "B",
+    "value": 90143,
+    "name": "일반 공공행정"
+  },
+  {
+    "category": "B",
+    "value": 83850,
+    "name": "환경보호"
+  },
+  {
+    "category": "B",
+    "value": 33299,
+    "name": "수송 및 교통"
+  },
+  {
+    "category": "B",
+    "value": 21706,
+    "name": "산업/중소기업"
+  },
+  {
+    "value": 17357,
+    "category": "B",
+    "name": "사회복지"
+  }, {
+    "value": 17357,
+    "category": "B",
+    "name": "보건"
+  }, {
+    "value": 17357,
+    "category": "B",
+    "name": "국토 및 지역개발"
+  }, {
+    "value": 17357,
+    "category": "B",
+    "name": "교육"
+  }, {
+    "value": 17357,
+    "category": "B",
+    "name": "과학기술"
+  },
+  {
+    "category": "C",
+    "value": 2224,
+    "name": "공공질서 및 안전"
+  },
+  {
+    "category": "C",
+    "value": 1566,
+    "name": "농림해양수산"
+  },
+  {
+    "category": "C",
+    "value": 1260,
+    "name": "문화 및 관광"
+  },
+  {
+    "category": "C",
+    "value": 90143,
+    "name": "일반 공공행정"
+  },
+  {
+    "category": "C",
+    "value": 83850,
+    "name": "환경보호"
+  },
+  {
+    "category": "C",
+    "value": 33299,
+    "name": "수송 및 교통"
+  },
+  {
+    "category": "C",
+    "value": 21706,
+    "name": "산업/중소기업"
+  }, {
+    "value": 17357,
+    "category": "C",
+    "name": "사회복지"
+  }, {
+    "value": 17357,
+    "category": "C",
+    "name": "보건"
+  }, {
+    "value": 17357,
+    "category": "C",
+    "name": "국토 및 지역개발"
+  }, {
+    "value": 17357,
+    "category": "C",
+    "name": "교육"
+  }, {
+    "value": 17357,
+    "category": "C",
+    "name": "과학기술"
+  }
+]

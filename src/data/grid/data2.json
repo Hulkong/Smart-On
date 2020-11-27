@@ -1,0 +1,27 @@
+[
+  {
+    "rank": 1,
+    "orgNm": "오픈메이트온",
+    "cumulativeAmount": 5000000
+  },
+  {
+    "rank": 2,
+    "orgNm": "오픈메이트",
+    "cumulativeAmount": 4000000
+  },
+  {
+    "rank": 3,
+    "orgNm": "A",
+    "cumulativeAmount": 3000000
+  },
+  {
+    "rank": 4,
+    "orgNm": "B",
+    "cumulativeAmount": 2000000
+  },
+  {
+    "rank": 5,
+    "orgNm": "C",
+    "cumulativeAmount": 1000000
+  }
+]

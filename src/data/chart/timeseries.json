@@ -1,0 +1,86 @@
+[
+  {
+    "stdr_date": "20190901",
+    "week_end_cnt": 24133,
+    "total_cnt": 54630,
+    "week_days_cnt": 30497
+  },
+  {
+    "stdr_date": "20190902",
+    "week_end_cnt": 10302,
+    "total_cnt": 67566,
+    "week_days_cnt": 57264
+  },
+  {
+    "stdr_date": "20190903",
+    "week_end_cnt": 41053,
+    "total_cnt": 166820,
+    "week_days_cnt": 125767
+  },
+  {
+    "stdr_date": "20190904",
+    "week_end_cnt": 77710,
+    "total_cnt": 366966,
+    "week_days_cnt": 289256
+  },
+  {
+    "stdr_date": "20190905",
+    "week_end_cnt": 59896,
+    "total_cnt": 215592,
+    "week_days_cnt": 155696
+  },
+  {
+    "stdr_date": "20190906",
+    "week_end_cnt": 64882,
+    "total_cnt": 248397,
+    "week_days_cnt": 183515
+  },
+  {
+    "stdr_date": "20190907",
+    "week_end_cnt": 36121,
+    "total_cnt": 133959,
+    "week_days_cnt": 97837
+  },
+  {
+    "stdr_date": "20190908",
+    "week_end_cnt": 24133,
+    "total_cnt": 54630,
+    "week_days_cnt": 30497
+  },
+  {
+    "stdr_date": "20190909",
+    "week_end_cnt": 10302,
+    "total_cnt": 67566,
+    "week_days_cnt": 57264
+  },
+  {
+    "stdr_date": "20190910",
+    "week_end_cnt": 41053,
+    "total_cnt": 166820,
+    "week_days_cnt": 125767
+  },
+  {
+    "stdr_date": "20190911",
+    "week_end_cnt": 77710,
+    "total_cnt": 366966,
+    "week_days_cnt": 289256
+  },
+  {
+    "stdr_date": "20190912",
+    "week_end_cnt": 59896,
+    "total_cnt": 215592,
+    "week_days_cnt": 155696
+  },
+  {
+    "stdr_date": "20190913",
+    "week_end_cnt": 64882,
+    "total_cnt": 248397,
+    "week_days_cnt": 183515
+  },
+  {
+    "stdr_date": "20190914",
+    "week_end_cnt": 36121,
+    "total_cnt": 133959,
+    "week_days_cnt": 97837
+  }
+]
