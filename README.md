@@ -28,7 +28,7 @@
 
 <br/>
 
-![process_after](./contents/process_after.png)
+![process_after](./contents/process_after.PNG)
 
 <br/><br/>
 
