@@ -1,0 +1,659 @@
+html {
+  width: 100%;
+}
+
+body {
+  width: 100%;
+  background: #f5f5f5;
+  overflow-x: hidden;
+}
+
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+section.bg_img {
+  background: #000 url("../../images/event/img_bg.png") top center no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0px;
+}
+
+section.bg_img div.bg_gradient {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: -moz-linear-gradient(270deg, #330867 0%, #06118f 100%);
+  background: -webkit-linear-gradient(270deg, #330867 0%, #06118f 100%);
+  background: linear-gradient(270deg, #330867 0%, #06118f 100%);
+  background-size: 400% 400%;
+  animation: AnimationName 10s infinite;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#330867', endColorstr='#06118f', GradientType=1);
+  opacity: 0.8;
+}
+
+section.bg_img img.main_txt {
+  position: absolute;
+  top: 2%;
+  left: 11%;
+  width: 50%;
+  height: auto;
+}
+
+section.bg_img img.logo {
+  position: absolute;
+  top: 2%;
+  right: 10%;
+  width: 25%;
+  height: auto;
+}
+
+section.bg_img div.utube {
+  position: absolute;
+  top: 19%;
+  width: 80%;
+  margin-left: 10%;
+  height: 165px;
+  background: #000;
+}
+
+section.bg_img div.link {
+  font-family: 'NanumSquare_R';
+  position: absolute;
+  top: 48%;
+  left: 0%;
+  width: 100%;
+  height: auto;
+}
+
+section.bg_img div.link a {
+  position: relative;
+}
+
+section.bg_img div.link a.vote {
+  display: block;
+  font-size: 18px;
+  background: #1C01A3;
+  padding: 18px 35px;
+  color: white;
+  /* color: #DDD6FF; */
+  margin-top: 2%;
+  margin-bottom: 4%;
+  border-radius: 40px;
+  width: 76%;
+  margin-left: 12%;
+}
+
+section.bg_img div.link a.corona {
+  display: block;
+  font-size: 18px;
+  background: #2B01FC;
+  padding: 18px 35px;
+  color: #DDD6FF;
+  margin-bottom: 5%;
+  border-radius: 40px;
+  width: 76%;
+  margin-left: 12%;
+}
+
+section.bg_img div.link a.smart_on {
+  display: block;
+  font-size: 18px;
+  background: #6326FF;
+  padding: 18px 35px;
+  color: #DDD6FF;
+  border-radius: 40px;
+  width: 76%;
+  margin-left: 12%;
+}
+
+section.bg_img div.link a img {
+  width: 25px;
+  height: auto;
+  float: right;
+  position: relative;
+  top: -3px;
+  margin-left: 20px;
+}
+
+section.bg_img div.link a span.new {
+  font-size: 12px;
+  font-weight: bold;
+  display: inline-block;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  padding: 4px 10px;
+  color: #e459cc;
+  background: #f8f8f8;
+  border-radius: 20px;
+  border: 2px solid #e459cc;
+}
+
+@media (max-width:359px) and (min-width:320px) {
+
+
+  section.bg_img div.link a.corona {
+    font-size: 18px;
+  }
+
+  section.bg_img div.link a.smart_on {
+    font-size: 18px;
+  }
+
+  section.bg_img div.link a img {
+    top: -2px;
+  }
+
+}
+
+/*총선 게이트 시작-----------------------------------------------------------------------------------------------------------*/
+div.vote_gate {
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  padding-top: 8vh;
+  position: relative;
+  z-index: 999999;
+
+
+}
+
+div.vote_gate div.cont_wrap {
+  width: 86%;
+  margin-left: 7%;
+  height: 80vh;
+  background: #fff;
+  border-radius: 32px;
+  overflow: hidden;
+  position: relative;
+}
+
+div.vote_gate .select {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 5%;
+  margin-left: 8%;
+  width: 84%;
+  float: left;
+  font-size: 16px;
+
+}
+
+div.vote_gate .st01 select {
+  display: inline-block;
+  width: 100%;
+  cursor: pointer;
+  padding: 13px 21px;
+  outline: 0;
+  border: 0;
+  border-radius: 0;
+  background: #fff;
+  border: #6326FF 2px solid;
+  border-radius: 10px;
+  color: #464973;
+
+  font-weight: bold;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  box-shadow: 0 6px 6px 3px rgba(23, 7, 38, 0.1);
+}
+
+div.vote_gate .st02 select {
+  display: inline-block;
+  width: 100%;
+  cursor: pointer;
+  padding: 13px 21px;
+  outline: 0;
+  border: 0;
+  border-radius: 0;
+  background: #fff;
+  border: #8252FD 2px solid;
+  border-radius: 10px;
+  color: #464973;
+
+  font-weight: bold;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  box-shadow: 0 6px 6px 3px rgba(23, 7, 38, 0.1);
+}
+
+div.vote_gate .st03 select {
+  display: inline-block;
+  width: 100%;
+  cursor: pointer;
+  padding: 13px 21px;
+  outline: 0;
+  border: 0;
+  border-radius: 0;
+  background: #fff;
+  border: #A584FA 2px solid;
+  border-radius: 10px;
+  color: #464973;
+
+  font-weight: bold;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  box-shadow: 0 6px 6px 3px rgba(23, 7, 38, 0.1);
+}
+
+
+div.vote_gate .select select::-ms-expand {
+  display: none;
+}
+
+div.vote_gate .select select:hover,
+div.vote_gate .select select:focus {
+  color: #f8f8f8;
+  background: #6326FF;
+}
+
+div.vote_gate .select select.active {
+  color: #f8f8f8;
+  background: #6326FF;
+}
+
+div.vote_gate .select select:disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+div.vote_gate .select__arrow {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: 20px;
+  right: 20px;
+  background: url("../../images/mobile/select_arrow.png") center no-repeat;
+  background-size: contain;
+
+}
+
+div.vote_gate .select select:hover~.select__arrow,
+div.vote_gate .select select:focus~.select__arrow {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: 20px;
+  right: 20px;
+  background-size: contain;
+  background: url("../../images/event/select_arrow_R.png") center no-repeat;
+}
+
+
+div.ranking {
+  position: absolute;
+  padding: 0% 10% 4% 10%;
+  bottom: 5%;
+  width: 100%;
+  height: auto;
+  background: #EBECF9;
+}
+
+div.ranking span.standard {
+  font-family: 'SpoqaHanSans_R';
+  font-size: 10px;
+  color: #7e809d;
+  display: inline-block;
+  width: 100%;
+  text-align: right;
+  position: relative;
+  top: -20px;
+}
+
+div.ranking ul {}
+
+div.ranking ul li {
+  position: relative;
+  font-size: 15px;
+  line-height: 3em;
+  margin-left: 14%;
+}
+
+div.ranking ul li strong {
+  background: #fff;
+  color: #202457;
+  margin-left: 5%;
+  border-radius: 6px;
+  padding: 7px 10px;
+  box-shadow: 0 6px 6px 3px rgba(23, 7, 38, 0.1);
+}
+
+div.ranking ul li img {
+  position: relative;
+  top: 2px;
+  width: 15px;
+  height: auto
+}
+
+div.ranking ul li.rank01 {
+  color: #2E3CFA;
+}
+
+div.ranking ul li.rank01:before {
+  position: absolute;
+  background: #2E3CFA;
+  border-radius: 50%;
+  top: 20px;
+  left: -20px;
+  content: '';
+  display: block;
+  width: 5px;
+  height: 5px;
+}
+
+div.ranking ul li.rank02 {
+  color: #1C01A3
+}
+
+div.ranking ul li.rank02:before {
+  position: absolute;
+  background: #1C01A3;
+  border-radius: 50%;
+  top: 20px;
+  left: -20px;
+  content: '';
+  display: block;
+  width: 5px;
+  height: 5px;
+}
+
+
+div.vote_gate div.cont_wrap h1 {
+  position: relative;
+  width: 100%;
+  padding: 7%;
+  text-align: center;
+  font-weight: normal;
+  font-size: 22px;
+  height: auto;
+  background: #6326FF;
+  color: #fff;
+}
+
+div.vote_gate div.cont_wrap img.home_btn {
+  width: 36px;
+  height: auto;
+  position: absolute;
+  top: 15px;
+  right: 20px;
+}
+
+div.vote_gate div.cont_wrap img.logo {}
+
+div.vote_gate div.cont_wrap img.vote_icon {
+  position: absolute;
+  width: 50px;
+  height: auto;
+  bottom: 16px;
+  left: 27px;
+}
+
+div.vote_gate div.cont_wrap h2 {
+  margin-bottom: 11%;
+  margin-top: 3%;
+}
+
+div.vote_gate div.cont_wrap h2 span {
+  display: inline-block;
+  letter-spacing: 3px;
+  font-size: 18px;
+  padding-left: 5%;
+  margin-left: 12%;
+  line-height: 1.5em;
+  border-left: 3px solid #6326FF;
+  font-weight: normal;
+  color: #6326FF
+}
+
+div.vote_gate div.cont_wrap h2 img {
+  position: relative;
+  top: 10px;
+}
+
+/*총선 게이트 끝-----------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*반응형 시작*/
+/*pad*/
+@media (max-width:768px) and (min-width:601px) {
+
+  section.bg_img img.main_txt {
+    width: 34%;
+  }
+
+  section.bg_img img.logo {
+    right: 43%;
+    width: 13%;
+  }
+
+  section.bg_img div.utube {
+    height: 328px;
+  }
+
+  section.bg_img div.link a.vote {
+    width: 50%;
+    margin-left: 25%;
+    font-size: 21px;
+    padding: 25px 35px;
+  }
+
+  section.bg_img div.link a.corona {
+    width: 50%;
+    margin-left: 25%;
+    font-size: 21px;
+    padding: 25px 35px;
+  }
+
+  section.bg_img div.link a.smart_on {
+    width: 50%;
+    margin-left: 25%;
+    font-size: 21px;
+    padding: 25px 35px;
+  }
+
+  div.vote_gate div.cont_wrap {
+    width: 70%;
+    margin-left: 15%;
+  }
+
+  div.vote_gate div.cont_wrap h1 {
+    font-size: 32px;
+  }
+
+  div.vote_gate div.cont_wrap img.vote_icon {
+    position: absolute;
+    width: 70px;
+    height: auto;
+    bottom: 25px;
+    left: 46px;
+  }
+
+  div.vote_gate div.cont_wrap h2 {
+    margin-top: 8%;
+  }
+
+  div.vote_gate div.cont_wrap h2 span {
+    font-size: 22px;
+  }
+
+  div.vote_gate div.cont_wrap h2 img {
+    margin-left: 8%;
+  }
+
+  div.vote_gate .select {
+    font-size: 22px;
+    margin-left: 15%;
+    width: 70%;
+  }
+
+  div.vote_gate .st01 select {
+    padding: 15px 25px;
+  }
+
+  div.vote_gate .st02 select {
+    padding: 15px 25px;
+  }
+
+  div.vote_gate .st03 select {
+    padding: 15px 25px;
+  }
+
+  div.vote_gate .select__arrow {
+    top: 25px;
+    width: 19px;
+    height: 19px;
+  }
+
+  div.vote_gate div.cont_wrap h2 span {
+    margin-left: 18%;
+  }
+
+
+}
+
+/*5step*/
+@media (max-width:600px) and (min-width:415px) {
+  section.bg_img div.utube {
+    height: 280px;
+  }
+
+  section.bg_img div.link a.vote {
+    width: 56%;
+    margin-left: 22%;
+    font-size: 21px;
+    padding: 25px 35px;
+  }
+
+  section.bg_img div.link a.corona {
+    width: 56%;
+    margin-left: 22%;
+    font-size: 21px;
+    padding: 25px 35px;
+  }
+
+  section.bg_img div.link a.smart_on {
+    width: 56%;
+    margin-left: 22%;
+    font-size: 21px;
+    padding: 25px 35px;
+  }
+
+  div.vote_gate div.cont_wrap h1 {
+    font-size: 32px;
+  }
+
+  div.vote_gate div.cont_wrap img.vote_icon {
+    position: absolute;
+    width: 70px;
+    height: auto;
+    bottom: 25px;
+    left: 46px;
+  }
+
+  div.vote_gate div.cont_wrap h2 {
+    margin-top: 8%;
+  }
+
+  div.vote_gate div.cont_wrap h2 span {
+    font-size: 22px;
+  }
+
+  div.vote_gate div.cont_wrap h2 img {
+    margin-left: 8%;
+  }
+
+  div.vote_gate .select {
+    font-size: 22px;
+    margin-left: 15%;
+    width: 70%;
+  }
+
+  div.vote_gate .st01 select {
+    padding: 15px 25px;
+  }
+
+  div.vote_gate .st02 select {
+    padding: 15px 25px;
+  }
+
+  div.vote_gate .st03 select {
+    padding: 15px 25px;
+  }
+
+  div.vote_gate .select__arrow {
+    top: 25px;
+    width: 19px;
+    height: 19px;
+  }
+
+  div.vote_gate div.cont_wrap h2 span {
+    margin-left: 18%;
+  }
+}
+
+
+@media (max-width:375px) and (min-width:320px) {
+  section.bg_img div.link a.vote {
+    padding: 15px 16px;
+  }
+
+  section.bg_img div.link a.corona {
+    padding: 15px 16px;
+  }
+
+  section.bg_img div.link a.smart_on {
+    padding: 15px 16px;
+  }
+
+  section.bg_img div.utube {
+    height: 170px;
+  }
+
+  div.vote_gate div.cont_wrap h2 {
+    margin-bottom: 6%;
+  }
+
+  div.vote_gate div.cont_wrap h2 span {
+    margin-left: 7%;
+  }
+
+  div.vote_gate .st01 select {
+    padding: 10px 18px;
+  }
+
+  div.vote_gate .st02 select {
+    padding: 10px 18px;
+  }
+
+  div.vote_gate .st03 select {
+    padding: 10px 18px;
+  }
+
+  div.vote_gate .select__arrow {
+    top: 17px;
+  }
+
+  div.vote_gate div.cont_wrap img.vote_icon {
+    bottom: 13px;
+    left: 9px;
+  }
+}

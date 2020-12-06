@@ -1,0 +1,312 @@
+/* 도시현황 페이지 */
+#cityStatus>>>._grid_layout {
+  padding-top: 36px;
+}
+
+#cityStatus>>>._grid_layout>.flex {
+  background: white;
+}
+
+#cityStatus>>>._grid_layout ._child1 {
+  line-height: 23px;
+}
+
+#cityStatus>>>._grid_layout ._child2 {
+  height: calc(100% - 26px);
+  padding: 9px 0 8px 0;
+}
+
+#cityStatus>>>._parent1 {
+  /* display: none; */
+  height: 100vh;
+}
+
+#cityStatus>>>._parent2 {
+  /* display: none; */
+  height: 30vh;
+  padding-bottom: 0;
+}
+
+#cityStatus>>>._parent3,
+#cityStatus>>>._parent4 {
+  /* display: none; */
+  height: 70vh;
+}
+
+#cityStatus>>>._parent1 ._title {
+  font-size: 26px;
+  text-align: center;
+  color: white;
+}
+
+#cityStatus>>>._parent1 ._layout1,
+#cityStatus>>>._parent1 ._layout2 {
+  height: 38px;
+}
+
+#cityStatus>>>._parent1 ._layout3,
+#cityStatus>>>._parent1 ._layout4 {
+  height: 60%;
+}
+
+#cityStatus>>>._parent1 ._layout2,
+#cityStatus>>>._parent1 ._layout4 {
+  background: transparent;
+  padding-left: 18px;
+  font-size: 21px;
+  font-weight: bold;
+}
+
+#cityStatus>>>._parent1 ._layout4 ._title {
+  text-align: left;
+  font-size: 21px;
+  color: black;
+}
+
+#cityStatus>>>._parent1 ._layout5,
+#cityStatus>>>._parent1 ._layout6 {
+  height: 20%;
+}
+
+#cityStatus>>>._parent1 ._layout1,
+#cityStatus>>>._parent1 ._layout2 {
+  background: transparent;
+}
+
+#cityStatus>>>._parent1 ._layout1 ._title,
+#cityStatus>>>._parent1 ._layout2 ._title {
+  /* height: 42px; */
+  max-width: 147px;
+  background: #4d21bc;
+  font-weight: bold;
+  line-height: 38px;
+}
+
+#cityStatus>>>._parent1 ._layout3,
+#cityStatus>>>._parent1 ._layout4 {
+  /* margin: -5px 0 36px 0; */
+  z-index: 1;
+  font-size: 18px;
+  text-align: left;
+  height: calc(60% + 41px);
+}
+
+#cityStatus>>>._parent1 ._layout3 {
+  padding: 0 18px 36px 0;
+}
+
+#cityStatus>>>._parent1 ._layout4 {
+  padding: 0 0 36px 18px;
+}
+
+#cityStatus>>>._parent1 ._layout3 ._title {
+  font-size: 21px;
+  font-weight: bold;
+  text-align: left;
+  color: black;
+}
+
+#cityStatus>>>._parent1 ._layout3 .flex {
+  background: white;
+}
+
+#cityStatus>>>._parent1 ._layout4 .flex {
+  background: white;
+  line-height: 21px;
+}
+
+.info_tit {
+  font-weight: bold;
+}
+
+.info_fr {
+  float: right;
+}
+
+.union_ft {
+  font-size: 15px;
+}
+
+#cityStatus>>>._parent1 ._layout5,
+#cityStatus>>>._parent1 ._layout6 {
+  height: 15%;
+  background: transparent;
+  padding: 6px 0;
+}
+
+#cityStatus>>>._parent1 ._left._title {
+  position: relative;
+  height: 90%;
+}
+
+#cityStatus>>>._parent1 ._layout5 ._title .v-card,
+#cityStatus>>>._parent1 ._layout6 ._title .v-card {
+  background: #0840b3;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  color: white !important;
+}
+
+#cityStatus>>>._parent1 ._layout6 ._title .v-card {
+  background: #ff5f2e;
+}
+
+#cityStatus>>>._parent1 ._layout5 ._title ._text,
+#cityStatus>>>._parent1 ._layout6 ._title ._text {
+  /* position: absolute; */
+  /* z-index: 2; */
+  /* padding: 20px 0 0 12px; */
+  /* height: 100%; */
+  padding-left: 10px;
+  text-align: left;
+  font-weight: bold;
+}
+
+#cityStatus>>>._parent1 ._layout5 ._contents,
+#cityStatus>>>._parent1 ._layout6 ._contents {
+  background: white;
+  text-align: center;
+  font-size: 23px;
+  font-weight: bold;
+  height: 100%;
+}
+
+#cityStatus>>>._parent1 ._layout5 ._contents .flex:nth-child(2),
+#cityStatus>>>._parent1 ._layout6 ._contents .flex:nth-child(2) {
+  border-left: 1px dashed;
+  border-right: 1px dashed;
+}
+
+#cityStatus>>>._parent1 ._layout5 ._contents ._title,
+#cityStatus>>>._parent1 ._layout6 ._contents ._title {
+  font-size: 15px;
+  font-weight: normal;
+  color: black;
+  padding-top: 20px;
+  margin-bottom: 5px;
+}
+
+#cityStatus>>>._parent2 ._title,
+#cityStatus>>>._parent3 ._title,
+#cityStatus>>>._parent4 ._title {
+  display: inline;
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 23px;
+}
+
+#cityStatus>>>._parent2 ._title_date,
+#cityStatus>>>._parent3 ._title_date,
+#cityStatus>>>._parent4 ._title_date {
+  display: inline;
+  font-size: 0.8vw;
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+#cityStatus>>>._parent2 ._sub_title,
+#cityStatus>>>._parent3 ._sub_title,
+#cityStatus>>>._parent4 ._sub_title {
+  font-size: 0.9vw;
+  margin-left: 12px;
+}
+
+#cityStatus>>>._parent2 ._sub_title:first-child,
+#cityStatus>>>._parent3 ._sub_title:first-child,
+#cityStatus>>>._parent4 ._sub_title:first-child {
+  margin-left: 0;
+}
+
+#cityStatus>>>._parent2 ._layout1 {
+  height: 30%;
+}
+
+#cityStatus>>>._parent2 ._layout2 {
+  height: 70%;
+}
+
+/***********************컨테이너3***********************/
+#cityStatus>>>._parent3 ._layout1,
+#cityStatus>>>._parent3 ._layout2,
+#cityStatus>>>._parent3 ._layout3 {
+  height: 50%;
+}
+
+#cityStatus>>>._parent3 .v-card,
+#cityStatus>>>._parent4 .v-card {
+  background: white;
+}
+
+#cityStatus>>>._parent3 ._layout1,
+#cityStatus>>>._parent3 ._layout2 {
+  padding-bottom: 18px;
+}
+
+#cityStatus>>>._parent3 ._layout2 {
+  padding-left: 36px;
+}
+
+#cityStatus>>>._parent3 ._layout3 {
+  padding-top: 18px;
+}
+
+#cityStatus>>>._parent3 ._layout2 ._bottom,
+#cityStatus>>>._parent4 ._layout1 ._bottom {
+  text-align: center;
+}
+
+/***********************컨테이너3***********************/
+
+#cityStatus>>>._parent4 ._layout1,
+#cityStatus>>>._parent4 ._layout2,
+#cityStatus>>>._parent4 ._layout3 {
+  height: 50%;
+}
+
+#cityStatus>>>._parent4 ._layout1,
+#cityStatus>>>._parent4 ._layout2 {
+  padding-bottom: 18px;
+}
+
+#cityStatus>>>._parent4 ._layout2 {
+  padding: 0 0 18px 36px;
+}
+
+#cityStatus>>>._parent4 ._layout3 {
+  padding-top: 18px;
+}
+
+#cityStatus>>>.move-btn {
+  background-color: wthie;
+  border-color: #666666;
+  color: #666666;
+}
+
+#cityStatus>>>.move-btn.on:nth-child(1) {
+  background: #0840b3;
+  border-color: #0840b3;
+  color: white;
+}
+
+#cityStatus>>>.move-btn.on:nth-child(2) {
+  background: #ff5f2e;
+  border-color: #ff5f2e;
+  color: white;
+}
+
+#cityStatus>>>#timeseries-area-top {
+  position: fixed;
+  top: 0;
+  height: 30vh;
+  width: calc(100% - 420px);
+  z-index: 200;
+}
+
+#cityStatus>>>#timeseries-area-top.hidden {
+  visibility: hidden;
+}
+
+#cityStatus>>>#business-status,
+#cityStatus>>>#contract-status {
+  border-bottom-left-radius: 50px;
+}

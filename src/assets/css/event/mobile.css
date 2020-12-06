@@ -1,0 +1,4975 @@
+/*현재 600PX 맞춤 > 추가 계발 기기  / Blackberry passport 504 / amazon kindle fire HD7 480 / MICROSOFT LUMIA 1520 432 */
+@media (max-width:600px) and (min-width:426px) {
+
+    #popup-event-covid >>> .mo_modal{ display: block;}
+    #popup-event-covid >>> div.hover_cont_bg {
+        display: none;
+    }
+  
+    #popup-event-covid >>> div.map_wrap {
+        overflow: hidden;
+    }
+  
+    #popup-event-covid >>> div.map_wrap header.map_top a.home {
+        position: relative;
+        float: right;
+        top: 18px;
+        margin-left: 0px;
+        margin-right: 52px;
+        display: inline-block;
+        width: 150px;
+        height: 55px;
+        background: url(../../images/event/mobile_logo.png) no-repeat;
+        background-size: contain;
+    }
+  
+    #popup-event-covid >>> div.map_wrap header.map_top a.home img {
+        display: none;
+    }
+  
+    #popup-event-covid >>> div.map_wrap header.map_top h1 {
+        display: inline-block;
+        float: left;
+        line-height: 60px;
+        margin-left: 20px; 
+        font-size: 16px;
+        color: #202457;
+        letter-spacing: 2px;
+        width: 38%;
+        font-weight: 100;
+        font-family: 'NotoKr_R';
+    }
+    #popup-event-covid >>> div.map_wrap header.map_top h1 strong{ display: none ;}
+  
+    #popup-event-covid >>> div.map_wrap header.map_top a.refresh {
+        position: absolute;
+        display: inline-block;
+        float: left;
+        margin-top: 13px;
+        top: 39px;
+        left: 20px;
+        margin-left: 0px;
+        font-size: 14px;
+        background: #2E3CFA;
+        border: #202457 1px solid;
+        border-radius: 10px;
+        padding: 8px 12px;
+        padding-left: 10px;
+        color: #D5D8F8;
+        font-size: 0px;
+        width: 45px;
+        height: 40px;
+    }
+  
+    #popup-event-covid >>> div.map_wrap header.map_top a.refresh img {
+        position: relative;
+        top: 2px;
+        left: 2px;
+        width: 20px;
+        height: auto;
+    }
+  
+    #popup-event-covid >>> div.map_wrap .select {
+        position: absolute;
+        display: inline-block;
+        margin-bottom: 15px;
+        width: 41%;
+  
+  
+    }
+  
+    #popup-event-covid >>> div.map_wrap .select:nth-of-type(1) {
+        position: absolute;
+        display: inline-block;
+        margin-bottom: 15px;
+  
+        top: 40px;
+        left: 70px;
+  
+    }
+  
+    #popup-event-covid >>> div.map_wrap .select:nth-of-type(2) {
+        position: absolute;
+        display: inline-block;
+        margin-bottom: 15px;
+  
+        top: 40px;
+        right: 15px;
+    }
+  
+    #popup-event-covid >>> div.map_wrap section article.summary_wrap {
+        position: relative;
+        width: 100%;
+        height: 40vh;
+        margin-top: 90%;
+        background: rgba(36, 31, 31, 0.25);
+        padding: 25px 25px;
+    }
+  
+    #popup-event-covid >>> div.map_wrap header.map_top img.close {
+        position: absolute;
+        top: 9px;
+        right: 10px;
+        width: 40px;
+        height: auto;
+    }
+  
+    #popup-event-covid >>> div.map_wrap header.map_top {
+        width: 100%;
+        height: 100px;
+        background: rgba(255, 255, 255, 0.8);
+        position: relative;
+    }
+  
+    #popup-event-covid >>> div.map_wrap section article.summary_wrap div.summary {
+        position: relative;
+        display: inline-block;
+        width: 300%;
+        height: 83vh;
+        background: transparent;
+        border: 0px solid #E1E5E8;
+        border-radius: 30px;
+    }
+  
+    #popup-event-covid >>> div.map_wrap section article.summary_wrap div.summary ol {
+        display: inline-block;
+    }
+  
+    #popup-event-covid >>> div.map_wrap section article.summary_wrap div.summary ol li {
+        width: 33.3333%;
+        height: auto;
+        float: left;
+        background: #FDFDFD;
+        border: 2px solid #E1E5E8;
+        border-radius: 30px;
+        padding-bottom: 30px;
+    }
+  
+    #popup-event-covid >>> div.map_wrap section article.summary_wrap div.summary ol li ul li {
+        border: 0px;
+    }
+  
+  
+    #popup-event-covid >>> .swiper-container {
+        width: 95%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        position: fixed;
+        bottom: 21px;
+        overflow: hidden;
+        list-style: none;
+        padding: 0;
+        z-index: 1;
+        background: rgba(36, 31, 31, 0.25);
+        padding: 5%;
+    }
+  
+    #popup-event-covid >>> .swiper-container-no-flexbox .swiper-slide {
+        float: left;
+    }
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide {
+        background: #FDFDFD;
+        border: 2px solid #E1E5E8;
+        border-radius: 30px;
+        padding-top: 20px;
+        padding-bottom: 15px;
+        margin-right: 2%;
+    }
+  
+    #popup-event-covid >>> .swiper-container-vertical>.swiper-wrapper {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+  
+    #popup-event-covid >>> .swiper-wrapper {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-transition-property: -webkit-transform;
+        transition-property: -webkit-transform;
+        -o-transition-property: transform;
+        transition-property: transform;
+        transition-property: transform, -webkit-transform;
+        -webkit-box-sizing: content-box;
+        box-sizing: content-box;
+    }
+  
+    #popup-event-covid >>> .swiper-container-android .swiper-slide,
+    #popup-event-covid >>> .swiper-wrapper {
+        -webkit-transform: translate3d(0px, 0, 0);
+        transform: translate3d(0px, 0, 0);
+    }
+  
+    #popup-event-covid >>> .swiper-container-multirow>.swiper-wrapper {
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+  
+    #popup-event-covid >>> .swiper-container-free-mode>.swiper-wrapper {
+        -webkit-transition-timing-function: ease-out;
+        -o-transition-timing-function: ease-out;
+        transition-timing-function: ease-out;
+        margin: 0 auto;
+    }
+  
+    #popup-event-covid >>> .swiper-slide {
+        -webkit-flex-shrink: 0;
+        -ms-flex-negative: 0;
+        flex-shrink: 0;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        -webkit-transition-property: -webkit-transform;
+        transition-property: -webkit-transform;
+        -o-transition-property: transform;
+        transition-property: transform;
+        transition-property: transform, -webkit-transform;
+    }
+  
+    #popup-event-covid >>> .swiper-slide-invisible-blank {
+        visibility: hidden;
+    }
+  
+    /* Auto Height */
+    #popup-event-covid >>> .swiper-container-autoheight,
+    #popup-event-covid >>> .swiper-container-autoheight .swiper-slide {
+        height: auto;
+    }
+  
+    #popup-event-covid >>> .swiper-container-autoheight .swiper-wrapper {
+        -webkit-box-align: start;
+        -webkit-align-items: flex-start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+        -webkit-transition-property: height, -webkit-transform;
+        transition-property: height, -webkit-transform;
+        -o-transition-property: transform, height;
+        transition-property: transform, height;
+        transition-property: transform, height, -webkit-transform;
+    }
+  
+    /* IE10 Windows Phone 8 Fixes */
+    #popup-event-covid >>> .swiper-container-wp8-horizontal,
+    #popup-event-covid >>> .swiper-container-wp8-horizontal>.swiper-wrapper {
+        -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    }
+  
+    #popup-event-covid >>> .swiper-container-wp8-vertical,
+    #popup-event-covid >>> .swiper-container-wp8-vertical>.swiper-wrapper {
+        -ms-touch-action: pan-x;
+        touch-action: pan-x;
+    }
+  
+    #popup-event-covid >>> .swiper-button-prev,
+    #popup-event-covid >>> .swiper-button-next {
+        position: absolute;
+        top: 50%;
+        width: 27px;
+        height: 44px;
+        margin-top: -22px;
+        z-index: 10;
+        cursor: pointer;
+        background-size: 27px 44px;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+  
+    #popup-event-covid >>> .swiper-button-prev.swiper-button-disabled,
+    #popup-event-covid >>> .swiper-button-next.swiper-button-disabled {
+        opacity: 0.35;
+        cursor: auto;
+        pointer-events: none;
+    }
+  
+    #popup-event-covid >>> .swiper-button-lock {
+        display: none;
+    }
+  
+    #popup-event-covid >>> .swiper-pagination {
+        position: relative;
+        text-align: center;
+        -webkit-transition: 300ms opacity;
+        -o-transition: 300ms opacity;
+        transition: 300ms opacity;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+        z-index: 10;
+    }
+  
+    #popup-event-covid >>> .swiper-pagination.swiper-pagination-hidden {
+        opacity: 0;
+    }
+  
+    /* Common Styles */
+    #popup-event-covid >>> .swiper-pagination-fraction,
+    #popup-event-covid >>> .swiper-pagination-custom,
+    #popup-event-covid >>> .swiper-container-horizontal>.swiper-pagination-bullets {
+        bottom: 14px;
+        left: 0;
+        width: 100%;
+    }
+  
+    /* Bullets */
+    #popup-event-covid >>> .swiper-pagination-bullets-dynamic {
+        overflow: hidden;
+        font-size: 0;
+    }
+  
+    #popup-event-covid >>> .swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
+        -webkit-transform: scale(0.33);
+        -ms-transform: scale(0.33);
+        transform: scale(0.33);
+        position: relative;
+    }
+  
+    #popup-event-covid >>> .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active {
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+  
+    #popup-event-covid >>> .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-main {
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+  
+    #popup-event-covid >>> .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-prev {
+        -webkit-transform: scale(0.66);
+        -ms-transform: scale(0.66);
+        transform: scale(0.66);
+    }
+  
+    #popup-event-covid >>> .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-prev-prev {
+        -webkit-transform: scale(0.33);
+        -ms-transform: scale(0.33);
+        transform: scale(0.33);
+    }
+  
+    #popup-event-covid >>> .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-next {
+        -webkit-transform: scale(0.66);
+        -ms-transform: scale(0.66);
+        transform: scale(0.66);
+    }
+  
+    #popup-event-covid >>> .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-next-next {
+        -webkit-transform: scale(0.33);
+        -ms-transform: scale(0.33);
+        transform: scale(0.33);
+    }
+  
+    #popup-event-covid >>> .swiper-pagination-bullet {
+        width: 8px;
+        height: 8px;
+        display: inline-block;
+        border-radius: 100%;
+        background: #000;
+        opacity: 0.2;
+    }
+  
+    #popup-event-covid >>> button.swiper-pagination-bullet {
+        border: none;
+        margin: 0;
+        padding: 0;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+    }
+  
+    #popup-event-covid >>> .swiper-pagination-clickable .swiper-pagination-bullet {
+        cursor: pointer;
+    }
+  
+    #popup-event-covid >>> .swiper-pagination-bullet-active {
+        opacity: 1;
+        background: #2E3CFA;
+    }
+  
+    #popup-event-covid >>> .swiper-container-vertical>.swiper-pagination-bullets {
+        right: 10px;
+        top: 50%;
+        -webkit-transform: translate3d(0px, -50%, 0);
+        transform: translate3d(0px, -50%, 0);
+    }
+  
+    #popup-event-covid >>> .swiper-container-vertical>.swiper-pagination-bullets .swiper-pagination-bullet {
+        margin: 6px 0;
+        display: block;
+    }
+  
+    #popup-event-covid >>> .swiper-container-vertical>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        width: 8px;
+    }
+  
+    #popup-event-covid >>> .swiper-container-vertical>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
+        display: inline-block;
+        -webkit-transition: 200ms top, 200ms -webkit-transform;
+        transition: 200ms top, 200ms -webkit-transform;
+        -o-transition: 200ms transform, 200ms top;
+        transition: 200ms transform, 200ms top;
+        transition: 200ms transform, 200ms top, 200ms -webkit-transform;
+    }
+  
+    #popup-event-covid >>> .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+        margin: 0 4px;
+    }
+  
+    #popup-event-covid >>> .swiper-container-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        transform: translateX(-50%);
+        white-space: nowrap;
+    }
+  
+    #popup-event-covid >>> .swiper-container-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
+        -webkit-transition: 200ms left, 200ms -webkit-transform;
+        transition: 200ms left, 200ms -webkit-transform;
+        -o-transition: 200ms transform, 200ms left;
+        transition: 200ms transform, 200ms left;
+        transition: 200ms transform, 200ms left, 200ms -webkit-transform;
+    }
+  
+    #popup-event-covid >>> .swiper-container-horizontal.swiper-container-rtl>.swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
+        -webkit-transition: 200ms right, 200ms -webkit-transform;
+        transition: 200ms right, 200ms -webkit-transform;
+        -o-transition: 200ms transform, 200ms right;
+        transition: 200ms transform, 200ms right;
+        transition: 200ms transform, 200ms right, 200ms -webkit-transform;
+    }
+  
+    #popup-event-covid >>> div.map_wrap section .swiper-container {
+        width: 100%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        position: fixed;
+        bottom: 0px;
+        overflow: hidden;
+        list-style: none;
+        padding: 0;
+        z-index: 1;
+        background: rgba(36, 31, 31, 0.8);
+        padding: 3%;
+        padding-top: 0%;
+        padding-bottom: 1%;
+    }
+  
+    #popup-event-covid >>> div.map_wrap section .swiper-container div.swiper-wrapper {
+        width: 100%;
+        height: auto;
+        background: #FDFDFD;
+        border: 2px solid #E1E5E8;
+        border-radius: 30px;
+    }
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide {
+        padding-top: 4px;
+    }
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide h2 {
+        color: #202457;
+        font-size: 18px;
+        font-weight: 100;
+        display: inline;
+    }
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide h2:before {
+        position: relative;
+        top: 12px;
+        margin-left: 20px;
+        margin-right: 5px;
+        content: '';
+        display: inline-block;
+        width: 25px;
+        height: 30px;
+        background-size: contain;
+        background: url("../../images/event/bul01.png") center no-repeat;
+    }
+  
+  
+    #popup-event-covid >>> article.summary_wrap div.summary ol li.sum01 {}
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(1) span.num {
+        color: #444872;
+        font-size: 12px;
+        background: #E1E5E8;
+        border-radius: 10px;
+        padding: 6px 7px;
+        margin: 0 1px;
+        margin-right: 8px;
+    }
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(1) a {
+        position: relative;
+        display: inline-block;
+        font-size: 12px;
+        padding: 7px 10px;
+        background: #2E3CFA;
+        border-radius: 10px;
+        color: #D5D8F8;
+    }
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(1) a:hover {
+        background: #0314fa;
+    }
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(1) a img {
+        position: relative;
+        width: 13px;
+        height: auto;
+        top: 2px;
+        right: 0px;
+    }
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(1) ul {
+        display: block;
+        margin-top: 10px;
+        width: 100%;
+        padding: 5% 9% 2% 10%;
+        height: auto;
+        background: #EBECF9;
+    }
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(1) ul li {
+        display: block;
+        font-size: 12px;
+        width: 45%;
+        margin-bottom: 3%;
+        padding: 6px 10px;
+        float: left;
+        border-radius: 10px;
+        background: #fff;
+        color: #9FA1B7;
+    }
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(1) ul li b {
+        color: #2329D6;
+    }
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(1) ul li.tit {
+        box-shadow: 0 6px 6px 3px rgba(23, 7, 38, 0.2);
+        margin-right: 5%;
+        color: #202457;
+    }
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(1) ul li.tit b {
+        font-weight: bold;
+        color: #202457;
+    }
+  
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(2) {}
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(2) div.graph {
+        width: 100%;
+        margin-top: 10px;
+        height: 180px;
+        background: #202457;
+    }
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(3) {
+        height: 100%;
+    }
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(3) ul {
+        position: relative;
+        margin-top: 10px;
+        display: block;
+        width: 90%;
+        border-radius: 10px;
+        height: 180px;
+        overflow-y: scroll;
+        margin-left: 5%;
+        padding: 10px 25px;
+        background: #EBECF9;
+    }
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(3) ul li {
+        font-size: 12px;
+        padding-top: 0px;
+        color: #5C5F87;
+        line-height: 35px;
+        border-bottom: 2px solid #fff;
+        text-align: right;
+        cursor: pointer;
+    }
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(3) ul li:hover {
+        font-size: 12px;
+        font-weight: bold;
+        padding-top: 0px;
+        color: #5458FF;
+        line-height: 35px;
+        border-bottom: 2px solid #fff;
+        text-align: right;
+        background: #BEBDFB;
+  
+    }
+  
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(3) ul li b.num {
+        display: inline-block;
+        margin: 0 3px;
+    }
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(3) ul li:hover b.num {
+        color: #2329D6;
+    }
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(3) li img {
+        position: relative;
+        top: 2px;
+        margin-left: 3px;
+        width: 15px;
+        height: auto;
+    }
+  /* modal 추가 css*/
+    #popup-event-covid >>> div.mo_modal{ position: fixed; top:0; width:100%; height: 100vh; background: #000; opacity: 0.6; z-index: 650;}
+    #popup-event-covid >>> div.mo_modal img{width:70%; height:auto;}
+    #popup-event-covid >>> div.mo_modal img:nth-of-type(1){width:50%; height:auto; margin-top: 30%; margin-left: 25%;}
+    #popup-event-covid >>> div.mo_modal img:nth-of-type(2){width:60%; height:auto; margin-top: 20%; margin-left: 20%;}
+  
+  
+  /*-----------------------------------------------
+  hidden_menu
+  Content of hidden_menu menu
+  -----------------------------------------------*/
+    #popup-event-covid >>> .hidden_menu {
+      width:100%;
+      padding: 0px;
+      position: relative;
+      bottom:0px;
+    }
+    /*-----------------------------------------------
+    LABEL
+    -----------------------------------------------*/
+    #popup-event-covid >>> .hidden_menu__label {
+      border: solid 2px #222;
+      display: inline-block;
+      overflow: hidden;
+      padding: 12px 9px;
+      width: 100%;
+      white-space: nowrap;
+    }
+    #popup-event-covid >>> .hidden_menu__label:hover {
+      cursor: pointer;
+      /*ANIMAION POSITION ON HOVER*/
+      /*ANIMATION DELAY*/
+    }
+    /*-----------------------------------------------
+    INPUT
+    -----------------------------------------------*/
+    #popup-event-covid >>> .hidden_menu__input {
+      display: none;
+    }
+    /*-----------------------------------------------
+    NAV
+    -----------------------------------------------*/
+  
+    /*숨기기*/
+    #popup-event-covid >>> .hidden_menu__nav {
+      margin-top: 10px;
+      min-height:50px;
+      max-width: 100%;
+      overflow: hidden;
+  
+      transition: min-height 1s linear, max-width 1s linear;
+  
+    }
+    
+    #popup-event-covid >>> .hidden_menu__input:checked + .hidden_menu__nav {
+        bottom:0;
+        max-height: 0px;
+    }
+  
+    #popup-event-covid >>> .hidden_menu {
+        padding: 0px;
+        position: fixed;
+        bottom:325px;
+    }
+  /*-----------------------------------------------
+  LABEL
+  -----------------------------------------------*/
+  #popup-event-covid >>> .hidden_menu__label {
+    border: solid 2px #222;
+    display: inline-block;
+    overflow: hidden;
+    padding: 12px 9px;
+    width: 95%;
+    white-space: nowrap;
+    z-index: 2;
+    position: relative;
+  }
+  #popup-event-covid >>> .hidden_menu__label:hover {
+    cursor: pointer;
+    /*ANIMAION POSITION ON HOVER*/
+    /*ANIMATION DELAY*/
+  }
+  /*-----------------------------------------------
+  INPUT
+  -----------------------------------------------*/
+  #popup-event-covid >>> .hidden_menu__input {
+    display: none;
+  }
+  /*-----------------------------------------------
+  NAV
+  -----------------------------------------------*/
+  #popup-event-covid >>> .hidden_menu__nav {
+    margin-top: 10px;
+    max-height: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    transition: max-height 0.8s linear;
+  }
+  
+  #popup-event-covid >>> .hidden_menu__input:checked + .hidden_menu__nav {
+    max-width: 100%;
+    max-height: 0%;
+  }
+  #popup-event-covid >>> label#btn{display: block;}
+  #popup-event-covid >>> section.hidden_menu input#checkbox{ display: none;}
+  
+  /**/
+  
+    #popup-event-covid >>> #btn span.off{ 
+      display: block;
+      width: 100%;
+      height: 40px;
+      font-size: 16px;
+      line-height: 40px;
+      font-weight: bold;
+      color: #f8f8f8;
+      text-align: center;
+    }
+    #popup-event-covid >>> #btn span.on{ display: none;} 
+  
+    #popup-event-covid >>> #btn.on span.off{ display: none;}
+    #popup-event-covid >>> #btn.on span.on{ display: block;
+      width: 100%;
+      height: 40px;
+      font-size: 16px;
+      line-height: 40px;
+      font-weight: bold;
+      color: #f8f8f8;
+      text-align: center;}      
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(1) a{ font-size: 0px;padding-bottom: 10px;}
+  
+    #popup-event-covid >>> div.map_wrap{position: relative;width: 100%;top: 0vh; margin-left: 0%; height: 95vh; background-size: cover; z-index: 600;}
+    #popup-event-covid >>> div.mapArea{ width:100% !important; height:100% !important;}
+  
+    #popup-event-covid >>> div.circle01{ color:#fff; text-align:center; cursor:pointer; width:80px !important; height: 80px !important;  box-shadow: 0 6px 6px 3px rgba(23,7,38,0.2); border-radius:50%; font-size: 18px;  padding-top:7px ; background:#1c01a3 ; border: 3px solid #fff;}
+    #popup-event-covid >>> div.circle01 span.lo_num{ font-size: 16px;}
+    #popup-event-covid >>> div.circle02{ color:#fff; text-align:center; cursor:pointer; width:70px !important; height: 70px !important;;  box-shadow: 0 6px 6px 3px rgba(23,7,38,0.2); border-radius:50%; font-size: 16px; padding-top:8px ; background:#2b01fc ; border: 3px solid #fff;}
+    #popup-event-covid >>> div.circle03{ color:#fff; text-align:center; cursor:pointer; width:60px !important; height: 60px !important;  box-shadow: 0 6px 6px 3px rgba(23,7,38,0.2); border-radius:50%; font-size: 14px; padding-top:6px ; background:#6326ff ; border: 3px solid #fff;}
+    #popup-event-covid >>> div.circle04{ color:#fff; text-align:center; cursor:pointer; width:55px !important; height: 55px !important;  box-shadow: 0 6px 6px 3px rgba(23,7,38,0.2); border-radius:50%; font-size: 11px; padding-top:10px ;background:#7153bc ; border: 2px solid #fff;}
+    #popup-event-covid >>> div.circle05{ color:#fff; text-align:center; cursor:pointer; width:50px !important; height: 50px !important;  box-shadow: 0 6px 6px 3px rgba(23,7,38,0.2); border-radius:50%;  font-size: 9px; padding-top:11px ;text-shadow: 2px 2px 2px #000; color: #f8f8f8;   background:#a584fa ; border: 1px solid #fff;}
+  
+  /* 2020.03.18 swiper 수정 이슈 추가*/
+    #popup-event-covid >>> div.map_wrap section .swiper-container div.swiper-wrapper {
+    
+      background: transparent;
+      overflow: hidden;
+      border: 0px solid #E1E5E8;
+      border-radius: 30px;
+    }
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(3) ul {
+      position: relative;
+      margin-top: 10px;
+      display: block;
+      width: 90%;
+      border-radius: 10px;
+      height: 180px;
+      overflow-y: scroll;
+      margin-left: 5%;
+      padding: 10px 25px;
+      background: #EBECF9;}
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(1) {
+      width:565px !important;
+      height: 290px;
+    }
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide{  width:565px !important;
+    height: 290px;}
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(3){height:290px;}
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide { margin-right: 1%;}
+    
+    #popup-event-covid >>> .swiper-pagination-fraction, 
+    #popup-event-covid >>> .swiper-pagination-custom, 
+    #popup-event-covid >>> .swiper-container-horizontal>.swiper-pagination-bullets{ bottom:17px;}
+
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(3) ul {
+    position: relative;
+    margin-top: 10px;
+    display: block;
+    width: 84%;
+    border-radius: 10px;
+    height: 209px;
+    overflow-y: scroll;
+    margin-left: 5%;
+    padding: 10px 25px;
+    background: #EBECF9;
+}
+
+}
+
+
+@media (max-width:425px) and (min-width:391px) {
+
+    #popup-event-covid >>> .mo_modal{ display: block;}
+    #popup-event-covid >>> div.hover_cont_bg {
+        display: none;
+    }
+  
+    #popup-event-covid >>> div.map_wrap {
+        overflow: hidden;
+    }
+  
+    #popup-event-covid >>> div.map_wrap header.map_top a.home {
+        position: relative;
+        float: right;
+        top: 18px;
+        margin-left: 0px;
+        margin-right: 52px;
+        display: inline-block;
+        width: 150px;
+        height: 55px;
+        background: url(../../images/event/mobile_logo.png) no-repeat;
+        background-size: contain;
+    }
+  
+    #popup-event-covid >>> div.map_wrap header.map_top a.home img {
+        display: none;
+    }
+  
+    #popup-event-covid >>> div.map_wrap header.map_top h1 {
+        display: inline-block;
+        float: left;
+        line-height: 60px;
+        margin-left: 20px; 
+        font-size: 16px;
+        color: #202457;
+        letter-spacing: 2px;
+        width: 38%;
+        font-weight: 100;
+        font-family: 'NotoKr_R';
+    }
+    #popup-event-covid >>> div.map_wrap header.map_top h1 strong{ display: none ;}
+  
+    #popup-event-covid >>> div.map_wrap header.map_top a.refresh {
+        position: absolute;
+        display: inline-block;
+        float: left;
+        margin-top: 13px;
+        top: 39px;
+        left: 20px;
+        margin-left: 0px;
+        font-size: 14px;
+        background: #2E3CFA;
+        border: #202457 1px solid;
+        border-radius: 10px;
+        padding: 8px 12px;
+        padding-left: 10px;
+        color: #D5D8F8;
+        font-size: 0px;
+        width: 45px;
+        height: 40px;
+    }
+  
+    #popup-event-covid >>> div.map_wrap header.map_top a.refresh img {
+        position: relative;
+        top: 2px;
+        left: 2px;
+        width: 20px;
+        height: auto;
+    }
+  
+    #popup-event-covid >>> div.map_wrap .select {
+        position: absolute;
+        display: inline-block;
+        margin-bottom: 15px;
+        width: 37%;
+  
+  
+    }
+  
+    #popup-event-covid >>> div.map_wrap .select:nth-of-type(1) {
+        position: absolute;
+        display: inline-block;
+        margin-bottom: 15px;
+  
+        top: 40px;
+        left: 70px;
+  
+    }
+  
+    #popup-event-covid >>> div.map_wrap .select:nth-of-type(2) {
+        position: absolute;
+        display: inline-block;
+        margin-bottom: 15px;
+  
+        top: 40px;
+        right: 15px;
+    }
+  
+    #popup-event-covid >>> div.map_wrap section article.summary_wrap {
+        position: relative;
+        width: 100%;
+        height: 40vh;
+        margin-top: 90%;
+        background: rgba(36, 31, 31, 0.25);
+        padding: 25px 25px;
+    }
+  
+    #popup-event-covid >>> div.map_wrap header.map_top img.close {
+        position: absolute;
+        top: 9px;
+        right: 10px;
+        width: 40px;
+        height: auto;
+    }
+  
+    #popup-event-covid >>> div.map_wrap header.map_top {
+        width: 100%;
+        height: 100px;
+        background: rgba(255, 255, 255, 0.8);
+        position: relative;
+    }
+  
+    #popup-event-covid >>> div.map_wrap section article.summary_wrap div.summary {
+        position: relative;
+        display: inline-block;
+        width: 300%;
+        height: 83vh;
+        background: transparent;
+        border: 0px solid #E1E5E8;
+        border-radius: 30px;
+    }
+  
+    #popup-event-covid >>> div.map_wrap section article.summary_wrap div.summary ol {
+        display: inline-block;
+    }
+  
+    #popup-event-covid >>> div.map_wrap section article.summary_wrap div.summary ol li {
+        width: 33.3333%;
+        height: auto;
+        float: left;
+        background: #FDFDFD;
+        border: 2px solid #E1E5E8;
+        border-radius: 30px;
+        padding-bottom: 30px;
+    }
+  
+    #popup-event-covid >>> div.map_wrap section article.summary_wrap div.summary ol li ul li {
+        border: 0px;
+    }
+  
+  
+    #popup-event-covid >>> .swiper-container {
+        width: 95%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        position: fixed;
+        bottom: 21px;
+        overflow: hidden;
+        list-style: none;
+        padding: 0;
+        z-index: 1;
+        background: rgba(36, 31, 31, 0.25);
+        padding: 5%;
+    }
+  
+    #popup-event-covid >>> .swiper-container-no-flexbox .swiper-slide {
+        float: left;
+    }
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide {
+        background: #FDFDFD;
+        border: 2px solid #E1E5E8;
+        border-radius: 30px;
+        padding-top: 20px;
+        padding-bottom: 15px;
+        margin-right: 2%;
+    }
+  
+    #popup-event-covid >>> .swiper-container-vertical>.swiper-wrapper {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+  
+    #popup-event-covid >>> .swiper-wrapper {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-transition-property: -webkit-transform;
+        transition-property: -webkit-transform;
+        -o-transition-property: transform;
+        transition-property: transform;
+        transition-property: transform, -webkit-transform;
+        -webkit-box-sizing: content-box;
+        box-sizing: content-box;
+    }
+  
+    #popup-event-covid >>> .swiper-container-android .swiper-slide,
+    #popup-event-covid >>> .swiper-wrapper {
+        -webkit-transform: translate3d(0px, 0, 0);
+        transform: translate3d(0px, 0, 0);
+    }
+  
+    #popup-event-covid >>> .swiper-container-multirow>.swiper-wrapper {
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+  
+    #popup-event-covid >>> .swiper-container-free-mode>.swiper-wrapper {
+        -webkit-transition-timing-function: ease-out;
+        -o-transition-timing-function: ease-out;
+        transition-timing-function: ease-out;
+        margin: 0 auto;
+    }
+  
+    #popup-event-covid >>> .swiper-slide {
+        -webkit-flex-shrink: 0;
+        -ms-flex-negative: 0;
+        flex-shrink: 0;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        -webkit-transition-property: -webkit-transform;
+        transition-property: -webkit-transform;
+        -o-transition-property: transform;
+        transition-property: transform;
+        transition-property: transform, -webkit-transform;
+    }
+  
+    #popup-event-covid >>> .swiper-slide-invisible-blank {
+        visibility: hidden;
+    }
+  
+    /* Auto Height */
+    #popup-event-covid >>> .swiper-container-autoheight,
+    #popup-event-covid >>> .swiper-container-autoheight .swiper-slide {
+        height: auto;
+    }
+  
+    #popup-event-covid >>> .swiper-container-autoheight .swiper-wrapper {
+        -webkit-box-align: start;
+        -webkit-align-items: flex-start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+        -webkit-transition-property: height, -webkit-transform;
+        transition-property: height, -webkit-transform;
+        -o-transition-property: transform, height;
+        transition-property: transform, height;
+        transition-property: transform, height, -webkit-transform;
+    }
+  
+    /* IE10 Windows Phone 8 Fixes */
+    #popup-event-covid >>> .swiper-container-wp8-horizontal,
+    #popup-event-covid >>> .swiper-container-wp8-horizontal>.swiper-wrapper {
+        -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    }
+  
+    #popup-event-covid >>> .swiper-container-wp8-vertical,
+    #popup-event-covid >>> .swiper-container-wp8-vertical>.swiper-wrapper {
+        -ms-touch-action: pan-x;
+        touch-action: pan-x;
+    }
+  
+    #popup-event-covid >>> .swiper-button-prev,
+    #popup-event-covid >>> .swiper-button-next {
+        position: absolute;
+        top: 50%;
+        width: 27px;
+        height: 44px;
+        margin-top: -22px;
+        z-index: 10;
+        cursor: pointer;
+        background-size: 27px 44px;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+  
+    #popup-event-covid >>> .swiper-button-prev.swiper-button-disabled,
+    #popup-event-covid >>> .swiper-button-next.swiper-button-disabled {
+        opacity: 0.35;
+        cursor: auto;
+        pointer-events: none;
+    }
+  
+    #popup-event-covid >>> .swiper-button-lock {
+        display: none;
+    }
+  
+    #popup-event-covid >>> .swiper-pagination {
+        position: relative;
+        text-align: center;
+        -webkit-transition: 300ms opacity;
+        -o-transition: 300ms opacity;
+        transition: 300ms opacity;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+        z-index: 10;
+    }
+  
+    #popup-event-covid >>> .swiper-pagination.swiper-pagination-hidden {
+        opacity: 0;
+    }
+  
+    /* Common Styles */
+    #popup-event-covid >>> .swiper-pagination-fraction,
+    #popup-event-covid >>> .swiper-pagination-custom,
+    #popup-event-covid >>> .swiper-container-horizontal>.swiper-pagination-bullets {
+        bottom: 14px;
+        left: 0;
+        width: 100%;
+    }
+  
+    /* Bullets */
+    #popup-event-covid >>> .swiper-pagination-bullets-dynamic {
+        overflow: hidden;
+        font-size: 0;
+    }
+  
+    #popup-event-covid >>> .swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
+        -webkit-transform: scale(0.33);
+        -ms-transform: scale(0.33);
+        transform: scale(0.33);
+        position: relative;
+    }
+  
+    #popup-event-covid >>> .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active {
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+  
+    #popup-event-covid >>> .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-main {
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+  
+    #popup-event-covid >>> .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-prev {
+        -webkit-transform: scale(0.66);
+        -ms-transform: scale(0.66);
+        transform: scale(0.66);
+    }
+  
+    #popup-event-covid >>> .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-prev-prev {
+        -webkit-transform: scale(0.33);
+        -ms-transform: scale(0.33);
+        transform: scale(0.33);
+    }
+  
+    #popup-event-covid >>> .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-next {
+        -webkit-transform: scale(0.66);
+        -ms-transform: scale(0.66);
+        transform: scale(0.66);
+    }
+  
+    #popup-event-covid >>> .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-next-next {
+        -webkit-transform: scale(0.33);
+        -ms-transform: scale(0.33);
+        transform: scale(0.33);
+    }
+  
+    #popup-event-covid >>> .swiper-pagination-bullet {
+        width: 8px;
+        height: 8px;
+        display: inline-block;
+        border-radius: 100%;
+        background: #000;
+        opacity: 0.2;
+    }
+  
+    #popup-event-covid >>> button.swiper-pagination-bullet {
+        border: none;
+        margin: 0;
+        padding: 0;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+    }
+  
+    #popup-event-covid >>> .swiper-pagination-clickable .swiper-pagination-bullet {
+        cursor: pointer;
+    }
+  
+    #popup-event-covid >>> .swiper-pagination-bullet-active {
+        opacity: 1;
+        background: #2E3CFA;
+    }
+  
+    #popup-event-covid >>> .swiper-container-vertical>.swiper-pagination-bullets {
+        right: 10px;
+        top: 50%;
+        -webkit-transform: translate3d(0px, -50%, 0);
+        transform: translate3d(0px, -50%, 0);
+    }
+  
+    #popup-event-covid >>> .swiper-container-vertical>.swiper-pagination-bullets .swiper-pagination-bullet {
+        margin: 6px 0;
+        display: block;
+    }
+  
+    #popup-event-covid >>> .swiper-container-vertical>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        width: 8px;
+    }
+  
+    #popup-event-covid >>> .swiper-container-vertical>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
+        display: inline-block;
+        -webkit-transition: 200ms top, 200ms -webkit-transform;
+        transition: 200ms top, 200ms -webkit-transform;
+        -o-transition: 200ms transform, 200ms top;
+        transition: 200ms transform, 200ms top;
+        transition: 200ms transform, 200ms top, 200ms -webkit-transform;
+    }
+  
+    #popup-event-covid >>> .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+        margin: 0 4px;
+    }
+  
+    #popup-event-covid >>> .swiper-container-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        transform: translateX(-50%);
+        white-space: nowrap;
+    }
+  
+    #popup-event-covid >>> .swiper-container-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
+        -webkit-transition: 200ms left, 200ms -webkit-transform;
+        transition: 200ms left, 200ms -webkit-transform;
+        -o-transition: 200ms transform, 200ms left;
+        transition: 200ms transform, 200ms left;
+        transition: 200ms transform, 200ms left, 200ms -webkit-transform;
+    }
+  
+    #popup-event-covid >>> .swiper-container-horizontal.swiper-container-rtl>.swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
+        -webkit-transition: 200ms right, 200ms -webkit-transform;
+        transition: 200ms right, 200ms -webkit-transform;
+        -o-transition: 200ms transform, 200ms right;
+        transition: 200ms transform, 200ms right;
+        transition: 200ms transform, 200ms right, 200ms -webkit-transform;
+    }
+  
+    #popup-event-covid >>> div.map_wrap section .swiper-container {
+        width: 100%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        position: fixed;
+        bottom: 0px;
+        overflow: hidden;
+        list-style: none;
+        padding: 0;
+        z-index: 1;
+        background: rgba(36, 31, 31, 0.8);
+        padding: 3%;
+        padding-top: 0%;
+        padding-bottom: 1%;
+    }
+  
+    #popup-event-covid >>> div.map_wrap section .swiper-container div.swiper-wrapper {
+        width: 100%;
+        height: auto;
+        background: #FDFDFD;
+        border: 2px solid #E1E5E8;
+        border-radius: 30px;
+    }
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide {
+        padding-top: 4px;
+    }
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide h2 {
+        color: #202457;
+        font-size: 18px;
+        font-weight: 100;
+        display: inline;
+    }
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide h2:before {
+        position: relative;
+        top: 12px;
+        margin-left: 20px;
+        margin-right: 5px;
+        content: '';
+        display: inline-block;
+        width: 25px;
+        height: 30px;
+        background-size: contain;
+        background: url("../../images/event/bul01.png") center no-repeat;
+    }
+  
+  
+    #popup-event-covid >>> article.summary_wrap div.summary ol li.sum01 {}
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(1) span.num {
+        color: #444872;
+        font-size: 12px;
+        background: #E1E5E8;
+        border-radius: 10px;
+        padding: 6px 7px;
+        margin: 0 1px;
+        margin-right: 8px;
+    }
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(1) a {
+        position: relative;
+        display: inline-block;
+        font-size: 12px;
+        padding: 7px 10px;
+        background: #2E3CFA;
+        border-radius: 10px;
+        color: #D5D8F8;
+    }
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(1) a:hover {
+        background: #0314fa;
+    }
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(1) a img {
+        position: relative;
+        width: 13px;
+        height: auto;
+        top: 2px;
+        right: 0px;
+    }
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(1) ul {
+        display: block;
+        margin-top: 10px;
+        width: 100%;
+        padding: 5% 9% 2% 10%;
+        height: auto;
+        background: #EBECF9;
+    }
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(1) ul li {
+        display: block;
+        font-size: 12px;
+        width: 45%;
+        margin-bottom: 3%;
+        padding: 6px 10px;
+        float: left;
+        border-radius: 10px;
+        background: #fff;
+        color: #9FA1B7;
+    }
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(1) ul li b {
+        color: #2329D6;
+    }
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(1) ul li.tit {
+        box-shadow: 0 6px 6px 3px rgba(23, 7, 38, 0.2);
+        margin-right: 5%;
+        color: #202457;
+    }
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(1) ul li.tit b {
+        font-weight: bold;
+        color: #202457;
+    }
+  
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(2) {}
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(2) div.graph {
+        width: 100%;
+        margin-top: 10px;
+        height: 180px;
+        background: #202457;
+    }
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(3) {
+        height: 100%;
+    }
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(3) ul {
+        position: relative;
+        margin-top: 10px;
+        display: block;
+        width: 90%;
+        border-radius: 10px;
+        height: 180px;
+        overflow-y: scroll;
+        margin-left: 5%;
+        padding: 10px 25px;
+        background: #EBECF9;
+    }
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(3) ul li {
+        font-size: 12px;
+        padding-top: 0px;
+        color: #5C5F87;
+        line-height: 35px;
+        border-bottom: 2px solid #fff;
+        text-align: right;
+        cursor: pointer;
+    }
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(3) ul li:hover {
+        font-size: 12px;
+        font-weight: bold;
+        padding-top: 0px;
+        color: #5458FF;
+        line-height: 35px;
+        border-bottom: 2px solid #fff;
+        text-align: right;
+        background: #BEBDFB;
+  
+    }
+  
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(3) ul li b.num {
+        display: inline-block;
+        margin: 0 3px;
+    }
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(3) ul li:hover b.num {
+        color: #2329D6;
+    }
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(3) li img {
+        position: relative;
+        top: 2px;
+        margin-left: 3px;
+        width: 15px;
+        height: auto;
+    }
+  /* modal 추가 css*/
+    #popup-event-covid >>> div.mo_modal{ position: fixed; top:0; width:100%; height: 100vh; background: #000; opacity: 0.6; z-index: 650;}
+    #popup-event-covid >>> div.mo_modal img{width:70%; height:auto;}
+    #popup-event-covid >>> div.mo_modal img:nth-of-type(1){width:50%; height:auto; margin-top: 30%; margin-left: 25%;}
+    #popup-event-covid >>> div.mo_modal img:nth-of-type(2){width:60%; height:auto; margin-top: 20%; margin-left: 20%;}
+  
+  
+  /*-----------------------------------------------
+  hidden_menu
+  Content of hidden_menu menu
+  -----------------------------------------------*/
+    #popup-event-covid >>> .hidden_menu {
+      width:100%;
+      padding: 0px;
+      position: relative;
+      bottom:0px;
+    }
+    /*-----------------------------------------------
+    LABEL
+    -----------------------------------------------*/
+    #popup-event-covid >>> .hidden_menu__label {
+      border: solid 2px #222;
+      display: inline-block;
+      overflow: hidden;
+      padding: 12px 9px;
+      width: 100%;
+      white-space: nowrap;
+    }
+    #popup-event-covid >>> .hidden_menu__label:hover {
+      cursor: pointer;
+      /*ANIMAION POSITION ON HOVER*/
+      /*ANIMATION DELAY*/
+    }
+    /*-----------------------------------------------
+    INPUT
+    -----------------------------------------------*/
+    #popup-event-covid >>> .hidden_menu__input {
+      display: none;
+    }
+    /*-----------------------------------------------
+    NAV
+    -----------------------------------------------*/
+  
+    /*숨기기*/
+    #popup-event-covid >>> .hidden_menu__nav {
+      margin-top: 10px;
+      min-height:50px;
+      max-width: 100%;
+      overflow: hidden;
+  
+      transition: min-height 1s linear, max-width 1s linear;
+  
+    }
+    
+    #popup-event-covid >>> .hidden_menu__input:checked + .hidden_menu__nav {
+        bottom:0;
+        max-height: 0px;
+    }
+  
+    #popup-event-covid >>> .hidden_menu {
+        padding: 0px;
+        position: fixed;
+        bottom:325px;
+    }
+  /*-----------------------------------------------
+  LABEL
+  -----------------------------------------------*/
+  #popup-event-covid >>> .hidden_menu__label {
+    border: solid 2px #222;
+    display: inline-block;
+    overflow: hidden;
+    padding: 12px 9px;
+    width: 95%;
+    white-space: nowrap;
+    z-index: 2;
+    position: relative;
+  }
+  #popup-event-covid >>> .hidden_menu__label:hover {
+    cursor: pointer;
+    /*ANIMAION POSITION ON HOVER*/
+    /*ANIMATION DELAY*/
+  }
+  /*-----------------------------------------------
+  INPUT
+  -----------------------------------------------*/
+  #popup-event-covid >>> .hidden_menu__input {
+    display: none;
+  }
+  /*-----------------------------------------------
+  NAV
+  -----------------------------------------------*/
+  #popup-event-covid >>> .hidden_menu__nav {
+    margin-top: 10px;
+    max-height: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    transition: max-height 0.8s linear;
+  }
+  
+  #popup-event-covid >>> .hidden_menu__input:checked + .hidden_menu__nav {
+    max-width: 100%;
+    max-height: 0%;
+  }
+  #popup-event-covid >>> label#btn{display: block;}
+  #popup-event-covid >>> section.hidden_menu input#checkbox{ display: none;}
+  
+  /**/
+  
+    #popup-event-covid >>> #btn span.off{ display: block;
+      width: 100%;
+      height: 40px;
+      font-size: 16px;
+      line-height: 40px;
+      font-weight: bold;
+      color: #f8f8f8;
+      text-align: center;
+    }
+    #popup-event-covid >>> #btn span.on{ display: none;} 
+  
+    #popup-event-covid >>> #btn.on span.off{ display: none;}
+    #popup-event-covid >>> #btn.on span.on{ display: block;
+      width: 100%;
+      height: 40px;
+      font-size: 16px;
+      line-height: 40px;
+      font-weight: bold;
+      color: #f8f8f8;
+      text-align: center;
+    }  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(1) a{ font-size: 0px;padding-bottom: 10px;}
+  
+    #popup-event-covid >>> div.map_wrap{position: relative;width: 100%;top: 0vh; margin-left: 0%; height: 95vh; background-size: cover; z-index: 600;}
+    #popup-event-covid >>> div.mapArea{ width:100% !important; height:100% !important;}
+  
+    #popup-event-covid >>> div.circle01{ color:#fff; text-align:center; cursor:pointer; width:80px !important; height: 80px !important;  box-shadow: 0 6px 6px 3px rgba(23,7,38,0.2); border-radius:50%; font-size: 18px;  padding-top:7px ; background:#1c01a3 ; border: 3px solid #fff;}
+    #popup-event-covid >>> div.circle01 span.lo_num{ font-size: 16px;}
+    #popup-event-covid >>> div.circle02{ color:#fff; text-align:center; cursor:pointer; width:70px !important; height: 70px !important;;  box-shadow: 0 6px 6px 3px rgba(23,7,38,0.2); border-radius:50%; font-size: 16px; padding-top:8px ; background:#2b01fc ; border: 3px solid #fff;}
+    #popup-event-covid >>> div.circle03{ color:#fff; text-align:center; cursor:pointer; width:60px !important; height: 60px !important;  box-shadow: 0 6px 6px 3px rgba(23,7,38,0.2); border-radius:50%; font-size: 14px; padding-top:6px ; background:#6326ff ; border: 3px solid #fff;}
+    #popup-event-covid >>> div.circle04{ color:#fff; text-align:center; cursor:pointer; width:55px !important; height: 55px !important;  box-shadow: 0 6px 6px 3px rgba(23,7,38,0.2); border-radius:50%; font-size: 11px; padding-top:10px ;background:#7153bc ; border: 2px solid #fff;}
+    #popup-event-covid >>> div.circle05{ color:#fff; text-align:center; cursor:pointer; width:50px !important; height: 50px !important;  box-shadow: 0 6px 6px 3px rgba(23,7,38,0.2); border-radius:50%;  font-size: 9px; padding-top:11px ;text-shadow: 2px 2px 2px #000; color: #f8f8f8;   background:#a584fa ; border: 1px solid #fff;}
+  
+  /* 2020.03.18 swiper 수정 이슈 추가*/
+    #popup-event-covid >>> div.map_wrap section .swiper-container div.swiper-wrapper {
+    
+      background: transparent;
+      overflow: hidden;
+      border: 0px solid #E1E5E8;
+      border-radius: 30px;
+  }
+  #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(3) ul {
+      position: relative;
+      margin-top: 10px;
+      display: block;
+      width: 90%;
+      border-radius: 10px;
+      height: 180px;
+      overflow-y: scroll;
+      margin-left: 5%;
+      padding: 10px 25px;
+      background: #EBECF9;}
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(1) {
+      width:375px !important;
+      height: 260px;
+    }
+    #popup-event-covid >>>  div.swiper-wrapper div.swiper-slide{ height:260px;}
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(3){height:260px;}
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide { margin-right: 1%;}
+    
+    #popup-event-covid >>> .swiper-pagination-fraction, 
+    #popup-event-covid >>> .swiper-pagination-custom, 
+    #popup-event-covid >>> .swiper-container-horizontal>.swiper-pagination-bullets{ bottom:17px;}
+}
+@media (max-width:390px) and (min-width:385px) {
+    #popup-event-covid >>> .mo_modal{ display: block;}
+    #popup-event-covid >>> div.hover_cont_bg {
+        display: none;
+    }
+  
+    #popup-event-covid >>> div.map_wrap {
+        overflow: hidden;
+    }
+  
+    #popup-event-covid >>> div.map_wrap header.map_top a.home {
+        position: relative;
+        float: right;
+        top: 18px;
+        margin-left: 0px;
+        margin-right: 52px;
+        display: inline-block;
+        width: 150px;
+        height: 55px;
+        background: url(../../images/event/mobile_logo.png) no-repeat;
+        background-size: contain;
+    }
+  
+    #popup-event-covid >>> div.map_wrap header.map_top a.home img {
+        display: none;
+    }
+  
+    #popup-event-covid >>> div.map_wrap header.map_top h1 {
+        display: inline-block;
+        float: left;
+        line-height: 60px;
+        margin-left: 20px; 
+        font-size: 16px;
+        color: #202457;
+        letter-spacing: 2px;
+        width: 38%;
+        font-weight: 100;
+        font-family: 'NotoKr_R';
+    }
+    #popup-event-covid >>> div.map_wrap header.map_top h1 strong{ display: none ;}
+  
+    #popup-event-covid >>> div.map_wrap header.map_top a.refresh {
+        position: absolute;
+        display: inline-block;
+        float: left;
+        margin-top: 13px;
+        top: 39px;
+        left: 20px;
+        margin-left: 0px;
+        font-size: 14px;
+        background: #2E3CFA;
+        border: #202457 1px solid;
+        border-radius: 10px;
+        padding: 8px 12px;
+        padding-left: 10px;
+        color: #D5D8F8;
+        font-size: 0px;
+        width: 45px;
+        height: 40px;
+    }
+  
+    #popup-event-covid >>> div.map_wrap header.map_top a.refresh img {
+        position: relative;
+        top: 2px;
+        left: 2px;
+        width: 20px;
+        height: auto;
+    }
+  
+    #popup-event-covid >>> div.map_wrap .select {
+        position: absolute;
+        display: inline-block;
+        margin-bottom: 15px;
+        width: 36%;
+  
+  
+    }
+  
+    #popup-event-covid >>> div.map_wrap .select:nth-of-type(1) {
+        position: absolute;
+        display: inline-block;
+        margin-bottom: 15px;
+  
+        top: 40px;
+        left: 70px;
+  
+    }
+  
+    #popup-event-covid >>> div.map_wrap .select:nth-of-type(2) {
+        position: absolute;
+        display: inline-block;
+        margin-bottom: 15px;
+  
+        top: 40px;
+        right: 15px;
+    }
+  
+    #popup-event-covid >>> div.map_wrap section article.summary_wrap {
+        position: relative;
+        width: 100%;
+        height: 40vh;
+        margin-top: 90%;
+        background: rgba(36, 31, 31, 0.25);
+        padding: 25px 25px;
+    }
+  
+    #popup-event-covid >>> div.map_wrap header.map_top img.close {
+        position: absolute;
+        top: 9px;
+        right: 10px;
+        width: 40px;
+        height: auto;
+    }
+  
+    #popup-event-covid >>> div.map_wrap header.map_top {
+        width: 100%;
+        height: 100px;
+        background: rgba(255, 255, 255, 0.8);
+        position: relative;
+    }
+  
+    #popup-event-covid >>> div.map_wrap section article.summary_wrap div.summary {
+        position: relative;
+        display: inline-block;
+        width: 300%;
+        height: 83vh;
+        background: transparent;
+        border: 0px solid #E1E5E8;
+        border-radius: 30px;
+    }
+  
+    #popup-event-covid >>> div.map_wrap section article.summary_wrap div.summary ol {
+        display: inline-block;
+    }
+  
+    #popup-event-covid >>> div.map_wrap section article.summary_wrap div.summary ol li {
+        width: 33.3333%;
+        height: auto;
+        float: left;
+        background: #FDFDFD;
+        border: 2px solid #E1E5E8;
+        border-radius: 30px;
+        padding-bottom: 30px;
+    }
+  
+    #popup-event-covid >>> div.map_wrap section article.summary_wrap div.summary ol li ul li {
+        border: 0px;
+    }
+  
+  
+    #popup-event-covid >>> .swiper-container {
+        width: 95%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        position: fixed;
+        bottom: 21px;
+        overflow: hidden;
+        list-style: none;
+        padding: 0;
+        z-index: 1;
+        background: rgba(36, 31, 31, 0.25);
+        padding: 5%;
+    }
+  
+    #popup-event-covid >>> .swiper-container-no-flexbox .swiper-slide {
+        float: left;
+    }
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide {
+        background: #FDFDFD;
+        border: 2px solid #E1E5E8;
+        border-radius: 30px;
+        padding-top: 20px;
+        padding-bottom: 15px;
+        margin-right: 2%;
+    }
+  
+    #popup-event-covid >>> .swiper-container-vertical>.swiper-wrapper {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+  
+    #popup-event-covid >>> .swiper-wrapper {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-transition-property: -webkit-transform;
+        transition-property: -webkit-transform;
+        -o-transition-property: transform;
+        transition-property: transform;
+        transition-property: transform, -webkit-transform;
+        -webkit-box-sizing: content-box;
+        box-sizing: content-box;
+    }
+  
+    #popup-event-covid >>> .swiper-container-android .swiper-slide,
+    #popup-event-covid >>> .swiper-wrapper {
+        -webkit-transform: translate3d(0px, 0, 0);
+        transform: translate3d(0px, 0, 0);
+    }
+  
+    #popup-event-covid >>> .swiper-container-multirow>.swiper-wrapper {
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+  
+    #popup-event-covid >>> .swiper-container-free-mode>.swiper-wrapper {
+        -webkit-transition-timing-function: ease-out;
+        -o-transition-timing-function: ease-out;
+        transition-timing-function: ease-out;
+        margin: 0 auto;
+    }
+  
+    #popup-event-covid >>> .swiper-slide {
+        -webkit-flex-shrink: 0;
+        -ms-flex-negative: 0;
+        flex-shrink: 0;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        -webkit-transition-property: -webkit-transform;
+        transition-property: -webkit-transform;
+        -o-transition-property: transform;
+        transition-property: transform;
+        transition-property: transform, -webkit-transform;
+    }
+  
+    #popup-event-covid >>> .swiper-slide-invisible-blank {
+        visibility: hidden;
+    }
+  
+    /* Auto Height */
+    #popup-event-covid >>> .swiper-container-autoheight,
+    #popup-event-covid >>> .swiper-container-autoheight .swiper-slide {
+        height: auto;
+    }
+  
+    #popup-event-covid >>> .swiper-container-autoheight .swiper-wrapper {
+        -webkit-box-align: start;
+        -webkit-align-items: flex-start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+        -webkit-transition-property: height, -webkit-transform;
+        transition-property: height, -webkit-transform;
+        -o-transition-property: transform, height;
+        transition-property: transform, height;
+        transition-property: transform, height, -webkit-transform;
+    }
+  
+    /* IE10 Windows Phone 8 Fixes */
+    #popup-event-covid >>> .swiper-container-wp8-horizontal,
+    #popup-event-covid >>> .swiper-container-wp8-horizontal>.swiper-wrapper {
+        -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    }
+  
+    #popup-event-covid >>> .swiper-container-wp8-vertical,
+    #popup-event-covid >>> .swiper-container-wp8-vertical>.swiper-wrapper {
+        -ms-touch-action: pan-x;
+        touch-action: pan-x;
+    }
+  
+    #popup-event-covid >>> .swiper-button-prev,
+    #popup-event-covid >>> .swiper-button-next {
+        position: absolute;
+        top: 50%;
+        width: 27px;
+        height: 44px;
+        margin-top: -22px;
+        z-index: 10;
+        cursor: pointer;
+        background-size: 27px 44px;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+  
+    #popup-event-covid >>> .swiper-button-prev.swiper-button-disabled,
+    #popup-event-covid >>> .swiper-button-next.swiper-button-disabled {
+        opacity: 0.35;
+        cursor: auto;
+        pointer-events: none;
+    }
+  
+    #popup-event-covid >>> .swiper-button-lock {
+        display: none;
+    }
+  
+    #popup-event-covid >>> .swiper-pagination {
+        position: relative;
+        text-align: center;
+        -webkit-transition: 300ms opacity;
+        -o-transition: 300ms opacity;
+        transition: 300ms opacity;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+        z-index: 10;
+    }
+  
+    #popup-event-covid >>> .swiper-pagination.swiper-pagination-hidden {
+        opacity: 0;
+    }
+  
+    /* Common Styles */
+    #popup-event-covid >>> .swiper-pagination-fraction,
+    #popup-event-covid >>> .swiper-pagination-custom,
+    #popup-event-covid >>> .swiper-container-horizontal>.swiper-pagination-bullets {
+        bottom: 14px;
+        left: 0;
+        width: 100%;
+    }
+  
+    /* Bullets */
+    #popup-event-covid >>> .swiper-pagination-bullets-dynamic {
+        overflow: hidden;
+        font-size: 0;
+    }
+  
+    #popup-event-covid >>> .swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
+        -webkit-transform: scale(0.33);
+        -ms-transform: scale(0.33);
+        transform: scale(0.33);
+        position: relative;
+    }
+  
+    #popup-event-covid >>> .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active {
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+  
+    #popup-event-covid >>> .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-main {
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+  
+    #popup-event-covid >>> .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-prev {
+        -webkit-transform: scale(0.66);
+        -ms-transform: scale(0.66);
+        transform: scale(0.66);
+    }
+  
+    #popup-event-covid >>> .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-prev-prev {
+        -webkit-transform: scale(0.33);
+        -ms-transform: scale(0.33);
+        transform: scale(0.33);
+    }
+  
+    #popup-event-covid >>> .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-next {
+        -webkit-transform: scale(0.66);
+        -ms-transform: scale(0.66);
+        transform: scale(0.66);
+    }
+  
+    #popup-event-covid >>> .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-next-next {
+        -webkit-transform: scale(0.33);
+        -ms-transform: scale(0.33);
+        transform: scale(0.33);
+    }
+  
+    #popup-event-covid >>> .swiper-pagination-bullet {
+        width: 8px;
+        height: 8px;
+        display: inline-block;
+        border-radius: 100%;
+        background: #000;
+        opacity: 0.2;
+    }
+  
+    #popup-event-covid >>> button.swiper-pagination-bullet {
+        border: none;
+        margin: 0;
+        padding: 0;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+    }
+  
+    #popup-event-covid >>> .swiper-pagination-clickable .swiper-pagination-bullet {
+        cursor: pointer;
+    }
+  
+    #popup-event-covid >>> .swiper-pagination-bullet-active {
+        opacity: 1;
+        background: #2E3CFA;
+    }
+  
+    #popup-event-covid >>> .swiper-container-vertical>.swiper-pagination-bullets {
+        right: 10px;
+        top: 50%;
+        -webkit-transform: translate3d(0px, -50%, 0);
+        transform: translate3d(0px, -50%, 0);
+    }
+  
+    #popup-event-covid >>> .swiper-container-vertical>.swiper-pagination-bullets .swiper-pagination-bullet {
+        margin: 6px 0;
+        display: block;
+    }
+  
+    #popup-event-covid >>> .swiper-container-vertical>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        width: 8px;
+    }
+  
+    #popup-event-covid >>> .swiper-container-vertical>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
+        display: inline-block;
+        -webkit-transition: 200ms top, 200ms -webkit-transform;
+        transition: 200ms top, 200ms -webkit-transform;
+        -o-transition: 200ms transform, 200ms top;
+        transition: 200ms transform, 200ms top;
+        transition: 200ms transform, 200ms top, 200ms -webkit-transform;
+    }
+  
+    #popup-event-covid >>> .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+        margin: 0 4px;
+    }
+  
+    #popup-event-covid >>> .swiper-container-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        transform: translateX(-50%);
+        white-space: nowrap;
+    }
+  
+    #popup-event-covid >>> .swiper-container-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
+        -webkit-transition: 200ms left, 200ms -webkit-transform;
+        transition: 200ms left, 200ms -webkit-transform;
+        -o-transition: 200ms transform, 200ms left;
+        transition: 200ms transform, 200ms left;
+        transition: 200ms transform, 200ms left, 200ms -webkit-transform;
+    }
+  
+    #popup-event-covid >>> .swiper-container-horizontal.swiper-container-rtl>.swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
+        -webkit-transition: 200ms right, 200ms -webkit-transform;
+        transition: 200ms right, 200ms -webkit-transform;
+        -o-transition: 200ms transform, 200ms right;
+        transition: 200ms transform, 200ms right;
+        transition: 200ms transform, 200ms right, 200ms -webkit-transform;
+    }
+  
+    #popup-event-covid >>> div.map_wrap section .swiper-container {
+        width: 100%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        position: fixed;
+        bottom: 0px;
+        overflow: hidden;
+        list-style: none;
+        padding: 0;
+        z-index: 1;
+        background: rgba(36, 31, 31, 0.8);
+        padding: 3%;
+        padding-top: 0%;
+        padding-bottom: 1%;
+    }
+  
+    #popup-event-covid >>> div.map_wrap section .swiper-container div.swiper-wrapper {
+        width: 100%;
+        height: auto;
+        background: #FDFDFD;
+        border: 2px solid #E1E5E8;
+        border-radius: 30px;
+    }
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide {
+        padding-top: 4px;
+    }
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide h2 {
+        color: #202457;
+        font-size: 18px;
+        font-weight: 100;
+        display: inline;
+    }
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide h2:before {
+        position: relative;
+        top: 12px;
+        margin-left: 20px;
+        margin-right: 5px;
+        content: '';
+        display: inline-block;
+        width: 25px;
+        height: 30px;
+        background-size: contain;
+        background: url("../../images/event/bul01.png") center no-repeat;
+    }
+  
+  
+    #popup-event-covid >>> article.summary_wrap div.summary ol li.sum01 {}
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(1) span.num {
+        color: #444872;
+        font-size: 12px;
+        background: #E1E5E8;
+        border-radius: 10px;
+        padding: 6px 7px;
+        margin: 0 1px;
+        margin-right: 8px;
+    }
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(1) a {
+        position: relative;
+        display: inline-block;
+        font-size: 12px;
+        padding: 7px 10px;
+        background: #2E3CFA;
+        border-radius: 10px;
+        color: #D5D8F8;
+    }
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(1) a:hover {
+        background: #0314fa;
+    }
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(1) a img {
+        position: relative;
+        width: 13px;
+        height: auto;
+        top: 2px;
+        right: 0px;
+    }
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(1) ul {
+        display: block;
+        margin-top: 10px;
+        width: 100%;
+        padding: 5% 9% 2% 10%;
+        height: auto;
+        background: #EBECF9;
+    }
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(1) ul li {
+        display: block;
+        font-size: 12px;
+        width: 45%;
+        margin-bottom: 3%;
+        padding: 6px 10px;
+        float: left;
+        border-radius: 10px;
+        background: #fff;
+        color: #9FA1B7;
+    }
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(1) ul li b {
+        color: #2329D6;
+    }
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(1) ul li.tit {
+        box-shadow: 0 6px 6px 3px rgba(23, 7, 38, 0.2);
+        margin-right: 5%;
+        color: #202457;
+    }
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(1) ul li.tit b {
+        font-weight: bold;
+        color: #202457;
+    }
+  
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(2) {}
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(2) div.graph {
+        width: 100%;
+        margin-top: 10px;
+        height: 180px;
+        background: #202457;
+    }
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(3) {
+        height: 100%;
+    }
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(3) ul {
+        position: relative;
+        margin-top: 10px;
+        display: block;
+        width: 90%;
+        border-radius: 10px;
+        height: 180px;
+        overflow-y: scroll;
+        margin-left: 5%;
+        padding: 10px 25px;
+        background: #EBECF9;
+    }
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(3) ul li {
+        font-size: 12px;
+        padding-top: 0px;
+        color: #5C5F87;
+        line-height: 35px;
+        border-bottom: 2px solid #fff;
+        text-align: right;
+        cursor: pointer;
+    }
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(3) ul li:hover {
+        font-size: 12px;
+        font-weight: bold;
+        padding-top: 0px;
+        color: #5458FF;
+        line-height: 35px;
+        border-bottom: 2px solid #fff;
+        text-align: right;
+        background: #BEBDFB;
+  
+    }
+  
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(3) ul li b.num {
+        display: inline-block;
+        margin: 0 3px;
+    }
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(3) ul li:hover b.num {
+        color: #2329D6;
+    }
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(3) li img {
+        position: relative;
+        top: 2px;
+        margin-left: 3px;
+        width: 15px;
+        height: auto;
+    }
+  /* modal 추가 css*/
+    #popup-event-covid >>> div.mo_modal{ position: fixed; top:0; width:100%; height: 100vh; background: #000; opacity: 0.6; z-index: 650;}
+    #popup-event-covid >>> div.mo_modal img{width:70%; height:auto;}
+    #popup-event-covid >>> div.mo_modal img:nth-of-type(1){width:50%; height:auto; margin-top: 30%; margin-left: 25%;}
+    #popup-event-covid >>> div.mo_modal img:nth-of-type(2){width:60%; height:auto; margin-top: 20%; margin-left: 20%;}
+  
+  
+  /*-----------------------------------------------
+  hidden_menu
+  Content of hidden_menu menu
+  -----------------------------------------------*/
+    #popup-event-covid >>> .hidden_menu {
+      width:100%;
+      padding: 0px;
+      position: relative;
+      bottom:0px;
+    }
+    /*-----------------------------------------------
+    LABEL
+    -----------------------------------------------*/
+    #popup-event-covid >>> .hidden_menu__label {
+      border: solid 2px #222;
+      display: inline-block;
+      overflow: hidden;
+      padding: 12px 9px;
+      width: 100%;
+      white-space: nowrap;
+    }
+    #popup-event-covid >>> .hidden_menu__label:hover {
+      cursor: pointer;
+      /*ANIMAION POSITION ON HOVER*/
+      /*ANIMATION DELAY*/
+    }
+    /*-----------------------------------------------
+    INPUT
+    -----------------------------------------------*/
+    #popup-event-covid >>> .hidden_menu__input {
+      display: none;
+    }
+    /*-----------------------------------------------
+    NAV
+    -----------------------------------------------*/
+  
+    /*숨기기*/
+    #popup-event-covid >>> .hidden_menu__nav {
+      margin-top: 10px;
+      min-height:50px;
+      max-width: 100%;
+      overflow: hidden;
+  
+      transition: min-height 1s linear, max-width 1s linear;
+  
+    }
+    
+    #popup-event-covid >>> .hidden_menu__input:checked + .hidden_menu__nav {
+        bottom:0;
+        max-height: 0px;
+    }
+  
+    #popup-event-covid >>> .hidden_menu {
+        padding: 0px;
+        position: fixed;
+        bottom:325px;
+    }
+  /*-----------------------------------------------
+  LABEL
+  -----------------------------------------------*/
+    #popup-event-covid >>> .hidden_menu__label {
+        border: solid 2px #222;
+        display: inline-block;
+        overflow: hidden;
+        padding: 12px 9px;
+        width: 95%;
+        white-space: nowrap;
+        z-index: 2;
+        position: relative;
+    }
+    #popup-event-covid >>> .hidden_menu__label:hover {
+        cursor: pointer;
+        /*ANIMAION POSITION ON HOVER*/
+        /*ANIMATION DELAY*/
+    }
+  /*-----------------------------------------------
+  INPUT
+  -----------------------------------------------*/
+    #popup-event-covid >>> .hidden_menu__input {
+        display: none;
+    }
+  /*-----------------------------------------------
+  NAV
+  -----------------------------------------------*/
+    #popup-event-covid >>> .hidden_menu__nav {
+        margin-top: 10px;
+        max-height: 100%;
+        max-width: 100%;
+        overflow: hidden;
+        transition: max-height 0.8s linear;
+    }
+  
+    #popup-event-covid >>> .hidden_menu__input:checked + .hidden_menu__nav {
+        max-width: 100%;
+        max-height: 0%;
+    }
+    #popup-event-covid >>> label#btn{display: block;}
+    #popup-event-covid >>> section.hidden_menu input#checkbox{ display: none;}
+  
+  /**/
+  
+    #popup-event-covid >>> #btn span.off{ display: block;
+      width: 100%;
+      height: 40px;
+      font-size: 16px;
+      line-height: 40px;
+      font-weight: bold;
+      color: #f8f8f8;
+      text-align: center;
+    }
+    #popup-event-covid >>> #btn span.on{ display: none;} 
+  
+    #popup-event-covid >>> #btn.on span.off{ display: none;}
+    #popup-event-covid >>> #btn.on span.on{ display: block;
+      width: 100%;
+      height: 40px;
+      font-size: 16px;
+      line-height: 40px;
+      font-weight: bold;
+      color: #f8f8f8;
+      text-align: center;
+    }  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(1) a{ font-size: 0px;padding-bottom: 10px;}
+  
+    #popup-event-covid >>> div.map_wrap{position: relative;width: 100%;top: 0vh; margin-left: 0%; height: 95vh; background-size: cover; z-index: 600;}
+    #popup-event-covid >>> div.mapArea{ width:100% !important; height:100% !important;}
+  
+    #popup-event-covid >>> div.circle01{ color:#fff; text-align:center; cursor:pointer; width:80px !important; height: 80px !important;  box-shadow: 0 6px 6px 3px rgba(23,7,38,0.2); border-radius:50%; font-size: 18px;  padding-top:7px ; background:#1c01a3 ; border: 3px solid #fff;}
+    #popup-event-covid >>> div.circle01 span.lo_num{ font-size: 16px;}
+    #popup-event-covid >>> div.circle02{ color:#fff; text-align:center; cursor:pointer; width:70px !important; height: 70px !important;;  box-shadow: 0 6px 6px 3px rgba(23,7,38,0.2); border-radius:50%; font-size: 16px; padding-top:8px ; background:#2b01fc ; border: 3px solid #fff;}
+    #popup-event-covid >>> div.circle03{ color:#fff; text-align:center; cursor:pointer; width:60px !important; height: 60px !important;  box-shadow: 0 6px 6px 3px rgba(23,7,38,0.2); border-radius:50%; font-size: 14px; padding-top:6px ; background:#6326ff ; border: 3px solid #fff;}
+    #popup-event-covid >>> div.circle04{ color:#fff; text-align:center; cursor:pointer; width:55px !important; height: 55px !important;  box-shadow: 0 6px 6px 3px rgba(23,7,38,0.2); border-radius:50%; font-size: 11px; padding-top:10px ;background:#7153bc ; border: 2px solid #fff;}
+    #popup-event-covid >>> div.circle05{ color:#fff; text-align:center; cursor:pointer; width:50px !important; height: 50px !important;  box-shadow: 0 6px 6px 3px rgba(23,7,38,0.2); border-radius:50%;  font-size: 9px; padding-top:11px ;text-shadow: 2px 2px 2px #000; color: #f8f8f8;   background:#a584fa ; border: 1px solid #fff;}
+  
+  /* 2020.03.18 swiper 수정 이슈 추가*/
+    #popup-event-covid >>> div.map_wrap section .swiper-container div.swiper-wrapper {
+    
+      background: transparent;
+      overflow: hidden;
+      border: 0px solid #E1E5E8;
+      border-radius: 30px;
+    }
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(3) ul {
+      position: relative;
+      margin-top: 10px;
+      display: block;
+      width: 90%;
+      border-radius: 10px;
+      height: 180px;
+      overflow-y: scroll;
+      margin-left: 5%;
+      padding: 10px 25px;
+      background: #EBECF9;
+    }
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(1) {
+      width:355px !important;
+      height: 260px;
+    }
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide{ height:260px;}
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(3){height:260px;}
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide { margin-right: 1%;}
+    
+    #popup-event-covid >>> .swiper-pagination-fraction, 
+    #popup-event-covid >>> .swiper-pagination-custom, 
+    #popup-event-covid >>> .swiper-container-horizontal>.swiper-pagination-bullets{ bottom:17px;}
+
+
+}
+
+
+/*LG*/
+@media (max-width:384px) and (min-width:381px) {
+    #popup-event-covid >>> .mo_modal{ display: block;}
+    #popup-event-covid >>> div.hover_cont_bg {
+        display: none;
+    }
+  
+    #popup-event-covid >>> div.map_wrap {
+        overflow: hidden;
+    }
+  
+    #popup-event-covid >>> div.map_wrap header.map_top a.home {
+        position: relative;
+        float: right;
+        top: 18px;
+        margin-left: 0px;
+        margin-right: 52px;
+        display: inline-block;
+        width: 150px;
+        height: 55px;
+        background: url(../../images/event/mobile_logo.png) no-repeat;
+        background-size: contain;
+    }
+  
+    #popup-event-covid >>> div.map_wrap header.map_top a.home img {
+        display: none;
+    }
+  
+    #popup-event-covid >>> div.map_wrap header.map_top h1 {
+        display: inline-block;
+        float: left;
+        line-height: 60px;
+        margin-left: 20px; 
+        font-size: 16px;
+        color: #202457;
+        letter-spacing: 2px;
+        width: 38%;
+        font-weight: 100;
+        font-family: 'NotoKr_R';
+    }
+    #popup-event-covid >>> div.map_wrap header.map_top h1 strong{ display: none ;}
+  
+    #popup-event-covid >>> div.map_wrap header.map_top a.refresh {
+        position: absolute;
+        display: inline-block;
+        float: left;
+        margin-top: 13px;
+        top: 39px;
+        left: 20px;
+        margin-left: 0px;
+        font-size: 14px;
+        background: #2E3CFA;
+        border: #202457 1px solid;
+        border-radius: 10px;
+        padding: 8px 12px;
+        padding-left: 10px;
+        color: #D5D8F8;
+        font-size: 0px;
+        width: 45px;
+        height: 40px;
+    }
+  
+    #popup-event-covid >>> div.map_wrap header.map_top a.refresh img {
+        position: relative;
+        top: 2px;
+        left: 2px;
+        width: 20px;
+        height: auto;
+    }
+  
+    #popup-event-covid >>> div.map_wrap .select {
+        position: absolute;
+        display: inline-block;
+        margin-bottom: 15px;
+        width: 35%;
+  
+  
+    }
+  
+    #popup-event-covid >>> div.map_wrap .select:nth-of-type(1) {
+        position: absolute;
+        display: inline-block;
+        margin-bottom: 15px;
+  
+        top: 40px;
+        left: 70px;
+  
+    }
+  
+    #popup-event-covid >>> div.map_wrap .select:nth-of-type(2) {
+        position: absolute;
+        display: inline-block;
+        margin-bottom: 15px;
+  
+        top: 40px;
+        right: 15px;
+    }
+  
+    #popup-event-covid >>> div.map_wrap section article.summary_wrap {
+        position: relative;
+        width: 100%;
+        height: 40vh;
+        margin-top: 90%;
+        background: rgba(36, 31, 31, 0.25);
+        padding: 25px 25px;
+    }
+  
+    #popup-event-covid >>> div.map_wrap header.map_top img.close {
+        position: absolute;
+        top: 9px;
+        right: 10px;
+        width: 40px;
+        height: auto;
+    }
+  
+    #popup-event-covid >>> div.map_wrap header.map_top {
+        width: 100%;
+        height: 100px;
+        background: rgba(255, 255, 255, 0.8);
+        position: relative;
+    }
+  
+    #popup-event-covid >>> div.map_wrap section article.summary_wrap div.summary {
+        position: relative;
+        display: inline-block;
+        width: 300%;
+        height: 83vh;
+        background: transparent;
+        border: 0px solid #E1E5E8;
+        border-radius: 30px;
+    }
+  
+    #popup-event-covid >>> div.map_wrap section article.summary_wrap div.summary ol {
+        display: inline-block;
+    }
+  
+    #popup-event-covid >>> div.map_wrap section article.summary_wrap div.summary ol li {
+        width: 33.3333%;
+        height: auto;
+        float: left;
+        background: #FDFDFD;
+        border: 2px solid #E1E5E8;
+        border-radius: 30px;
+        padding-bottom: 30px;
+    }
+  
+    #popup-event-covid >>> div.map_wrap section article.summary_wrap div.summary ol li ul li {
+        border: 0px;
+    }
+  
+  
+    #popup-event-covid >>> .swiper-container {
+        width: 95%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        position: fixed;
+        bottom: 21px;
+        overflow: hidden;
+        list-style: none;
+        padding: 0;
+        z-index: 1;
+        background: rgba(36, 31, 31, 0.25);
+        padding: 5%;
+    }
+  
+    #popup-event-covid >>> .swiper-container-no-flexbox .swiper-slide {
+        float: left;
+    }
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide {
+        background: #FDFDFD;
+        border: 2px solid #E1E5E8;
+        border-radius: 30px;
+        padding-top: 20px;
+        padding-bottom: 15px;
+        margin-right: 2%;
+    }
+  
+    #popup-event-covid >>> .swiper-container-vertical>.swiper-wrapper {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+  
+    #popup-event-covid >>> .swiper-wrapper {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-transition-property: -webkit-transform;
+        transition-property: -webkit-transform;
+        -o-transition-property: transform;
+        transition-property: transform;
+        transition-property: transform, -webkit-transform;
+        -webkit-box-sizing: content-box;
+        box-sizing: content-box;
+    }
+  
+    #popup-event-covid >>> .swiper-container-android .swiper-slide,
+    #popup-event-covid >>> .swiper-wrapper {
+        -webkit-transform: translate3d(0px, 0, 0);
+        transform: translate3d(0px, 0, 0);
+    }
+  
+    #popup-event-covid >>> .swiper-container-multirow>.swiper-wrapper {
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+  
+    #popup-event-covid >>> .swiper-container-free-mode>.swiper-wrapper {
+        -webkit-transition-timing-function: ease-out;
+        -o-transition-timing-function: ease-out;
+        transition-timing-function: ease-out;
+        margin: 0 auto;
+    }
+  
+    #popup-event-covid >>> .swiper-slide {
+        -webkit-flex-shrink: 0;
+        -ms-flex-negative: 0;
+        flex-shrink: 0;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        -webkit-transition-property: -webkit-transform;
+        transition-property: -webkit-transform;
+        -o-transition-property: transform;
+        transition-property: transform;
+        transition-property: transform, -webkit-transform;
+    }
+  
+    #popup-event-covid >>> .swiper-slide-invisible-blank {
+        visibility: hidden;
+    }
+  
+    /* Auto Height */
+    #popup-event-covid >>> .swiper-container-autoheight,
+    #popup-event-covid >>> .swiper-container-autoheight .swiper-slide {
+        height: auto;
+    }
+  
+    #popup-event-covid >>> .swiper-container-autoheight .swiper-wrapper {
+        -webkit-box-align: start;
+        -webkit-align-items: flex-start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+        -webkit-transition-property: height, -webkit-transform;
+        transition-property: height, -webkit-transform;
+        -o-transition-property: transform, height;
+        transition-property: transform, height;
+        transition-property: transform, height, -webkit-transform;
+    }
+  
+    /* IE10 Windows Phone 8 Fixes */
+    #popup-event-covid >>> .swiper-container-wp8-horizontal,
+    #popup-event-covid >>> .swiper-container-wp8-horizontal>.swiper-wrapper {
+        -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    }
+  
+    #popup-event-covid >>> .swiper-container-wp8-vertical,
+    #popup-event-covid >>> .swiper-container-wp8-vertical>.swiper-wrapper {
+        -ms-touch-action: pan-x;
+        touch-action: pan-x;
+    }
+  
+    #popup-event-covid >>> .swiper-button-prev,
+    #popup-event-covid >>> .swiper-button-next {
+        position: absolute;
+        top: 50%;
+        width: 27px;
+        height: 44px;
+        margin-top: -22px;
+        z-index: 10;
+        cursor: pointer;
+        background-size: 27px 44px;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+  
+    #popup-event-covid >>> .swiper-button-prev.swiper-button-disabled,
+    #popup-event-covid >>> .swiper-button-next.swiper-button-disabled {
+        opacity: 0.35;
+        cursor: auto;
+        pointer-events: none;
+    }
+  
+    #popup-event-covid >>> .swiper-button-lock {
+        display: none;
+    }
+  
+    #popup-event-covid >>> .swiper-pagination {
+        position: relative;
+        text-align: center;
+        -webkit-transition: 300ms opacity;
+        -o-transition: 300ms opacity;
+        transition: 300ms opacity;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+        z-index: 10;
+    }
+  
+    #popup-event-covid >>> .swiper-pagination.swiper-pagination-hidden {
+        opacity: 0;
+    }
+  
+    /* Common Styles */
+    #popup-event-covid >>> .swiper-pagination-fraction,
+    #popup-event-covid >>> .swiper-pagination-custom,
+    #popup-event-covid >>> .swiper-container-horizontal>.swiper-pagination-bullets {
+        bottom: 14px;
+        left: 0;
+        width: 100%;
+    }
+  
+    /* Bullets */
+    #popup-event-covid >>> .swiper-pagination-bullets-dynamic {
+        overflow: hidden;
+        font-size: 0;
+    }
+  
+    #popup-event-covid >>> .swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
+        -webkit-transform: scale(0.33);
+        -ms-transform: scale(0.33);
+        transform: scale(0.33);
+        position: relative;
+    }
+  
+    #popup-event-covid >>> .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active {
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+  
+    #popup-event-covid >>> .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-main {
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+  
+    #popup-event-covid >>> .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-prev {
+        -webkit-transform: scale(0.66);
+        -ms-transform: scale(0.66);
+        transform: scale(0.66);
+    }
+  
+    #popup-event-covid >>> .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-prev-prev {
+        -webkit-transform: scale(0.33);
+        -ms-transform: scale(0.33);
+        transform: scale(0.33);
+    }
+  
+    #popup-event-covid >>> .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-next {
+        -webkit-transform: scale(0.66);
+        -ms-transform: scale(0.66);
+        transform: scale(0.66);
+    }
+  
+    #popup-event-covid >>> .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-next-next {
+        -webkit-transform: scale(0.33);
+        -ms-transform: scale(0.33);
+        transform: scale(0.33);
+    }
+  
+    #popup-event-covid >>> .swiper-pagination-bullet {
+        width: 8px;
+        height: 8px;
+        display: inline-block;
+        border-radius: 100%;
+        background: #000;
+        opacity: 0.2;
+    }
+  
+    #popup-event-covid >>> button.swiper-pagination-bullet {
+        border: none;
+        margin: 0;
+        padding: 0;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+    }
+  
+    #popup-event-covid >>> .swiper-pagination-clickable .swiper-pagination-bullet {
+        cursor: pointer;
+    }
+  
+    #popup-event-covid >>> .swiper-pagination-bullet-active {
+        opacity: 1;
+        background: #2E3CFA;
+    }
+  
+    #popup-event-covid >>> .swiper-container-vertical>.swiper-pagination-bullets {
+        right: 10px;
+        top: 50%;
+        -webkit-transform: translate3d(0px, -50%, 0);
+        transform: translate3d(0px, -50%, 0);
+    }
+  
+    #popup-event-covid >>> .swiper-container-vertical>.swiper-pagination-bullets .swiper-pagination-bullet {
+        margin: 6px 0;
+        display: block;
+    }
+  
+    #popup-event-covid >>> .swiper-container-vertical>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        width: 8px;
+    }
+  
+    #popup-event-covid >>> .swiper-container-vertical>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
+        display: inline-block;
+        -webkit-transition: 200ms top, 200ms -webkit-transform;
+        transition: 200ms top, 200ms -webkit-transform;
+        -o-transition: 200ms transform, 200ms top;
+        transition: 200ms transform, 200ms top;
+        transition: 200ms transform, 200ms top, 200ms -webkit-transform;
+    }
+  
+    #popup-event-covid >>> .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+        margin: 0 4px;
+    }
+  
+    #popup-event-covid >>> .swiper-container-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        transform: translateX(-50%);
+        white-space: nowrap;
+    }
+  
+    #popup-event-covid >>> .swiper-container-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
+        -webkit-transition: 200ms left, 200ms -webkit-transform;
+        transition: 200ms left, 200ms -webkit-transform;
+        -o-transition: 200ms transform, 200ms left;
+        transition: 200ms transform, 200ms left;
+        transition: 200ms transform, 200ms left, 200ms -webkit-transform;
+    }
+  
+    #popup-event-covid >>> .swiper-container-horizontal.swiper-container-rtl>.swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
+        -webkit-transition: 200ms right, 200ms -webkit-transform;
+        transition: 200ms right, 200ms -webkit-transform;
+        -o-transition: 200ms transform, 200ms right;
+        transition: 200ms transform, 200ms right;
+        transition: 200ms transform, 200ms right, 200ms -webkit-transform;
+    }
+  
+    #popup-event-covid >>> div.map_wrap section .swiper-container {
+        width: 100%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        position: fixed;
+        bottom: 0px;
+        overflow: hidden;
+        list-style: none;
+        padding: 0;
+        z-index: 1;
+        background: rgba(36, 31, 31, 0.8);
+        padding: 3%;
+        padding-top: 0%;
+        padding-bottom: 1%;
+    }
+  
+    #popup-event-covid >>> div.map_wrap section .swiper-container div.swiper-wrapper {
+        width: 100%;
+        height: auto;
+        background: #FDFDFD;
+        border: 2px solid #E1E5E8;
+        border-radius: 30px;
+    }
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide {
+        padding-top: 4px;
+    }
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide h2 {
+        color: #202457;
+        font-size: 18px;
+        font-weight: 100;
+        display: inline;
+    }
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide h2:before {
+        position: relative;
+        top: 12px;
+        margin-left: 20px;
+        margin-right: 5px;
+        content: '';
+        display: inline-block;
+        width: 25px;
+        height: 30px;
+        background-size: contain;
+        background: url("../../images/event/bul01.png") center no-repeat;
+    }
+  
+  
+    #popup-event-covid >>> article.summary_wrap div.summary ol li.sum01 {}
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(1) span.num {
+        color: #444872;
+        font-size: 12px;
+        background: #E1E5E8;
+        border-radius: 10px;
+        padding: 6px 7px;
+        margin: 0 1px;
+        margin-right: 8px;
+    }
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(1) a {
+        position: relative;
+        display: inline-block;
+        font-size: 12px;
+        padding: 7px 10px;
+        background: #2E3CFA;
+        border-radius: 10px;
+        color: #D5D8F8;
+    }
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(1) a:hover {
+        background: #0314fa;
+    }
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(1) a img {
+        position: relative;
+        width: 13px;
+        height: auto;
+        top: 2px;
+        right: 0px;
+    }
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(1) ul {
+        display: block;
+        margin-top: 10px;
+        width: 100%;
+        padding: 5% 9% 2% 10%;
+        height: auto;
+        background: #EBECF9;
+    }
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(1) ul li {
+        display: block;
+        font-size: 12px;
+        width: 45%;
+        margin-bottom: 3%;
+        padding: 6px 10px;
+        float: left;
+        border-radius: 10px;
+        background: #fff;
+        color: #9FA1B7;
+    }
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(1) ul li b {
+        color: #2329D6;
+    }
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(1) ul li.tit {
+        box-shadow: 0 6px 6px 3px rgba(23, 7, 38, 0.2);
+        margin-right: 5%;
+        color: #202457;
+    }
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(1) ul li.tit b {
+        font-weight: bold;
+        color: #202457;
+    }
+  
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(2) {}
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(2) div.graph {
+        width: 100%;
+        margin-top: 10px;
+        height: 180px;
+        background: #202457;
+    }
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(3) {
+        height: 100%;
+    }
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(3) ul {
+        position: relative;
+        margin-top: 10px;
+        display: block;
+        width: 90%;
+        border-radius: 10px;
+        height: 180px;
+        overflow-y: scroll;
+        margin-left: 5%;
+        padding: 10px 25px;
+        background: #EBECF9;
+    }
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(3) ul li {
+        font-size: 12px;
+        padding-top: 0px;
+        color: #5C5F87;
+        line-height: 35px;
+        border-bottom: 2px solid #fff;
+        text-align: right;
+        cursor: pointer;
+    }
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(3) ul li:hover {
+        font-size: 12px;
+        font-weight: bold;
+        padding-top: 0px;
+        color: #5458FF;
+        line-height: 35px;
+        border-bottom: 2px solid #fff;
+        text-align: right;
+        background: #BEBDFB;
+  
+    }
+  
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(3) ul li b.num {
+        display: inline-block;
+        margin: 0 3px;
+    }
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(3) ul li:hover b.num {
+        color: #2329D6;
+    }
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(3) li img {
+        position: relative;
+        top: 2px;
+        margin-left: 3px;
+        width: 15px;
+        height: auto;
+    }
+  /* modal 추가 css*/
+    #popup-event-covid >>> div.mo_modal{ position: fixed; top:0; width:100%; height: 100vh; background: #000; opacity: 0.6; z-index: 650;}
+    #popup-event-covid >>> div.mo_modal img{width:70%; height:auto;}
+    #popup-event-covid >>> div.mo_modal img:nth-of-type(1){width:50%; height:auto; margin-top: 30%; margin-left: 25%;}
+    #popup-event-covid >>> div.mo_modal img:nth-of-type(2){width:60%; height:auto; margin-top: 20%; margin-left: 20%;}
+  
+  
+  /*-----------------------------------------------
+  hidden_menu
+  Content of hidden_menu menu
+  -----------------------------------------------*/
+  #popup-event-covid >>> .hidden_menu {
+      width:100%;
+      padding: 0px;
+      position: relative;
+      bottom:0px;
+    }
+    /*-----------------------------------------------
+    LABEL
+    -----------------------------------------------*/
+    #popup-event-covid >>> .hidden_menu__label {
+      border: solid 2px #222;
+      display: inline-block;
+      overflow: hidden;
+      padding: 12px 9px;
+      width: 100%;
+      white-space: nowrap;
+    }
+    #popup-event-covid >>> .hidden_menu__label:hover {
+      cursor: pointer;
+      /*ANIMAION POSITION ON HOVER*/
+      /*ANIMATION DELAY*/
+    }
+    /*-----------------------------------------------
+    INPUT
+    -----------------------------------------------*/
+    #popup-event-covid >>> .hidden_menu__input {
+      display: none;
+    }
+    /*-----------------------------------------------
+    NAV
+    -----------------------------------------------*/
+  
+    /*숨기기*/
+    #popup-event-covid >>> .hidden_menu__nav {
+      margin-top: 10px;
+      min-height:50px;
+      max-width: 100%;
+      overflow: hidden;
+  
+      transition: min-height 1s linear, max-width 1s linear;
+  
+    }
+    
+    #popup-event-covid >>> .hidden_menu__input:checked + .hidden_menu__nav {
+     bottom:0;
+      max-height: 0px;}
+  
+    #popup-event-covid >>> .hidden_menu {
+    padding: 0px;
+    position: fixed;
+    bottom:325px;
+  }
+  /*-----------------------------------------------
+  LABEL
+  -----------------------------------------------*/
+  #popup-event-covid >>> .hidden_menu__label {
+    border: solid 2px #222;
+    display: inline-block;
+    overflow: hidden;
+    padding: 12px 9px;
+    width: 95%;
+    white-space: nowrap;
+    z-index: 2;
+    position: relative;
+  }
+  #popup-event-covid >>> .hidden_menu__label:hover {
+    cursor: pointer;
+    /*ANIMAION POSITION ON HOVER*/
+    /*ANIMATION DELAY*/
+  }
+  /*-----------------------------------------------
+  INPUT
+  -----------------------------------------------*/
+  #popup-event-covid >>> .hidden_menu__input {
+    display: none;
+  }
+  /*-----------------------------------------------
+  NAV
+  -----------------------------------------------*/
+  #popup-event-covid >>> .hidden_menu__nav {
+    margin-top: 10px;
+    max-height: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    transition: max-height 0.8s linear;
+  }
+  
+  #popup-event-covid >>> .hidden_menu__input:checked + .hidden_menu__nav {
+    max-width: 100%;
+    max-height: 0%;
+  }
+  #popup-event-covid >>> label#btn{display: block;}
+  #popup-event-covid >>> section.hidden_menu input#checkbox{ display: none;}
+  
+  /**/
+  
+    #popup-event-covid >>> #btn span.off{ display: block;
+      width: 100%;
+      height: 40px;
+      font-size: 16px;
+      line-height: 40px;
+      font-weight: bold;
+      color: #f8f8f8;
+      text-align: center;
+    }
+    #popup-event-covid >>> #btn span.on{ display: none;} 
+  
+    #popup-event-covid >>> #btn.on span.off{ display: none;}
+    #popup-event-covid >>> #btn.on span.on{ display: block;
+      width: 100%;
+      height: 40px;
+      font-size: 16px;
+      line-height: 40px;
+      font-weight: bold;
+      color: #f8f8f8;
+      text-align: center;}  
+    #popup-event-covid >>>  div.swiper-wrapper div.swiper-slide:nth-of-type(1) a{ font-size: 0px;padding-bottom: 10px;}
+  
+    #popup-event-covid >>> div.map_wrap{position: relative;width: 100%;top: 0vh; margin-left: 0%; height: 95vh; background-size: cover; z-index: 600;}
+    #popup-event-covid >>> div.mapArea{ width:100% !important; height:100% !important;}
+  
+    #popup-event-covid >>> div.circle01{ color:#fff; text-align:center; cursor:pointer; width:80px !important; height: 80px !important;  box-shadow: 0 6px 6px 3px rgba(23,7,38,0.2); border-radius:50%; font-size: 18px;  padding-top:7px ; background:#1c01a3 ; border: 3px solid #fff;}
+    #popup-event-covid >>> div.circle01 span.lo_num{ font-size: 16px;}
+    #popup-event-covid >>> div.circle02{ color:#fff; text-align:center; cursor:pointer; width:70px !important; height: 70px !important;;  box-shadow: 0 6px 6px 3px rgba(23,7,38,0.2); border-radius:50%; font-size: 16px; padding-top:8px ; background:#2b01fc ; border: 3px solid #fff;}
+    #popup-event-covid >>> div.circle03{ color:#fff; text-align:center; cursor:pointer; width:60px !important; height: 60px !important;  box-shadow: 0 6px 6px 3px rgba(23,7,38,0.2); border-radius:50%; font-size: 14px; padding-top:6px ; background:#6326ff ; border: 3px solid #fff;}
+    #popup-event-covid >>> div.circle04{ color:#fff; text-align:center; cursor:pointer; width:55px !important; height: 55px !important;  box-shadow: 0 6px 6px 3px rgba(23,7,38,0.2); border-radius:50%; font-size: 11px; padding-top:10px ;background:#7153bc ; border: 2px solid #fff;}
+    #popup-event-covid >>> div.circle05{ color:#fff; text-align:center; cursor:pointer; width:50px !important; height: 50px !important;  box-shadow: 0 6px 6px 3px rgba(23,7,38,0.2); border-radius:50%;  font-size: 9px; padding-top:11px ;text-shadow: 2px 2px 2px #000; color: #f8f8f8;   background:#a584fa ; border: 1px solid #fff;}
+  
+  /* 2020.03.18 swiper 수정 이슈 추가*/
+    #popup-event-covid >>> div.map_wrap section .swiper-container div.swiper-wrapper {
+        background: transparent;
+        overflow: hidden;
+        border: 0px solid #E1E5E8;
+        border-radius: 30px;
+    }
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(3) ul {
+      position: relative;
+      margin-top: 10px;
+      display: block;
+      width: 90%;
+      border-radius: 10px;
+      height: 180px;
+      overflow-y: scroll;
+      margin-left: 5%;
+      padding: 10px 25px;
+      background: #EBECF9;
+    }
+  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(1) {
+        width:355px !important;
+        height: 260px;
+    }
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide{ height:260px;}
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(3){height:260px;}
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide { margin-right: 1%;}
+    #popup-event-covid >>> .swiper-pagination-fraction, 
+    #popup-event-covid >>> .swiper-pagination-custom, 
+    #popup-event-covid >>> .swiper-container-horizontal>.swiper-pagination-bullets{ bottom:17px;}
+
+
+}
+
+
+
+/*기본*/
+@media (max-width:380px) and (min-width:360px) {
+    #popup-event-covid >>> .mo_modal{ display: block;}
+    #popup-event-covid >>> div.hover_cont_bg {
+        display: none;
+    }
+
+    #popup-event-covid >>> div.map_wrap {
+        overflow: hidden;
+    }
+
+    #popup-event-covid >>> div.map_wrap header.map_top a.home {
+      position: relative;
+      float: right;
+      top: 18px;
+      margin-left: 0px;
+      margin-right: 52px;
+      display: inline-block;
+      width: 150px;
+      height: 55px;
+      background: url(../../images/event/mobile_logo.png) no-repeat;
+      background-size: contain;
+  }
+
+  #popup-event-covid >>> div.map_wrap header.map_top a.home img {
+      display: none;
+  }
+
+  #popup-event-covid >>> div.map_wrap header.map_top h1 {
+      display: inline-block;
+      float: left;
+      line-height: 60px;
+      margin-left: 20px; 
+      font-size: 16px;
+      color: #202457;
+      letter-spacing: 2px;
+      width: 38%;
+      font-weight: 100;
+      font-family: 'NotoKr_R';
+  }
+  #popup-event-covid >>> div.map_wrap header.map_top h1 strong{ display: none ;}
+
+  #popup-event-covid >>> div.map_wrap header.map_top a.refresh {
+      position: absolute;
+      display: inline-block;
+      float: left;
+      margin-top: 13px;
+      top: 39px;
+      left: 20px;
+      margin-left: 0px;
+      font-size: 14px;
+      background: #2E3CFA;
+      border: #202457 1px solid;
+      border-radius: 10px;
+      padding: 8px 12px;
+      padding-left: 10px;
+      color: #D5D8F8;
+      font-size: 0px;
+      width: 45px;
+      height: 40px;
+  }
+
+  #popup-event-covid >>> div.map_wrap header.map_top a.refresh img {
+      position: relative;
+      top: 2px;
+      left: 2px;
+      width: 20px;
+      height: auto;
+  }
+
+  #popup-event-covid >>> div.map_wrap .select {
+      position: absolute;
+      display: inline-block;
+      margin-bottom: 15px;
+      width: 35%;
+
+
+  }
+
+  #popup-event-covid >>> div.map_wrap .select:nth-of-type(1) {
+      position: absolute;
+      display: inline-block;
+      margin-bottom: 15px;
+
+      top: 40px;
+      left: 70px;
+
+  }
+
+  #popup-event-covid >>> div.map_wrap .select:nth-of-type(2) {
+      position: absolute;
+      display: inline-block;
+      margin-bottom: 15px;
+
+      top: 40px;
+      right: 15px;
+  }
+
+  #popup-event-covid >>> div.map_wrap section article.summary_wrap {
+      position: relative;
+      width: 100%;
+      height: 40vh;
+      margin-top: 90%;
+      background: rgba(36, 31, 31, 0.25);
+      padding: 25px 25px;
+  }
+
+  #popup-event-covid >>> div.map_wrap header.map_top img.close {
+      position: absolute;
+      top: 9px;
+      right: 10px;
+      width: 40px;
+      height: auto;
+  }
+
+  #popup-event-covid >>> div.map_wrap header.map_top {
+      width: 100%;
+      height: 100px;
+      background: rgba(255, 255, 255, 0.8);
+      position: relative;
+  }
+
+  #popup-event-covid >>> div.map_wrap section article.summary_wrap div.summary {
+      position: relative;
+      display: inline-block;
+      width: 300%;
+      height: 83vh;
+      background: transparent;
+      border: 0px solid #E1E5E8;
+      border-radius: 30px;
+  }
+
+  #popup-event-covid >>> div.map_wrap section article.summary_wrap div.summary ol {
+      display: inline-block;
+  }
+
+  #popup-event-covid >>> div.map_wrap section article.summary_wrap div.summary ol li {
+      width: 33.3333%;
+      height: auto;
+      float: left;
+      background: #FDFDFD;
+      border: 2px solid #E1E5E8;
+      border-radius: 30px;
+      padding-bottom: 30px;
+  }
+
+  #popup-event-covid >>> div.map_wrap section article.summary_wrap div.summary ol li ul li {
+      border: 0px;
+  }
+
+
+  #popup-event-covid >>> .swiper-container {
+      width: 95%;
+      height: auto;
+      margin-left: auto;
+      margin-right: auto;
+      position: fixed;
+      bottom: 21px;
+      overflow: hidden;
+      list-style: none;
+      padding: 0;
+      z-index: 1;
+      background: rgba(36, 31, 31, 0.25);
+      padding: 5%;
+  }
+
+  #popup-event-covid >>> .swiper-container-no-flexbox .swiper-slide {
+      float: left;
+  }
+
+  #popup-event-covid >>> div.swiper-wrapper div.swiper-slide {
+      background: #FDFDFD;
+      border: 2px solid #E1E5E8;
+      border-radius: 30px;
+      padding-top: 20px;
+      padding-bottom: 15px;
+      margin-right: 2%;
+  }
+
+  #popup-event-covid >>> .swiper-container-vertical>.swiper-wrapper {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+  }
+
+  #popup-event-covid >>> .swiper-wrapper {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-transition-property: -webkit-transform;
+      transition-property: -webkit-transform;
+      -o-transition-property: transform;
+      transition-property: transform;
+      transition-property: transform, -webkit-transform;
+      -webkit-box-sizing: content-box;
+      box-sizing: content-box;
+  }
+
+  #popup-event-covid >>> .swiper-container-android .swiper-slide,
+  #popup-event-covid >>> .swiper-wrapper {
+      -webkit-transform: translate3d(0px, 0, 0);
+      transform: translate3d(0px, 0, 0);
+  }
+
+  #popup-event-covid >>> .swiper-container-multirow>.swiper-wrapper {
+      -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  }
+
+  #popup-event-covid >>> .swiper-container-free-mode>.swiper-wrapper {
+      -webkit-transition-timing-function: ease-out;
+      -o-transition-timing-function: ease-out;
+      transition-timing-function: ease-out;
+      margin: 0 auto;
+  }
+
+  #popup-event-covid >>> .swiper-slide {
+      -webkit-flex-shrink: 0;
+      -ms-flex-negative: 0;
+      flex-shrink: 0;
+      width: 100%;
+      height: 100%;
+      position: relative;
+      -webkit-transition-property: -webkit-transform;
+      transition-property: -webkit-transform;
+      -o-transition-property: transform;
+      transition-property: transform;
+      transition-property: transform, -webkit-transform;
+  }
+
+  #popup-event-covid >>> .swiper-slide-invisible-blank {
+      visibility: hidden;
+  }
+
+  /* Auto Height */
+  #popup-event-covid >>> .swiper-container-autoheight,
+  #popup-event-covid >>> .swiper-container-autoheight .swiper-slide {
+      height: auto;
+  }
+
+  #popup-event-covid >>> .swiper-container-autoheight .swiper-wrapper {
+      -webkit-box-align: start;
+      -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+      align-items: flex-start;
+      -webkit-transition-property: height, -webkit-transform;
+      transition-property: height, -webkit-transform;
+      -o-transition-property: transform, height;
+      transition-property: transform, height;
+      transition-property: transform, height, -webkit-transform;
+  }
+
+  /* IE10 Windows Phone 8 Fixes */
+  #popup-event-covid >>> .swiper-container-wp8-horizontal,
+  #popup-event-covid >>> .swiper-container-wp8-horizontal>.swiper-wrapper {
+      -ms-touch-action: pan-y;
+      touch-action: pan-y;
+  }
+
+  #popup-event-covid >>> .swiper-container-wp8-vertical,
+  #popup-event-covid >>> .swiper-container-wp8-vertical>.swiper-wrapper {
+      -ms-touch-action: pan-x;
+      touch-action: pan-x;
+  }
+
+  #popup-event-covid >>> .swiper-button-prev,
+  #popup-event-covid >>> .swiper-button-next {
+      position: absolute;
+      top: 50%;
+      width: 27px;
+      height: 44px;
+      margin-top: -22px;
+      z-index: 10;
+      cursor: pointer;
+      background-size: 27px 44px;
+      background-position: center;
+      background-repeat: no-repeat;
+  }
+
+  #popup-event-covid >>> .swiper-button-prev.swiper-button-disabled,
+  #popup-event-covid >>> .swiper-button-next.swiper-button-disabled {
+      opacity: 0.35;
+      cursor: auto;
+      pointer-events: none;
+  }
+
+  #popup-event-covid >>> .swiper-button-lock {
+      display: none;
+  }
+
+  #popup-event-covid >>> .swiper-pagination {
+      position: relative;
+      text-align: center;
+      -webkit-transition: 300ms opacity;
+      -o-transition: 300ms opacity;
+      transition: 300ms opacity;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+      z-index: 10;
+  }
+
+  #popup-event-covid >>> .swiper-pagination.swiper-pagination-hidden {
+      opacity: 0;
+  }
+
+  /* Common Styles */
+  #popup-event-covid >>> .swiper-pagination-fraction,
+  #popup-event-covid >>> .swiper-pagination-custom,
+  #popup-event-covid >>> .swiper-container-horizontal>.swiper-pagination-bullets {
+      bottom: 14px;
+      left: 0;
+      width: 100%;
+  }
+
+  /* Bullets */
+  #popup-event-covid >>> .swiper-pagination-bullets-dynamic {
+      overflow: hidden;
+      font-size: 0;
+  }
+
+  #popup-event-covid >>> .swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
+      -webkit-transform: scale(0.33);
+      -ms-transform: scale(0.33);
+      transform: scale(0.33);
+      position: relative;
+  }
+
+  #popup-event-covid >>> .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active {
+      -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+      transform: scale(1);
+  }
+
+  #popup-event-covid >>> .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-main {
+      -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+      transform: scale(1);
+  }
+
+  #popup-event-covid >>> .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-prev {
+      -webkit-transform: scale(0.66);
+      -ms-transform: scale(0.66);
+      transform: scale(0.66);
+  }
+
+  #popup-event-covid >>> .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-prev-prev {
+      -webkit-transform: scale(0.33);
+      -ms-transform: scale(0.33);
+      transform: scale(0.33);
+  }
+
+  #popup-event-covid >>> .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-next {
+      -webkit-transform: scale(0.66);
+      -ms-transform: scale(0.66);
+      transform: scale(0.66);
+  }
+
+  #popup-event-covid >>> .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-next-next {
+      -webkit-transform: scale(0.33);
+      -ms-transform: scale(0.33);
+      transform: scale(0.33);
+  }
+
+  #popup-event-covid >>> .swiper-pagination-bullet {
+      width: 8px;
+      height: 8px;
+      display: inline-block;
+      border-radius: 100%;
+      background: #000;
+      opacity: 0.2;
+  }
+
+  #popup-event-covid >>> button.swiper-pagination-bullet {
+      border: none;
+      margin: 0;
+      padding: 0;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+  }
+
+  #popup-event-covid >>> .swiper-pagination-clickable .swiper-pagination-bullet {
+      cursor: pointer;
+  }
+
+  #popup-event-covid >>> .swiper-pagination-bullet-active {
+      opacity: 1;
+      background: #2E3CFA;
+  }
+
+  #popup-event-covid >>> .swiper-container-vertical>.swiper-pagination-bullets {
+      right: 10px;
+      top: 50%;
+      -webkit-transform: translate3d(0px, -50%, 0);
+      transform: translate3d(0px, -50%, 0);
+  }
+
+  #popup-event-covid >>> .swiper-container-vertical>.swiper-pagination-bullets .swiper-pagination-bullet {
+      margin: 6px 0;
+      display: block;
+  }
+
+  #popup-event-covid >>> .swiper-container-vertical>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+      width: 8px;
+  }
+
+  #popup-event-covid >>> .swiper-container-vertical>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
+      display: inline-block;
+      -webkit-transition: 200ms top, 200ms -webkit-transform;
+      transition: 200ms top, 200ms -webkit-transform;
+      -o-transition: 200ms transform, 200ms top;
+      transition: 200ms transform, 200ms top;
+      transition: 200ms transform, 200ms top, 200ms -webkit-transform;
+  }
+
+  #popup-event-covid >>> .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+      margin: 0 4px;
+  }
+
+  #popup-event-covid >>> .swiper-container-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      transform: translateX(-50%);
+      white-space: nowrap;
+  }
+
+  #popup-event-covid >>> .swiper-container-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
+      -webkit-transition: 200ms left, 200ms -webkit-transform;
+      transition: 200ms left, 200ms -webkit-transform;
+      -o-transition: 200ms transform, 200ms left;
+      transition: 200ms transform, 200ms left;
+      transition: 200ms transform, 200ms left, 200ms -webkit-transform;
+  }
+
+  #popup-event-covid >>> .swiper-container-horizontal.swiper-container-rtl>.swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
+      -webkit-transition: 200ms right, 200ms -webkit-transform;
+      transition: 200ms right, 200ms -webkit-transform;
+      -o-transition: 200ms transform, 200ms right;
+      transition: 200ms transform, 200ms right;
+      transition: 200ms transform, 200ms right, 200ms -webkit-transform;
+  }
+
+  #popup-event-covid >>> div.map_wrap section .swiper-container {
+      width: 100%;
+      height: auto;
+      margin-left: auto;
+      margin-right: auto;
+      position: fixed;
+      bottom: 0px;
+      overflow: hidden;
+      list-style: none;
+      padding: 0;
+      z-index: 1;
+      background: rgba(36, 31, 31, 0.8);
+      padding: 3%;
+      padding-top: 0%;
+      padding-bottom: 1%;
+  }
+
+  #popup-event-covid >>> div.map_wrap section .swiper-container div.swiper-wrapper {
+      width: 100%;
+      height: auto;
+      background: #FDFDFD;
+      border: 2px solid #E1E5E8;
+      border-radius: 30px;
+  }
+
+  #popup-event-covid >>> div.swiper-wrapper div.swiper-slide {
+      padding-top: 4px;
+  }
+
+  #popup-event-covid >>> div.swiper-wrapper div.swiper-slide h2 {
+      color: #202457;
+      font-size: 18px;
+      font-weight: 100;
+      display: inline;
+  }
+
+  #popup-event-covid >>> div.swiper-wrapper div.swiper-slide h2:before {
+      position: relative;
+      top: 12px;
+      margin-left: 20px;
+      margin-right: 5px;
+      content: '';
+      display: inline-block;
+      width: 25px;
+      height: 30px;
+      background-size: contain;
+      background: url("../../images/event/bul01.png") center no-repeat;
+  }
+
+
+  #popup-event-covid >>> article.summary_wrap div.summary ol li.sum01 {}
+
+  #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(1) span.num {
+      color: #444872;
+      font-size: 12px;
+      background: #E1E5E8;
+      border-radius: 10px;
+      padding: 6px 7px;
+      margin: 0 1px;
+      margin-right: 8px;
+  }
+
+  #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(1) a {
+      position: relative;
+      display: inline-block;
+      font-size: 12px;
+      padding: 7px 10px;
+      background: #2E3CFA;
+      border-radius: 10px;
+      color: #D5D8F8;
+  }
+
+  #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(1) a:hover {
+      background: #0314fa;
+  }
+
+  #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(1) a img {
+      position: relative;
+      width: 13px;
+      height: auto;
+      top: 2px;
+      right: 0px;
+  }
+
+  #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(1) ul {
+      display: block;
+      margin-top: 10px;
+      width: 100%;
+      padding: 5% 9% 2% 10%;
+      height: auto;
+      background: #EBECF9;
+  }
+
+  #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(1) ul li {
+      display: block;
+      font-size: 12px;
+      width: 45%;
+      margin-bottom: 3%;
+      padding: 6px 10px;
+      float: left;
+      border-radius: 10px;
+      background: #fff;
+      color: #9FA1B7;
+  }
+
+  #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(1) ul li b {
+      color: #2329D6;
+  }
+
+  #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(1) ul li.tit {
+      box-shadow: 0 6px 6px 3px rgba(23, 7, 38, 0.2);
+      margin-right: 5%;
+      color: #202457;
+  }
+
+  #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(1) ul li.tit b {
+      font-weight: bold;
+      color: #202457;
+  }
+
+
+  #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(2) {}
+
+  #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(2) div.graph {
+      width: 100%;
+      margin-top: 10px;
+      height: 180px;
+      background: #202457;
+  }
+
+  #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(3) {
+      height: 100%;
+  }
+
+  #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(3) ul {
+      position: relative;
+      margin-top: 10px;
+      display: block;
+      width: 90%;
+      border-radius: 10px;
+      height: 180px;
+      overflow-y: scroll;
+      margin-left: 5%;
+      padding: 10px 25px;
+      background: #EBECF9;
+  }
+
+  #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(3) ul li {
+      font-size: 12px;
+      padding-top: 0px;
+      color: #5C5F87;
+      line-height: 35px;
+      border-bottom: 2px solid #fff;
+      text-align: right;
+      cursor: pointer;
+  }
+
+  #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(3) ul li:hover {
+      font-size: 12px;
+      font-weight: bold;
+      padding-top: 0px;
+      color: #5458FF;
+      line-height: 35px;
+      border-bottom: 2px solid #fff;
+      text-align: right;
+      background: #BEBDFB;
+
+  }
+
+
+  #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(3) ul li b.num {
+      display: inline-block;
+      margin: 0 3px;
+  }
+
+  #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(3) ul li:hover b.num {
+      color: #2329D6;
+  }
+
+  #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(3) li img {
+      position: relative;
+      top: 2px;
+      margin-left: 3px;
+      width: 15px;
+      height: auto;
+  }
+/* modal 추가 css*/
+#popup-event-covid >>> div.mo_modal{ position: fixed; top:0; width:100%; height: 100vh; background: #000; opacity: 0.6; z-index: 650;}
+#popup-event-covid >>> div.mo_modal img{width:70%; height:auto;}
+#popup-event-covid >>> div.mo_modal img:nth-of-type(1){width:50%; height:auto; margin-top: 30%; margin-left: 25%;}
+#popup-event-covid >>> div.mo_modal img:nth-of-type(2){width:60%; height:auto; margin-top: 20%; margin-left: 20%;}
+
+
+/*-----------------------------------------------
+hidden_menu
+Content of hidden_menu menu
+-----------------------------------------------*/
+#popup-event-covid >>> .hidden_menu {
+    width:100%;
+    padding: 0px;
+    position: relative;
+    bottom:0px;
+  }
+  /*-----------------------------------------------
+  LABEL
+  -----------------------------------------------*/
+  #popup-event-covid >>> .hidden_menu__label {
+    border: solid 2px #222;
+    display: inline-block;
+    overflow: hidden;
+    padding: 12px 9px;
+    width: 100%;
+    white-space: nowrap;
+  }
+  #popup-event-covid >>> .hidden_menu__label:hover {
+    cursor: pointer;
+    /*ANIMAION POSITION ON HOVER*/
+    /*ANIMATION DELAY*/
+  }
+  /*-----------------------------------------------
+  INPUT
+  -----------------------------------------------*/
+  #popup-event-covid >>> .hidden_menu__input {
+    display: none;
+  }
+  /*-----------------------------------------------
+  NAV
+  -----------------------------------------------*/
+
+  /*숨기기*/
+  #popup-event-covid >>> .hidden_menu__nav {
+    margin-top: 10px;
+    min-height:50px;
+    max-width: 100%;
+    overflow: hidden;
+
+    transition: min-height 1s linear, max-width 1s linear;
+
+  }
+  
+  #popup-event-covid >>> .hidden_menu__input:checked + .hidden_menu__nav {
+   bottom:0;
+    max-height: 0px;}
+
+    #popup-event-covid >>> .hidden_menu {
+  padding: 0px;
+  position: fixed;
+  bottom:325px;
+}
+/*-----------------------------------------------
+LABEL
+-----------------------------------------------*/
+#popup-event-covid >>> .hidden_menu__label {
+  border: solid 2px #222;
+  display: inline-block;
+  overflow: hidden;
+  padding: 12px 9px;
+  width: 95%;
+  white-space: nowrap;
+  z-index: 2;
+  position: relative;
+}
+#popup-event-covid >>> .hidden_menu__label:hover {
+  cursor: pointer;
+  /*ANIMAION POSITION ON HOVER*/
+  /*ANIMATION DELAY*/
+}
+/*-----------------------------------------------
+INPUT
+-----------------------------------------------*/
+#popup-event-covid >>> .hidden_menu__input {
+  display: none;
+}
+/*-----------------------------------------------
+NAV
+-----------------------------------------------*/
+#popup-event-covid >>> .hidden_menu__nav {
+  margin-top: 10px;
+  max-height: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  transition: max-height 0.8s linear;
+}
+
+#popup-event-covid >>> .hidden_menu__input:checked + .hidden_menu__nav {
+  max-width: 100%;
+  max-height: 0%;
+}
+#popup-event-covid >>> label#btn{display: block;}
+#popup-event-covid >>> section.hidden_menu input#checkbox{ display: none;}
+
+/**/
+
+#popup-event-covid >>> #btn span.off{ display: block;
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+    line-height: 40px;
+    font-weight: bold;
+    color: #f8f8f8;
+    text-align: center;}
+    #popup-event-covid >>> #btn span.on{ display: none;} 
+
+    #popup-event-covid >>> #btn.on span.off{ display: none;}
+    #popup-event-covid >>> #btn.on span.on{ display: block;
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+    line-height: 40px;
+    font-weight: bold;
+    color: #f8f8f8;
+    text-align: center;}  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(1) a{ font-size: 0px;padding-bottom: 10px;}
+
+    #popup-event-covid >>> div.map_wrap{position: relative;width: 100%;top: 0vh; margin-left: 0%; height: 95vh; background-size: cover; z-index: 600;}
+    #popup-event-covid >>>div.mapArea{ width:100% !important; height:100% !important;}
+
+    #popup-event-covid >>> div.circle01{ color:#fff; text-align:center; cursor:pointer; width:80px !important; height: 80px !important;  box-shadow: 0 6px 6px 3px rgba(23,7,38,0.2); border-radius:50%; font-size: 18px;  padding-top:7px ; background:#1c01a3 ; border: 3px solid #fff;}
+    #popup-event-covid >>> div.circle01 span.lo_num{ font-size: 16px;}
+    #popup-event-covid >>> div.circle02{ color:#fff; text-align:center; cursor:pointer; width:70px !important; height: 70px !important;;  box-shadow: 0 6px 6px 3px rgba(23,7,38,0.2); border-radius:50%; font-size: 16px; padding-top:8px ; background:#2b01fc ; border: 3px solid #fff;}
+    #popup-event-covid >>> div.circle03{ color:#fff; text-align:center; cursor:pointer; width:60px !important; height: 60px !important;  box-shadow: 0 6px 6px 3px rgba(23,7,38,0.2); border-radius:50%; font-size: 14px; padding-top:6px ; background:#6326ff ; border: 3px solid #fff;}
+    #popup-event-covid >>> div.circle04{ color:#fff; text-align:center; cursor:pointer; width:55px !important; height: 55px !important;  box-shadow: 0 6px 6px 3px rgba(23,7,38,0.2); border-radius:50%; font-size: 11px; padding-top:10px ;background:#7153bc ; border: 2px solid #fff;}
+    #popup-event-covid >>> div.circle05{ color:#fff; text-align:center; cursor:pointer; width:50px !important; height: 50px !important;  box-shadow: 0 6px 6px 3px rgba(23,7,38,0.2); border-radius:50%;  font-size: 9px; padding-top:11px ;text-shadow: 2px 2px 2px #000; color: #f8f8f8;   background:#a584fa ; border: 1px solid #fff;}
+
+/* 2020.03.18 swiper 수정 이슈 추가*/
+#popup-event-covid >>> div.map_wrap section .swiper-container div.swiper-wrapper {
+  
+    background: transparent;
+    overflow: hidden;
+    border: 0px solid #E1E5E8;
+    border-radius: 30px;
+}
+#popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(3) ul {
+    position: relative;
+    margin-top: 10px;
+    display: block;
+    width: 90%;
+    border-radius: 10px;
+    height: 180px;
+    overflow-y: scroll;
+    margin-left: 5%;
+    padding: 10px 25px;
+    background: #EBECF9;}
+
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(1) {
+    width:335px !important;
+    height: 250px;
+}
+
+#popup-event-covid >>> div.swiper-wrapper div.swiper-slide {
+
+    margin-right: 1%;
+}
+
+}
+
+/*최소*/
+
+@media (max-width:359px) and (min-width:320px) {
+
+    #popup-event-covid >>> .mo_modal{ display: block;}
+    #popup-event-covid >>> div.hover_cont_bg {
+      display: none;
+  }
+
+  #popup-event-covid >>> div.map_wrap {
+      overflow: hidden;
+  }
+
+  #popup-event-covid >>> div.map_wrap header.map_top a.home {
+      position: relative;
+      float: right;
+      top: 18px;
+      margin-left: 0px;
+      margin-right: 52px;
+      display: inline-block;
+      width: 150px;
+      height: 55px;
+      background: url(../../images/event/mobile_logo.png) no-repeat;
+      background-size: contain;
+  }
+
+  #popup-event-covid >>> div.map_wrap header.map_top a.home img {
+      display: none;
+  }
+
+  #popup-event-covid >>> div.map_wrap header.map_top h1 {
+      display: inline-block;
+      float: left;
+      line-height: 60px;
+      margin-left: 20px; 
+      font-size: 16px;
+      color: #202457;
+      letter-spacing: 2px;
+      width: 38%;
+      font-weight: 100;
+      font-family: 'NotoKr_R';
+  }
+  #popup-event-covid >>> div.map_wrap header.map_top h1 strong{ display: none ;}
+
+  #popup-event-covid >>> div.map_wrap header.map_top a.refresh {
+      position: absolute;
+      display: inline-block;
+      float: left;
+      margin-top: 13px;
+      top: 39px;
+      left: 20px;
+      margin-left: 0px;
+      font-size: 14px;
+      background: #2E3CFA;
+      border: #202457 1px solid;
+      border-radius: 10px;
+      padding: 8px 12px;
+      padding-left: 10px;
+      color: #D5D8F8;
+      font-size: 0px;
+      width: 45px;
+      height: 40px;
+  }
+
+  #popup-event-covid >>> div.map_wrap header.map_top a.refresh img {
+      position: relative;
+      top: 2px;
+      left: 2px;
+      width: 20px;
+      height: auto;
+  }
+
+  #popup-event-covid >>> div.map_wrap .select {
+      position: absolute;
+      display: inline-block;
+      margin-bottom: 15px;
+      width: 34%;
+
+
+  }
+
+  #popup-event-covid >>> div.map_wrap .select:nth-of-type(1) {
+      position: absolute;
+      display: inline-block;
+      margin-bottom: 15px;
+
+      top: 40px;
+      left: 70px;
+
+  }
+
+  #popup-event-covid >>> div.map_wrap .select:nth-of-type(2) {
+      position: absolute;
+      display: inline-block;
+      margin-bottom: 15px;
+
+      top: 40px;
+      right: 15px;
+  }
+
+  #popup-event-covid >>> div.map_wrap section article.summary_wrap {
+      position: relative;
+      width: 100%;
+      height: 40vh;
+      margin-top: 90%;
+      background: rgba(36, 31, 31, 0.25);
+      padding: 25px 25px;
+  }
+
+  #popup-event-covid >>> div.map_wrap header.map_top img.close {
+      position: absolute;
+      top: 9px;
+      right: 10px;
+      width: 40px;
+      height: auto;
+  }
+
+  #popup-event-covid >>> div.map_wrap header.map_top {
+      width: 100%;
+      height: 100px;
+      background: rgba(255, 255, 255, 0.8);
+      position: relative;
+  }
+
+  #popup-event-covid >>> div.map_wrap section article.summary_wrap div.summary {
+      position: relative;
+      display: inline-block;
+      width: 300%;
+      height: 83vh;
+      background: transparent;
+      border: 0px solid #E1E5E8;
+      border-radius: 30px;
+  }
+
+  #popup-event-covid >>> div.map_wrap section article.summary_wrap div.summary ol {
+      display: inline-block;
+  }
+
+  #popup-event-covid >>> div.map_wrap section article.summary_wrap div.summary ol li {
+      width: 33.3333%;
+      height: auto;
+      float: left;
+      background: #FDFDFD;
+      border: 2px solid #E1E5E8;
+      border-radius: 30px;
+      padding-bottom: 30px;
+  }
+
+  #popup-event-covid >>> div.map_wrap section article.summary_wrap div.summary ol li ul li {
+      border: 0px;
+  }
+
+
+  #popup-event-covid >>> .swiper-container {
+      width: 95%;
+      height: auto;
+      margin-left: auto;
+      margin-right: auto;
+      position: fixed;
+      bottom: 21px;
+      overflow: hidden;
+      list-style: none;
+      padding: 0;
+      z-index: 1;
+      background: rgba(36, 31, 31, 0.25);
+      padding: 5%;
+  }
+
+  #popup-event-covid >>> .swiper-container-no-flexbox .swiper-slide {
+      float: left;
+  }
+
+  #popup-event-covid >>> div.swiper-wrapper div.swiper-slide {
+      background: #FDFDFD;
+      border: 2px solid #E1E5E8;
+      border-radius: 30px;
+      padding-top: 20px;
+      padding-bottom: 15px;
+      margin-right: 2%;
+  }
+
+  #popup-event-covid >>> .swiper-container-vertical>.swiper-wrapper {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+  }
+
+  #popup-event-covid >>> .swiper-wrapper {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-transition-property: -webkit-transform;
+      transition-property: -webkit-transform;
+      -o-transition-property: transform;
+      transition-property: transform;
+      transition-property: transform, -webkit-transform;
+      -webkit-box-sizing: content-box;
+      box-sizing: content-box;
+  }
+
+  #popup-event-covid >>> .swiper-container-android .swiper-slide,
+  #popup-event-covid >>> .swiper-wrapper {
+      -webkit-transform: translate3d(0px, 0, 0);
+      transform: translate3d(0px, 0, 0);
+  }
+
+  #popup-event-covid >>> .swiper-container-multirow>.swiper-wrapper {
+      -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  }
+
+  #popup-event-covid >>> .swiper-container-free-mode>.swiper-wrapper {
+      -webkit-transition-timing-function: ease-out;
+      -o-transition-timing-function: ease-out;
+      transition-timing-function: ease-out;
+      margin: 0 auto;
+  }
+
+  #popup-event-covid >>> .swiper-slide {
+      -webkit-flex-shrink: 0;
+      -ms-flex-negative: 0;
+      flex-shrink: 0;
+      width: 100%;
+      height: 100%;
+      position: relative;
+      -webkit-transition-property: -webkit-transform;
+      transition-property: -webkit-transform;
+      -o-transition-property: transform;
+      transition-property: transform;
+      transition-property: transform, -webkit-transform;
+  }
+
+  #popup-event-covid >>> .swiper-slide-invisible-blank {
+      visibility: hidden;
+  }
+
+  /* Auto Height */
+  #popup-event-covid >>> .swiper-container-autoheight,
+  #popup-event-covid >>> .swiper-container-autoheight .swiper-slide {
+      height: auto;
+  }
+
+  #popup-event-covid >>> .swiper-container-autoheight .swiper-wrapper {
+      -webkit-box-align: start;
+      -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+      align-items: flex-start;
+      -webkit-transition-property: height, -webkit-transform;
+      transition-property: height, -webkit-transform;
+      -o-transition-property: transform, height;
+      transition-property: transform, height;
+      transition-property: transform, height, -webkit-transform;
+  }
+
+  /* IE10 Windows Phone 8 Fixes */
+  #popup-event-covid >>> .swiper-container-wp8-horizontal,
+  #popup-event-covid >>> .swiper-container-wp8-horizontal>.swiper-wrapper {
+      -ms-touch-action: pan-y;
+      touch-action: pan-y;
+  }
+
+  #popup-event-covid >>> .swiper-container-wp8-vertical,
+  #popup-event-covid >>> .swiper-container-wp8-vertical>.swiper-wrapper {
+      -ms-touch-action: pan-x;
+      touch-action: pan-x;
+  }
+
+  #popup-event-covid >>> .swiper-button-prev,
+  #popup-event-covid >>> .swiper-button-next {
+      position: absolute;
+      top: 50%;
+      width: 27px;
+      height: 44px;
+      margin-top: -22px;
+      z-index: 10;
+      cursor: pointer;
+      background-size: 27px 44px;
+      background-position: center;
+      background-repeat: no-repeat;
+  }
+
+  #popup-event-covid >>> .swiper-button-prev.swiper-button-disabled,
+  #popup-event-covid >>> .swiper-button-next.swiper-button-disabled {
+      opacity: 0.35;
+      cursor: auto;
+      pointer-events: none;
+  }
+
+  #popup-event-covid >>> .swiper-button-lock {
+      display: none;
+  }
+
+  #popup-event-covid >>> .swiper-pagination {
+      position: relative;
+      text-align: center;
+      -webkit-transition: 300ms opacity;
+      -o-transition: 300ms opacity;
+      transition: 300ms opacity;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+      z-index: 10;
+  }
+
+  #popup-event-covid >>> .swiper-pagination.swiper-pagination-hidden {
+      opacity: 0;
+  }
+
+  /* Common Styles */
+  #popup-event-covid >>> .swiper-pagination-fraction,
+  #popup-event-covid >>> .swiper-pagination-custom,
+  #popup-event-covid >>> .swiper-container-horizontal>.swiper-pagination-bullets {
+      bottom: 14px;
+      left: 0;
+      width: 100%;
+  }
+
+  /* Bullets */
+  #popup-event-covid >>> .swiper-pagination-bullets-dynamic {
+      overflow: hidden;
+      font-size: 0;
+  }
+
+  #popup-event-covid >>> .swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
+      -webkit-transform: scale(0.33);
+      -ms-transform: scale(0.33);
+      transform: scale(0.33);
+      position: relative;
+  }
+
+  #popup-event-covid >>> .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active {
+      -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+      transform: scale(1);
+  }
+
+  #popup-event-covid >>> .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-main {
+      -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+      transform: scale(1);
+  }
+
+  #popup-event-covid >>> .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-prev {
+      -webkit-transform: scale(0.66);
+      -ms-transform: scale(0.66);
+      transform: scale(0.66);
+  }
+
+  #popup-event-covid >>> .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-prev-prev {
+      -webkit-transform: scale(0.33);
+      -ms-transform: scale(0.33);
+      transform: scale(0.33);
+  }
+
+  #popup-event-covid >>> .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-next {
+      -webkit-transform: scale(0.66);
+      -ms-transform: scale(0.66);
+      transform: scale(0.66);
+  }
+
+  #popup-event-covid >>> .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-next-next {
+      -webkit-transform: scale(0.33);
+      -ms-transform: scale(0.33);
+      transform: scale(0.33);
+  }
+
+  #popup-event-covid >>> .swiper-pagination-bullet {
+      width: 8px;
+      height: 8px;
+      display: inline-block;
+      border-radius: 100%;
+      background: #000;
+      opacity: 0.2;
+  }
+
+  #popup-event-covid >>> button.swiper-pagination-bullet {
+      border: none;
+      margin: 0;
+      padding: 0;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+  }
+
+  #popup-event-covid >>> .swiper-pagination-clickable .swiper-pagination-bullet {
+      cursor: pointer;
+  }
+
+  #popup-event-covid >>> .swiper-pagination-bullet-active {
+      opacity: 1;
+      background: #2E3CFA;
+  }
+
+  #popup-event-covid >>> .swiper-container-vertical>.swiper-pagination-bullets {
+      right: 10px;
+      top: 50%;
+      -webkit-transform: translate3d(0px, -50%, 0);
+      transform: translate3d(0px, -50%, 0);
+  }
+
+  #popup-event-covid >>> .swiper-container-vertical>.swiper-pagination-bullets .swiper-pagination-bullet {
+      margin: 6px 0;
+      display: block;
+  }
+
+  #popup-event-covid >>> .swiper-container-vertical>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+      width: 8px;
+  }
+
+  #popup-event-covid >>> .swiper-container-vertical>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
+      display: inline-block;
+      -webkit-transition: 200ms top, 200ms -webkit-transform;
+      transition: 200ms top, 200ms -webkit-transform;
+      -o-transition: 200ms transform, 200ms top;
+      transition: 200ms transform, 200ms top;
+      transition: 200ms transform, 200ms top, 200ms -webkit-transform;
+  }
+
+  #popup-event-covid >>> .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+      margin: 0 4px;
+  }
+
+  #popup-event-covid >>> .swiper-container-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      transform: translateX(-50%);
+      white-space: nowrap;
+  }
+
+  #popup-event-covid >>> .swiper-container-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
+      -webkit-transition: 200ms left, 200ms -webkit-transform;
+      transition: 200ms left, 200ms -webkit-transform;
+      -o-transition: 200ms transform, 200ms left;
+      transition: 200ms transform, 200ms left;
+      transition: 200ms transform, 200ms left, 200ms -webkit-transform;
+  }
+
+  #popup-event-covid >>> .swiper-container-horizontal.swiper-container-rtl>.swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
+      -webkit-transition: 200ms right, 200ms -webkit-transform;
+      transition: 200ms right, 200ms -webkit-transform;
+      -o-transition: 200ms transform, 200ms right;
+      transition: 200ms transform, 200ms right;
+      transition: 200ms transform, 200ms right, 200ms -webkit-transform;
+  }
+
+  #popup-event-covid >>> div.map_wrap section .swiper-container {
+      width: 100%;
+      height: auto;
+      margin-left: auto;
+      margin-right: auto;
+      position: fixed;
+      bottom: 0px;
+      overflow: hidden;
+      list-style: none;
+      padding: 0;
+      z-index: 1;
+      background: rgba(36, 31, 31, 0.8);
+      padding: 3%;
+      padding-top: 0%;
+      padding-bottom: 1%;
+  }
+
+  #popup-event-covid >>> div.map_wrap section .swiper-container div.swiper-wrapper {
+      width: 100%;
+      height: auto;
+      background: #FDFDFD;
+      border: 2px solid #E1E5E8;
+      border-radius: 30px;
+  }
+
+  #popup-event-covid >>> div.swiper-wrapper div.swiper-slide {
+      padding-top: 4px;
+  }
+
+  #popup-event-covid >>> div.swiper-wrapper div.swiper-slide h2 {
+      color: #202457;
+      font-size: 18px;
+      font-weight: 100;
+      display: inline;
+  }
+
+  #popup-event-covid >>> div.swiper-wrapper div.swiper-slide h2:before {
+      position: relative;
+      top: 12px;
+      margin-left: 20px;
+      margin-right: 5px;
+      content: '';
+      display: inline-block;
+      width: 25px;
+      height: 30px;
+      background-size: contain;
+      background: url("../../images/event/bul01.png") center no-repeat;
+  }
+
+
+  #popup-event-covid >>> article.summary_wrap div.summary ol li.sum01 {}
+
+  #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(1) span.num {
+      color: #444872;
+      font-size: 12px;
+      background: #E1E5E8;
+      border-radius: 10px;
+      padding: 6px 7px;
+      margin: 0 1px;
+      margin-right: 8px;
+  }
+
+  #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(1) a {
+      position: relative;
+      display: inline-block;
+      font-size: 12px;
+      padding: 7px 10px;
+      background: #2E3CFA;
+      border-radius: 10px;
+      color: #D5D8F8;
+  }
+
+  #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(1) a:hover {
+      background: #0314fa;
+  }
+
+  #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(1) a img {
+      position: relative;
+      width: 13px;
+      height: auto;
+      top: 2px;
+      right: 0px;
+  }
+
+  #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(1) ul {
+      display: block;
+      margin-top: 10px;
+      width: 100%;
+      padding: 5% 9% 2% 10%;
+      height: auto;
+      background: #EBECF9;
+  }
+
+  #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(1) ul li {
+      display: block;
+      font-size: 12px;
+      width: 45%;
+      margin-bottom: 3%;
+      padding: 6px 10px;
+      float: left;
+      border-radius: 10px;
+      background: #fff;
+      color: #9FA1B7;
+  }
+
+  #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(1) ul li b {
+      color: #2329D6;
+  }
+
+  #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(1) ul li.tit {
+      box-shadow: 0 6px 6px 3px rgba(23, 7, 38, 0.2);
+      margin-right: 5%;
+      color: #202457;
+  }
+
+  #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(1) ul li.tit b {
+      font-weight: bold;
+      color: #202457;
+  }
+
+
+  #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(2) {}
+
+  #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(2) div.graph {
+      width: 100%;
+      margin-top: 10px;
+      height: 180px;
+      background: #202457;
+  }
+
+  #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(3) {
+      height: 100%;
+  }
+
+  #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(3) ul {
+      position: relative;
+      margin-top: 10px;
+      display: block;
+      width: 90%;
+      border-radius: 10px;
+      height: 180px;
+      overflow-y: scroll;
+      margin-left: 5%;
+      padding: 10px 25px;
+      background: #EBECF9;
+  }
+
+  #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(3) ul li {
+      font-size: 12px;
+      padding-top: 0px;
+      color: #5C5F87;
+      line-height: 35px;
+      border-bottom: 2px solid #fff;
+      text-align: right;
+      cursor: pointer;
+  }
+
+  #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(3) ul li:hover {
+      font-size: 12px;
+      font-weight: bold;
+      padding-top: 0px;
+      color: #5458FF;
+      line-height: 35px;
+      border-bottom: 2px solid #fff;
+      text-align: right;
+      background: #BEBDFB;
+
+  }
+
+
+  #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(3) ul li b.num {
+      display: inline-block;
+      margin: 0 3px;
+  }
+
+  #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(3) ul li:hover b.num {
+      color: #2329D6;
+  }
+
+  #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(3) li img {
+      position: relative;
+      top: 2px;
+      margin-left: 3px;
+      width: 15px;
+      height: auto;
+  }
+/* modal 추가 css*/
+#popup-event-covid >>> div.mo_modal{ position: fixed; top:0; width:100%; height: 100vh; background: #000; opacity: 0.6; z-index: 650;}
+#popup-event-covid >>> div.mo_modal img{width:70%; height:auto;}
+#popup-event-covid >>> div.mo_modal img:nth-of-type(1){width:50%; height:auto; margin-top: 30%; margin-left: 25%;}
+#popup-event-covid >>> div.mo_modal img:nth-of-type(2){width:60%; height:auto; margin-top: 20%; margin-left: 20%;}
+
+
+/*-----------------------------------------------
+hidden_menu
+Content of hidden_menu menu
+-----------------------------------------------*/
+#popup-event-covid >>> .hidden_menu {
+    width:100%;
+    padding: 0px;
+    position: relative;
+    bottom:0px;
+  }
+  /*-----------------------------------------------
+  LABEL
+  -----------------------------------------------*/
+  #popup-event-covid >>> .hidden_menu__label {
+    border: solid 2px #222;
+    display: inline-block;
+    overflow: hidden;
+    padding: 12px 9px;
+    width: 100%;
+    white-space: nowrap;
+  }
+  #popup-event-covid >>> .hidden_menu__label:hover {
+    cursor: pointer;
+    /*ANIMAION POSITION ON HOVER*/
+    /*ANIMATION DELAY*/
+  }
+  /*-----------------------------------------------
+  INPUT
+  -----------------------------------------------*/
+  #popup-event-covid >>> .hidden_menu__input {
+    display: none;
+  }
+  /*-----------------------------------------------
+  NAV
+  -----------------------------------------------*/
+
+  /*숨기기*/
+  #popup-event-covid >>> .hidden_menu__nav {
+    margin-top: 10px;
+    min-height:50px;
+    max-width: 100%;
+    overflow: hidden;
+
+    transition: min-height 1s linear, max-width 1s linear;
+
+  }
+  
+  #popup-event-covid >>> .hidden_menu__input:checked + .hidden_menu__nav {
+   bottom:0;
+    max-height: 0px;}
+
+    #popup-event-covid >>> .hidden_menu {
+  padding: 0px;
+  position: fixed;
+  bottom:325px;
+}
+/*-----------------------------------------------
+LABEL
+-----------------------------------------------*/
+#popup-event-covid >>> .hidden_menu__label {
+  border: solid 2px #222;
+  display: inline-block;
+  overflow: hidden;
+  padding: 12px 9px;
+  width: 95%;
+  white-space: nowrap;
+  z-index: 2;
+  position: relative;
+}
+#popup-event-covid >>> .hidden_menu__label:hover {
+  cursor: pointer;
+  /*ANIMAION POSITION ON HOVER*/
+  /*ANIMATION DELAY*/
+}
+/*-----------------------------------------------
+INPUT
+-----------------------------------------------*/
+#popup-event-covid >>> .hidden_menu__input {
+  display: none;
+}
+/*-----------------------------------------------
+NAV
+-----------------------------------------------*/
+#popup-event-covid >>> .hidden_menu__nav {
+  margin-top: 10px;
+  max-height: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  transition: max-height 0.8s linear;
+}
+
+#popup-event-covid >>> .hidden_menu__input:checked + .hidden_menu__nav {
+  max-width: 100%;
+  max-height: 0%;
+}
+#popup-event-covid >>> label#btn{display: block;}
+#popup-event-covid >>> section.hidden_menu input#checkbox{ display: none;}
+
+/**/
+
+#popup-event-covid >>> #btn span.off{ display: block;
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+    line-height: 40px;
+    font-weight: bold;
+    color: #f8f8f8;
+    text-align: center;}
+    #popup-event-covid >>> #btn span.on{ display: none;} 
+
+    #popup-event-covid >>> #btn.on span.off{ display: none;}
+    #popup-event-covid >>> #btn.on span.on{ display: block;
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+    line-height: 40px;
+    font-weight: bold;
+    color: #f8f8f8;
+    text-align: center;}  
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(1) a{ font-size: 0px;padding-bottom: 10px;}
+
+    #popup-event-covid >>> div.map_wrap{position: relative;width: 100%;top: 0vh; margin-left: 0%; height: 95vh; background-size: cover; z-index: 600;}
+    #popup-event-covid >>> div.mapArea{ width:100% !important; height:100% !important;}
+
+    #popup-event-covid >>> div.circle01{ color:#fff; text-align:center; cursor:pointer; width:80px !important; height: 80px !important;  box-shadow: 0 6px 6px 3px rgba(23,7,38,0.2); border-radius:50%; font-size: 18px;  padding-top:7px ; background:#1c01a3 ; border: 3px solid #fff;}
+    #popup-event-covid >>> div.circle01 span.lo_num{ font-size: 16px;}
+    #popup-event-covid >>> div.circle02{ color:#fff; text-align:center; cursor:pointer; width:70px !important; height: 70px !important;;  box-shadow: 0 6px 6px 3px rgba(23,7,38,0.2); border-radius:50%; font-size: 16px; padding-top:8px ; background:#2b01fc ; border: 3px solid #fff;}
+    #popup-event-covid >>> div.circle03{ color:#fff; text-align:center; cursor:pointer; width:60px !important; height: 60px !important;  box-shadow: 0 6px 6px 3px rgba(23,7,38,0.2); border-radius:50%; font-size: 14px; padding-top:6px ; background:#6326ff ; border: 3px solid #fff;}
+    #popup-event-covid >>> div.circle04{ color:#fff; text-align:center; cursor:pointer; width:55px !important; height: 55px !important;  box-shadow: 0 6px 6px 3px rgba(23,7,38,0.2); border-radius:50%; font-size: 11px; padding-top:10px ;background:#7153bc ; border: 2px solid #fff;}
+    #popup-event-covid >>> div.circle05{ color:#fff; text-align:center; cursor:pointer; width:50px !important; height: 50px !important;  box-shadow: 0 6px 6px 3px rgba(23,7,38,0.2); border-radius:50%;  font-size: 9px; padding-top:11px ;text-shadow: 2px 2px 2px #000; color: #f8f8f8;   background:#a584fa ; border: 1px solid #fff;}
+
+/* 2020.03.18 swiper 수정 이슈 추가*/
+#popup-event-covid >>> div.map_wrap section .swiper-container div.swiper-wrapper {
+  
+    background: transparent;
+    overflow: hidden;
+    border: 0px solid #E1E5E8;
+    border-radius: 30px;
+}
+#popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(3) ul {
+    position: relative;
+    margin-top: 10px;
+    display: block;
+    width: 90%;
+    border-radius: 10px;
+    height: 180px;
+    overflow-y: scroll;
+    margin-left: 5%;
+    padding: 10px 25px;
+    background: #EBECF9;}
+
+    #popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(1) {
+    width:290px !important;
+    height: 250px;
+}
+
+#popup-event-covid >>> div.swiper-wrapper div.swiper-slide {
+
+    margin-right: 1%;
+}
+
+
+#popup-event-covid >>> div.swiper-wrapper div.swiper-slide h2 b{ font-size: 18px;}
+#popup-event-covid >>> div.swiper-wrapper div.swiper-slide h2:before{ margin-left: 12px; }
+#popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(1) span.num {
+    color: #444872;
+    font-size: 10px;
+    background: #E1E5E8;
+    border-radius: 10px;
+    padding: 6px 3px;
+    margin: 0 1px;
+    margin-right: 3px;
+    margin-top: 4px;
+}
+#popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(1) a {
+    font-size: 0px;
+    padding-bottom: 10px;
+    margin-top: 2px;
+}
+
+#popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(1) ul li.tit b {
+    font-weight: bold;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    font-size: 12px;
+    color: #202457;
+}
+#popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(1) ul li.tit b.num {
+    width: 100%;
+    font-size: 20px;
+    display: inline-block;
+    text-align: right;
+}
+
+#popup-event-covid >>> div.swiper-wrapper div.swiper-slide{ height:230px;}
+#popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(1) {
+
+    height: 230px;
+}
+
+#popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(3){
+    height: 230px;
+}
+#popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(3) ul{ height:150px;}
+
+#popup-event-covid >>> div.swiper-wrapper div.swiper-slide:nth-of-type(3) ul li.t_left p{ line-height: 18px;}
+
+#popup-event-covid >>> .swiper-pagination-fraction, #popup-event-covid >>> .swiper-pagination-custom, #popup-event-covid >>> .swiper-container-horizontal>.swiper-pagination-bullets{ bottom:18px;}
+
+#popup-event-covid >>> div.map_wrap header.map_top h1{ width:28%; font-size: 14px; letter-spacing: 0px;}
+
+#popup-event-covid >>> div.map_wrap .select__arrow {
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    top: 14px;
+    right: 11px;
+
+}
+
+}

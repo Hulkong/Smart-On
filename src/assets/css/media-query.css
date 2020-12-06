@@ -1,0 +1,449 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+/* @media (min-width: 1281px) {} */
+@media (min-width: 1541px) {}
+
+/* @media (min-width: 1281px) and (max-width: 1700px) { */
+@media (max-width: 1700px) {
+
+  /* common start */
+  ._parent_layout {
+    padding: 28px !important;
+  }
+
+  ._layout_contents {
+    padding: 20px !important;
+  }
+
+  .v-list__tile__content {
+    font-size: 11px !important;
+  }
+
+  .v-list__tile {
+    height: 30px !important;
+  }
+
+  /* common end */
+
+  /* home start */
+  #home ._container {
+    padding-top: 15% !important;
+  }
+
+  /* home end */
+
+  /* navigation start */
+  #app .v-navigation-drawer {
+    overflow: hidden;
+    width: 308px !important;
+  }
+
+  #app ._contents_root_container {
+    padding-left: 308px !important;
+  }
+
+  #app ._top_container {
+    padding: 0 27px !important;
+  }
+
+  #app ._second_container {
+    padding-top: 24px !important;
+  }
+
+  #app .navMainTabs .v-list__tile {
+    padding: 0 6px !important;
+  }
+
+  #app ._top_container ._top_layer {
+    padding: 30px 0 !important;
+    height: 55% !important;
+  }
+
+  #app ._top_container ._middle_layer {
+    height: 25% !important;
+  }
+
+  #app ._top_container ._bottom_layer {
+    height: 20% !important;
+    padding: 0 !important;
+  }
+
+  #app ._top_container ._middle_layer ._hangeul_region_nm {
+    font-size: 20px !important;
+  }
+
+  #app ._top_container ._middle_layer ._eng_region_nm {
+    font-size: 12px !important;
+  }
+
+  #app ._top_container ._bottom_layer .v-text-field.v-text-field--solo .v-input__control {
+    min-height: 34px !important;
+  }
+
+  #app ._top_container ._bottom_layer .search_addr input {
+    font-size: 12px !important;
+  }
+
+  #app ._second_container .navMainTabs .v-list__tile {
+    height: 50px !important;
+  }
+
+  #app ._second_container .v-responsive.v-image {
+    height: 18px !important;
+  }
+
+  #app ._second_container .v-list__tile__content {
+    font-size: 16px !important;
+    padding-left: 20px !important;
+  }
+
+  #app ._third_container ._btn {
+    font-size: 12px !important;
+  }
+
+  #app ._fourth_container._footer {
+    font-size: 10px !important;
+  }
+
+  #app .search_contents {
+    font-size: 12px !important;
+    height: 30px !important;
+  }
+
+  #app .regionList {
+    width: 308px !important;
+  }
+
+  #app ._footer .mateon_txt:before {
+    content: "";
+    display: inline-block;
+    width: 1px;
+    vertical-align: middle;
+    height: 0% !important;
+  }
+
+  /* navigation end */
+
+  /* 도시현황 start */
+  #cityStatus ._parent1 ._title {
+    font-size: 1.2vmax !important;
+  }
+
+  #cityStatus ._parent1 ._layout3,
+  #cityStatus ._parent1 ._layout4 {
+    font-size: 1vmax !important;
+  }
+
+  #cityStatus ._parent1 ._layout3 ._title,
+  #cityStatus ._parent1 ._layout4 ._title {
+    font-size: 1.1vmax !important;
+  }
+
+  #cityStatus ._parent1 ._layout3 .union_ft {
+    font-size: 12px !important;
+  }
+
+  ._layout_contents.mayor_img {
+    padding: 2% !important;
+  }
+
+  #cityStatus ._parent1 ._layout5 ._contents ._title,
+  #cityStatus ._parent1 ._layout6 ._contents ._title {
+    font-size: 13px !important;
+  }
+
+  #cityStatus ._parent1 ._layout5 ._contents,
+  #cityStatus ._parent1 ._layout6 ._contents {
+    font-size: 1.2vmax !important;
+  }
+
+  #cityStatus #timeseries-area-top,
+  #cityDiagnosis #bubbles-area-top,
+  #policyRecommendation #diagnose-area-top {
+    width: calc(100% - 308px) !important;
+  }
+
+  #cityStatus ._parent2 ._title,
+  #cityStatus ._parent3 ._title,
+  #cityStatus ._parent4 ._title {
+    font-size: 19px !important;
+  }
+
+  #cityStatus ._grid_layout ._child2 {
+    padding: 10px 0 !important;
+  }
+
+  #cityStatus .timeseries_container .group_help {
+    margin-left: -11% !important;
+    font-size: 13px !important;
+  }
+
+  /* 도시현황 end */
+
+  /********** 도시진단 1page **********/
+  /* 분야별 세출(예산 현황) title */
+  #cityDiagnosis ._parent1 ._layout1 {
+    font-size: 19px !important;
+  }
+
+  /* 분야별 세출 현황 분야 모형 전체 padding 조절 */
+  #cityDiagnosis ._parent1 ._layout2 {
+    padding: 0 10px !important;
+  }
+
+  #cityDiagnosis ._parent1 ._layout2 .bubbles ._bottom {
+    font-size: 11px !important;
+  }
+
+  /* 분야별 주요 지표 title */
+  #cityDiagnosis ._parent2 ._layout1 {
+    font-size: 19px !important;
+  }
+
+  /* 방사차트 각 축의 네임 */
+  .radar .radar_legend {
+    font-size: 10px !important;
+  }
+
+  /* 방사차트 범례 text */
+  .radar .r_legend {
+    font-size: 10px !important;
+  }
+
+  /* 왼쪽 분야리스트 */
+  #verticalTable table tr td:nth-child(1) {
+    font-size: 16px !important;
+    width: 35% !important;
+  }
+
+  /* 왼쪽 지수 selectbox */
+  #verticalTable table tr td:nth-child(2) {
+    width: 65% !important;
+  }
+
+  /* selectbox 스타일 설정 */
+  #verticalTable table tr td .idx_sel {
+    max-width: 100% !important;
+    height: 28px !important;
+  }
+
+  #verticalTable table tr td .idx_sel .v-input__control .v-input__slot {
+    font-size: 11px !important;
+  }
+
+  #verticalTable table tr td .idx_sel .v-input__control .v-input__slot .v-select__selections input {
+    max-height: 24px !important;
+  }
+
+  #verticalTable table tr td .idx_sel .v-input__control .v-input__slot .v-select__selections .v-select__selection--comma {
+    margin: 0 !important;
+    max-width: 100% !important;
+  }
+
+  /********** 도시진단 2page **********/
+  /* 선택 분야 태그 */
+  #cityDiagnosis ._parent3 ._title {
+    font-size: 19px !important;
+  }
+
+  /* 일자별 집행률 그래프, 계약 키워드 및 주요 지표 title */
+  #cityDiagnosis ._parent3 ._layout2,
+  #cityDiagnosis ._parent3 ._layout4 {
+    font-size: 17px !important;
+  }
+
+  /* 일자별 집행률 그래프 범례 */
+  .historical-pirce-component .lineLegend text {
+    font-size: 10px !important;
+  }
+
+  /* 주요지표 타이틀 */
+  #cityDiagnosis ._parent3 p.idx-bar-title {
+    font-size: 12px !important;
+  }
+
+  /* 정책추천 start */
+  #policyRecommendation {
+    font-size: 18px !important;
+  }
+
+  #policyRecommendation ._title {
+    font-size: 18px !important;
+  }
+
+  #policyRecommendation ._parent1 ._layout1 ._bottom ._child1 ._icon {
+    width: 24px !important;
+    height: 24px !important;
+    font-size: 16px !important;
+  }
+
+  #policyRecommendation ._parent1 ._layout1 ._bottom ._child1 {
+    font-size: 16px !important;
+  }
+
+  #policyRecommendation ._parent1 ._layout1 ._bottom ._child1 ._text,
+  #policyRecommendation ._parent1 ._layout1 ._bottom ._child2 ._text {
+    font-size: 16px !important;
+  }
+
+  #policyRecommendation ._select {
+    max-height: 33px !important;
+  }
+
+  #policyRecommendation ._parent2 ._layout1 ._bottom ._right {
+    padding-bottom: 13px !important;
+  }
+
+  #policyRecommendation ._parent1 ._layout1 ._bottom ._bar_container {
+    padding-left: 21px !important;
+  }
+
+  #policyRecommendation ._parent3 ._layout2 {
+    padding: 40px 20px !important;
+  }
+
+  #policyRecommendation ._parent3 ._layout2 ._banner {
+    min-height: 202px !important
+  }
+
+  #cityDiagnosis ._parent3 ._layout6 {
+    padding: 26px 10px 0 0 !important;
+  }
+
+  /* 정책추천 end */
+
+
+  /*******  회사 > who we are *******/
+  .datalist>.member>.cont>.mem_12 {
+    padding: 5px 3px;
+    text-align: center;
+    color: #4d21bc;
+    flex-basis: 33% !important;
+    max-width: 33% !important;
+  }
+
+  .datalist>.member>.cont>.mem_12 .m02_motto01 span {
+    font-size: 12px !important;
+  }
+
+  .datalist>.member>.cont>.mem_12 .m02_name span:nth-child(2) {
+    font-size: 12px !important;
+  }
+
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+@media (max-height: 860px) {
+
+  /* 왼쪽 분야리스트 */
+  #verticalTable table tr td:nth-child(1) {
+    font-size: 16px !important;
+    width: 35% !important;
+  }
+
+  /* 왼쪽 지수 selectbox */
+  #verticalTable table tr td:nth-child(2) {
+    width: 65% !important;
+  }
+
+  /* selectbox 스타일 설정 */
+  #verticalTable table tr td .idx_sel {
+    max-width: 100% !important;
+    height: 28px !important;
+  }
+
+  #verticalTable table tr td .idx_sel .v-input__control .v-input__slot {
+    font-size: 11px !important;
+  }
+
+  #verticalTable table tr td .idx_sel .v-input__control .v-input__slot .v-select__selections input {
+    max-height: 24px !important;
+  }
+
+  #verticalTable table tr td .idx_sel .v-input__control .v-input__slot .v-select__selections .v-select__selection--comma {
+    margin: 0 !important;
+    max-width: 100% !important;
+  }
+}
+
+/* @media (min-width: 1025px) and (max-width: 1280px) {} */
+/* 
+@media (max-width: 1280px) {
+  #home ._puzzle {
+    padding: 0 !important;
+  }
+
+  #app .v-navigation-drawer {
+    display: none !important;
+  }
+
+  #app ._contents_root_container {
+    padding-left: 0 !important;
+  }
+
+  #cityStatus #timeseries-area-top,
+  #cityDiagnosis #bubbles-area-top,
+  #policyRecommendation #diagnose-area-top {
+    width: 100% !important;
+  }
+} */
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+/* @media (min-width: 768px) and (max-width: 1024px) {} */
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+/* @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {} */
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+/* @media (min-width: 320px) and (max-width: 480px) {
+  #home ._container {
+    padding-top: 38% !important;
+    padding-left: 0 !important;
+  }
+
+  #home ._layout {
+    min-height: 325px !important;
+    padding: 0 35px !important;
+  }
+
+  #home ._layout ._puzzle {
+    width: 50px !important;
+    height: 50px !important;
+  }
+
+  #home ._layout ._title {
+    width: calc(100% - 80px) !important;
+  }
+
+  #home .v-input__control {
+    min-height: 35px !important;
+  }
+
+  #home .search_contents_container {
+    top: -20px !important;
+    height: 130px !important;
+  }
+} */

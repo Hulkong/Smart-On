@@ -1,0 +1,71 @@
+#sggLayer>>>.radar1 .line,
+#mGeneralElection>>>.radar1 .line {
+  stroke: #d2d3dd;
+  stroke-width: 1px;
+}
+
+#sggLayer>>>.radar1 .polygon,
+#mGeneralElection>>>.radar1 .polygon {
+  fill: #e856c3;
+  fill-opacity: 0.15;
+  stroke: #e856c3;
+  stroke-width: 1px;
+  stroke-opacity: 1;
+}
+
+#sggLayer>>>.radar1 .point,
+#mGeneralElection>>>.radar1 .point {
+  fill: #e856c3;
+}
+
+#sggLayer>>>.radar1 .radar_legend,
+#mGeneralElection>>>.radar1 .radar_legend {
+  font-family: noto-sans;
+  font-size: 10px;
+  font-weight: bold;
+  fill: #464973;
+}
+
+#sggLayer>>>.radar1 .radar_legend tspan,
+#mGeneralElection>>>.radar1 .radar_legend tspan {
+  font-family: spoqa han sans;
+  font-size: 10px;
+  font-weight: normal;
+  fill: #464973;
+}
+
+#sggLayer>>>.radar2 .line,
+#mGeneralElection>>>.radar2 .line {
+  stroke: #d2d3dd;
+  stroke-width: 1px;
+}
+
+#sggLayer>>>.radar2 .polygon,
+#mGeneralElection>>>.radar2 .polygon {
+  fill: #1368bc;
+  fill-opacity: 0.15;
+  stroke: #1368bc;
+  stroke-width: 1px;
+  stroke-opacity: 1;
+}
+
+#sggLayer>>>.radar2 .point,
+#mGeneralElection>>>.radar2 .point {
+  fill: #1368bc;
+}
+
+#sggLayer>>>.radar2 .radar_legend,
+#mGeneralElection>>>.radar2 .radar_legend {
+  font-family: noto-sans;
+  font-size: 10px;
+  font-weight: bold;
+  fill: #464973;
+}
+
+#sggLayer>>>.radar2 .radar_legend tspan,
+#mGeneralElection>>>.radar2 .radar_legend tspan {
+  font-family: spoqa han sans;
+  font-size: 10px;
+  font-weight: normal;
+  fill: #464973;
+}

@@ -1,0 +1,528 @@
+@charset "utf-8";
+
+/* CSS Document */
+#wrap {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #dedcee;
+}
+
+/* 페이지 백그라운드 */
+.datalist {
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  border: solid #4d21bc 1px;
+  border-radius: 27px;
+  background: #ffffff;
+}
+
+/* #index_Data List_ON 타이틀 */
+.datalist>.title>.data {
+  float: left;
+  display: inline-block;
+  width: 50%;
+  height: 50px;
+  text-align: center;
+  background: #4d21bc;
+  border-radius: 24px 0px 0px 0px;
+}
+
+.datalist>.title>.data>a>h1 {
+  padding-top: 16px;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 900;
+}
+
+/* #index_Who We Are_OFF 타이틀 */
+.datalist>.title>.who {
+  float: right;
+  display: inline-block;
+  width: 50%;
+  height: 50px;
+  text-align: center;
+  background: #4d21bc;
+  border-radius: 0px 24px 0px 0px;
+}
+
+.datalist>.title>.who>a>h1 {
+  padding-top: 16px;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 900;
+}
+
+.datalist>.title>.on {
+  background: transparent;
+  color: #4d21bc;
+}
+
+.datalist>.title>.on>a>h1 {
+  color: #4d21bc;
+}
+
+/* 테이블_datalist */
+.datalist>.member>._table {
+  width: 100%;
+  height: calc(70% - 50px - 78px);
+  margin: 0 auto;
+}
+
+.datalist>.member>.list01 {
+  color: #4d21bc;
+  line-height: 27px;
+  margin-bottom: 23px;
+  font-size: 27px;
+  font-weight: 900;
+}
+
+.datalist ._table tr.ct01 {
+  background: #ffffff;
+  font-weight: 400;
+}
+
+.datalist ._table .ct01:nth-child(even) {
+  background: #dedcee;
+}
+
+.datalist ._table .ct01 td {
+  text-align: center;
+}
+
+/* 테이블_member */
+.datalist>.member {
+  width: 100%;
+  height: calc(100% - 50px);
+  font-weight: 100;
+  margin-top: 50px;
+  padding: 110px 50px 110px 50px;
+}
+
+.datalist>.member>.ceo {
+  float: left;
+  min-width: 20px;
+  height: 100%;
+}
+
+.datalist>.member>.ceo>.team_slogan {
+  padding-bottom: 50px;
+  color: #4d21bc;
+  font-size: 27px;
+  font-weight: 900;
+}
+
+.datalist>.member>.cont {
+  overflow-y: scroll;
+  width: calc(100% - 240px);
+  height: 100%;
+  padding-left: 28px;
+}
+
+/*대표님 div 시작*/
+.datalist>.member>.ceo>.ex {
+  width: 210px;
+  padding: 10px 0px 0px 0px;
+  background-color: #4d21bc;
+  border-radius: 5px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.datalist>.member>.ceo>.ex>.face01 {
+  width: 123px;
+  height: 123px;
+  margin-left: 42.5px;
+  border-radius: 125px;
+  background-color: #ffffff;
+  text-align: center;
+  background-image: url('../../images/menu/company/who_LEY.png');
+}
+
+.datalist>.member>.ceo>.ex>.m01_border {
+  width: 25px;
+  border: 0.5px solid #ffffff;
+  margin: 10px 0px 10px 92.5px;
+}
+
+.datalist>.member>.ceo>.ex>.m01_name {
+  margin: 7px 0px 2px 0px;
+}
+
+.datalist>.member>.ceo>.ex>.m01_name span:nth-child(1) {
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.datalist>.member>.ceo>.ex>.m01_name span:nth-child(2) {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.datalist>.member>.ceo>.ex>.m01_motto01 {
+  margin: 0px 0px -5px 0px;
+}
+
+.datalist>.member>.ceo>.ex>.m01_motto01 span {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.datalist>.member>.ceo>.ex>.m01_motto02 span {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.datalist>.member>.ceo>.ex>.m01_title {
+  margin: 0px 0px -6px 0px;
+}
+
+.datalist>.member>.ceo>.ex>.m01_title span {
+  font-size: 8px;
+  font-weight: 300;
+}
+
+.datalist>.member>.ceo>.ex>.m01_univ span {
+  font-size: 6px;
+  font-weight: 300;
+}
+
+.datalist>.member>.ceo>.ex>.m01_email {
+  margin-top: -2px;
+}
+
+.datalist>.member>.ceo>.ex>.m01_email span {
+  font-size: 7px;
+  font-weight: 300;
+}
+
+.datalist>.member>.cont>.mem_12 {
+  width: 210px;
+  padding: 5px 3px;
+  text-align: center;
+  color: #4d21bc;
+}
+
+.datalist>.member>.cont>.mem_12 ._cont_layout {
+  padding: 10px 0px 10px 0px;
+  background-color: #ffffff;
+  border: 1px solid #4d21bc;
+  border-radius: 5px;
+}
+
+.datalist>.member>.cont>.mem_12 .face_img {
+  width: 123px;
+  height: 123px;
+  margin-left: 42.5px;
+  border-radius: 125px;
+  background-color: #4d21bc;
+  text-align: center;
+}
+
+.datalist>.member>.cont>.mem_12 .m02_border {
+  width: 25px;
+  border: 0.5px solid #4d21bc;
+  margin: 10px 0px 10px 92.5px;
+}
+
+.datalist>.member>.cont>.mem_12 .m02_name {
+  margin: 7px 0px 10px 0px;
+}
+
+.datalist>.member>.cont>.mem_12 .m02_name span:nth-child(1) {
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.datalist>.member>.cont>.mem_12 .m02_name span:nth-child(2) {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.datalist>.member>.cont>.mem_12 .m02_motto01 {
+  margin: 0px 0px -2px 0px;
+}
+
+.datalist>.member>.cont>.mem_12 .m02_motto01 span {
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.datalist>.member>.cont>.mem_12 .m02_motto02 span {
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.datalist>.member>.cont>.mem_12 .m02_univ {
+  margin: 0px 0px -2px 0px;
+}
+
+.datalist>.member>.cont>.mem_12 .m02_univ span {
+  font-size: 6px;
+  font-weight: 600;
+}
+
+.datalist>.member>.cont>.mem_12 .m02_email span {
+  font-size: 7px;
+  font-weight: 600;
+}
+
+/*	관련 기관 리스트	*/
+.datalist>.member>.list02 {
+  margin: 40px 0 20px 0;
+  line-height: 27px;
+  color: #4d21bc;
+  font-size: 27px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.datalist>.member>.connect {
+  height: 25%;
+  padding: 0 86px;
+}
+
+.datalist>.member>.connect>.co_01 {
+  width: 165px;
+  height: 40%;
+  text-align: center;
+}
+
+/*	연락처	*/
+.datalist>.callme {
+  width: 100%;
+  padding: 8% 110px 0 110px;
+  height: 45%;
+  display: inline-block;
+}
+
+.datalist>.callme>h2 {
+  padding-bottom: 27px;
+  color: #4d21bc;
+  font-size: 27px;
+  font-weight: 900;
+}
+
+.datalist>.callme>.adress {
+  float: left;
+}
+
+.datalist>.callme>.adress>h2 {
+  padding-bottom: 27px;
+  color: #4d21bc;
+  font-size: 27px;
+  font-weight: 900;
+}
+
+.datalist>.callme p {
+  line-height: 2;
+  padding-left: 30px;
+}
+
+.datalist>.callme p span {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.datalist>.callme>.adress {
+  width: 50%;
+  /* padding-right: 5px; */
+  display: inline-block;
+}
+
+.datalist>.callme>.number {
+  width: 50%;
+  display: inline-block;
+}
+
+.datalist>.callme>.number>h2 {
+  padding-bottom: 27px;
+  color: #4d21bc;
+  font-size: 27px;
+  font-weight: 900;
+}
+
+/*	오시는 길	*/
+.datalist>.map {
+  width: 100%;
+  height: 55%;
+  padding: 0px 110px 8% 110px;
+}
+
+.datalist>.map>h2 {
+  padding-bottom: 27px;
+  color: #4d21bc;
+  font-size: 27px;
+  font-weight: 900;
+}
+
+.datalist>.map>.in_map {
+  width: 100%;
+  height: 100%;
+}
+
+#contact .map_wrap {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  z-index: 2;
+}
+
+#contact .radius_border {
+  border: 1px solid #919191;
+  border-radius: 5px;
+}
+
+#contact .custom_zoomcontrol {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 36px;
+  overflow: hidden;
+  z-index: 5;
+  background-color: #f5f5f5;
+}
+
+#contact .custom_zoomcontrol span {
+  display: block;
+  width: 36px;
+  height: 40px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#contact .custom_zoomcontrol span img {
+  width: 18px;
+  height: 37px;
+  padding: 10px 0;
+  border: none;
+}
+
+#contact .custom_zoomcontrol span:not(last-child) {
+  border-bottom: 1px solid #bfbfbf;
+}
+
+/*	#index02_멤버 사진 조절	*/
+@media screen and (max-width: 1901px) {
+  .datalist {
+    margin: 0 auto;
+    border: solid #4d21bc 1px;
+    border-radius: 27px;
+    background: #ffffff;
+  }
+
+  #data-list .datalist>.member {
+    padding: 55px;
+  }
+
+  #_who_we_are .datalist>.member {
+    padding: 45px 10px 45px 55px;
+  }
+}
+
+/* #index_관련리시트 수직 조절*/
+@media screen and (max-width: 1379px) {
+  .datalist>.connect {
+    height: 200px;
+    margin: 0 auto;
+  }
+
+  .datalist>.connect>.co_01 {
+    display: inline-block;
+    width: 165px;
+    height: 60px;
+    margin: 0 auto;
+  }
+}
+
+/*#index_타이틀 여백 조절*/
+@media screen and (max-width: 1379px) {
+
+  /* #index_Data List_ON 타이틀 */
+  .datalist>.title>.data {
+    float: left;
+    display: inline-block;
+    width: 50%;
+    height: 50px;
+    text-align: center;
+  }
+
+  .datalist>.title>.data>a>h1 {
+    padding-top: 16px;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 900;
+  }
+
+  /* index_Who We Are_OFF 타이틀 */
+  .datalist>.title>.who {
+    float: right;
+    display: inline-block;
+    width: 50%;
+    height: 50px;
+    text-align: center;
+    background: #4d21bc;
+    border-radius: 0px 25px 0px 0px;
+  }
+
+  .datalist>.title>.who>a>h1 {
+    padding-top: 16px;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 900;
+  }
+
+  .datalist>.title>.on {
+    background: transparent;
+    color: #4d21bc;
+  }
+
+  .datalist>.title>.on>a>h1 {
+    color: #4d21bc;
+  }
+
+  /*	#index_관련 리스트 height 조절	*/
+  @media screen and (max-width: 1379px) {
+    .datalist {
+      margin: 0 auto;
+      /* height: 980px; */
+      border: solid #4d21bc 1px;
+      border-radius: 27px;
+      background: #ffffff;
+    }
+  }
+
+  /* 연락부분 주소와 연락처 */
+  @media screen and (max-width: 1212px) {
+    .datalist {
+      width: 860px;
+    }
+  }
+
+  /*	#index_관련 리스트 height 조절	*/
+  @media screen and (max-width: 760px) {
+
+    /*	관련 기관 리스트	*/
+    .datalist>.list02 {
+      padding: 40px 0 20px;
+      color: #4d21bc;
+      font-size: 27px;
+      font-weight: 900;
+      text-align: center;
+    }
+
+    .datalist>.connect {
+      width: 70%;
+      height: 200px;
+      margin: 0 auto;
+    }
+
+    .datalist>.connect>.co_01 {
+      display: inline-block;
+      width: 165px;
+      height: 60px;
+      margin: 0 auto;
+    }
+  }
+}

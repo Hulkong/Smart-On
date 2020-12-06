@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="32" viewBox="0 0 96 32">
+  <g id="그룹_25" data-name="그룹 25" transform="translate(-81 -687)">
+    <g id="사각형_10" data-name="사각형 10" transform="translate(81 687)" fill="#fff" stroke="#6326ff" stroke-width="1">
+      <rect width="96" height="32" rx="16" stroke="none"/>
+      <rect x="0.5" y="0.5" width="95" height="31" rx="15.5" fill="none"/>
+    </g>
+    <text id="다시_보지않기" data-name="다시 보지않기" transform="translate(129 708)" fill="#6326ff" font-size="13" font-family="NotoSansCJKkr-Light, Noto Sans CJK KR" font-weight="300"><tspan x="-37.323" y="0">다시 보지않기</tspan></text>
+  </g>
+</svg>

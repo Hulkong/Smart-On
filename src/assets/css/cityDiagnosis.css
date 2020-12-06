@@ -1,0 +1,154 @@
+/* 도시진단 페이지 */
+#cityDiagnosis>>>.v-card__text {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: calc(100% - 30px);
+}
+
+#cityDiagnosis>>>._parent1 {
+  height: 30vh;
+  padding-bottom: 36px;
+  background: #dedcee;
+}
+
+#cityDiagnosis>>>._parent2 {
+  height: 70vh;
+  margin-top: 30vh;
+  padding-top: 0px;
+  background: #dedcee;
+}
+
+#cityDiagnosis>>>._parent3 {
+  height: 70vh;
+  /* margin-top: 30vh; */
+  padding-top: 0px;
+  background: #dedcee;
+}
+
+#cityDiagnosis>>>._parent1 ._layout1 {
+  height: fit-content;
+  line-height: 30px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #0840b3;
+}
+
+#cityDiagnosis>>>._parent1 ._layout2 {
+  height: calc(100% - 30px);
+  padding: 0 33px 0 33px;
+}
+
+#cityDiagnosis>>>._parent1 ._layout2 .bubbles {
+  height: 100%;
+  cursor: pointer;
+}
+
+#cityDiagnosis>>>._parent1 ._layout2 .bubbles ._top {
+  height: 80%;
+}
+
+#cityDiagnosis>>>._parent1 ._layout2 .bubbles ._bottom {
+  height: 20%;
+  text-align: center;
+}
+
+#cityDiagnosis>>>._parent2 ._layout1 {
+  height: fit-content;
+  line-height: 30px;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 26px 0 0 26px;
+}
+
+#cityDiagnosis>>>._parent2 ._layout2 {
+  height: calc(100% - 56px);
+}
+
+#cityDiagnosis>>>._parent3 ._text {
+  /* font-size: 24px; */
+  font-size: 1.2vw;
+  line-height: 24px;
+  font-weight: bold;
+}
+
+#cityDiagnosis>>>._parent3 ._title {
+  max-width: 212px;
+  line-height: 40px;
+  background: #4d21bc;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+#cityDiagnosis>>>._parent3 ._contents {
+  height: calc(100% - 40px);
+  background: white;
+}
+
+#cityDiagnosis>>>._parent3 ._layout__world {
+  padding-top: 24px;
+}
+
+#cityDiagnosis>>>._parent3 ._layout6 {
+  padding: 26px 26px 13px 0;
+}
+
+#cityDiagnosis>>>#bubbles-area-top {
+  position: fixed;
+  top: 0;
+  height: 30vh;
+  width: calc(100% - 420px);
+  z-index: 200;
+  background: #4d21bc;
+}
+
+#cityDiagnosis>>>#publics-safety-diagnosis {
+  border-bottom-left-radius: 50px;
+}
+
+#cityDiagnosis>>>#bubbles-area-top .bubbles ._bubble_avatar {
+  border: 8px solid #dedcee;
+  background: #0840b3;
+  background-clip: padding-box;
+  padding: 10px;
+}
+
+#cityDiagnosis>>>#bubbles-area-top .bubbles._no_value ._bubble_avatar {
+  background: grey;
+  background-clip: padding-box;
+}
+
+#cityDiagnosis>>>#bubbles-area-top .bubbles._no_value ._bubble_title {
+  color: grey;
+}
+
+#cityDiagnosis>>>#bubbles-area-top .on ._bubble_avatar,
+#cityDiagnosis>>>#bubbles-area-top .bubbles:not(._no_value):hover ._bubble_avatar {
+  border: 8px solid black;
+  border-color: rgb(251, 209, 75);
+}
+
+#cityDiagnosis>>>#bubbles-area-top .on ._bubble_title,
+#cityDiagnosis>>>#bubbles-area-top .bubbles:not(._no_value):hover ._bubble_title {
+  border-radius: 20px;
+  color: white;
+  background: #0840b3;
+  font-weight: bold;
+}
+
+#cityDiagnosis>>>._parent3 p.idx-bar-title {
+  font-size: 14px;
+  line-height: 18px;
+  padding-top: 26px;
+  padding-left: 10px;
+  font-weight: bold;
+}
+
+#cityDiagnosis>>>._parent3 ._stdr_date {
+  display: inline;
+  font-size: 0.8vw;
+  font-weight: bold;
+  padding-left: 10px;
+  vertical-align: middle;
+}

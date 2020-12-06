@@ -1,0 +1,533 @@
+/*나눔스퀘어 서버용*/
+@font-face {
+  font-family: 'NanumSquare_L';
+  src: url(~@/assets/css/fonts/NanumSquare_L.eot);
+  src: url(~@/assets/css/fonts/NanumSquare_L.eot?#iefix) format('embedded-opentype'),
+    url(~@/assets/css/fonts/NanumSquare_L.woff) format('woff'),
+    url(~@/assets/css/fonts/NanumSquare_L.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'NanumSquare_R';
+  src: url(~@/assets/css/fonts/NanumSquare_R.eot);
+  src: url(~@/assets/css/fonts/NanumSquare_R.eot?#iefix) format('embedded-opentype'),
+    url(~@/assets/css/fonts/NanumSquare_R.woff) format('woff'),
+    url(~@/assets/css/fonts/NanumSquare_R.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NanumSquare_B';
+  src: url(~@/assets/css/fonts/NanumSquare_B.eot);
+  src: url(~@/assets/css/fonts/NanumSquare_B.eot?#iefix) format('embedded-opentype'),
+    url(~@/assets/css/fonts/NanumSquare_B.woff) format('woff'),
+    url(~@/assets/css/fonts/NanumSquare_B.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NanumSquare_EB';
+  src: url(~@/assets/css/fonts/NanumSquare_EB.eot);
+  src: url(~@/assets/css/fonts/NanumSquare_EB.eot?#iefix) format('embedded-opentype'),
+    url(~@/assets/css/fonts/NanumSquare_EB.woff) format('woff'),
+    url(~@/assets/css/fonts/NanumSquare_EB.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*나눔스퀘어라운드 서버용*/
+@font-face {
+  font-family: 'NanumSquare_RL';
+  src: url(~@/assets/css/fonts/NanumSquare_RL.eot);
+  src: url(~@/assets/css/fonts/NanumSquare_RL.eot?#iefix) format('embedded-opentype'),
+    url(~@/assets/css/fonts/NanumSquare_RL.woff) format('woff'),
+    url(~@/assets/css/fonts/NanumSquare_RL.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NanumSquare_RR';
+  src: url(~@/assets/css/fonts/NanumSquare_RR.eot);
+  src: url(~@/assets/css/fonts/NanumSquare_RR.eot?#iefix) format('embedded-opentype'),
+    url(~@/assets/css/fonts/NanumSquare_RR.woff) format('woff'),
+    url(~@/assets/css/fonts/NanumSquare_RR.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NanumSquare_RB';
+  src: url(~@/assets/css/fonts/NanumSquare_RB.eot);
+  src: url(~@/assets/css/fonts/NanumSquare_RB.eot?#iefix) format('embedded-opentype'),
+    url(~@/assets/css/fonts/NanumSquare_RB.woff) format('woff'),
+    url(~@/assets/css/fonts/NanumSquare_RB.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NanumSquare_REB';
+  src: url(~@/assets/css/fonts/NanumSquare_REB.eot);
+  src: url(~@/assets/css/fonts/NanumSquare_REB.eot?#iefix) format('embedded-opentype'),
+    url(~@/assets/css/fonts/NanumSquare_REB.woff) format('woff'),
+    url(~@/assets/css/fonts/NanumSquare_REB.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*noto sans_서버용*/
+@font-face {
+  font-family: 'NotoKr_BK';
+  src: url(~@/assets/css/fonts/NotoKr_BK.eot);
+  src: url(~@/assets/css/fonts/NotoKr_BK.eot?#iefix) format('embedded-opentype'),
+    url(~@/assets/css/fonts/NotoKr_BK.woff2) format('woff2'),
+    url(~@/assets/css/fonts/NotoKr_BK.woff) format('woff'),
+    url(~@/assets/css/fonts/NotoKr_BK.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NotoKr_B';
+  src: url(~@/assets/css/fonts/NotoKr_B.eot);
+  src: url(~@/assets/css/fonts/NotoKr_B.eot?#iefix) format('embedded-opentype'),
+    url(~@/assets/css/fonts/NotoKr_B.woff2) format('woff2'),
+    url(~@/assets/css/fonts/NotoKr_B.woff) format('woff'),
+    url(~@/assets/css/fonts/NotoKr_B.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NotoKr_DL';
+  src: url(~@/assets/css/fonts/NotoKr_DL.eot);
+  src: url(~@/assets/css/fonts/NotoKr_DL.eot?#iefix) format('embedded-opentype'),
+    url(~@/assets/css/fonts/NotoKr_DL.woff2) format('woff2'),
+    url(~@/assets/css/fonts/NotoKr_DL.woff) format('woff'),
+    url(~@/assets/css/fonts/NotoKr_DL.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NotoKr_L';
+  src: url(~@/assets/css/fonts/NotoKr_L.eot);
+  src: url(~@/assets/css/fonts/NotoKr_L.eot?#iefix) format('embedded-opentype'),
+    url(~@/assets/css/fonts/NotoKr_L.woff2) format('woff2'),
+    url(~@/assets/css/fonts/NotoKr_L.woff) format('woff'),
+    url(~@/assets/css/fonts/NotoKr_L.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NotoKr_M';
+  src: url(~@/assets/css/fonts/NotoKr_M.eot);
+  src: url(~@/assets/css/fonts/NotoKr_M.eot?#iefix) format('embedded-opentype'),
+    url(~@/assets/css/fonts/NotoKr_M.woff2) format('woff2'),
+    url(~@/assets/css/fonts/NotoKr_M.woff) format('woff'),
+    url(~@/assets/css/fonts/NotoKr_M.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NotoKr_R';
+  src: url(~@/assets/css/fonts/NotoKr_R.eot);
+  src: url(~@/assets/css/fonts/NotoKr_R.eot?#iefix) format('embedded-opentype'),
+    url(~@/assets/css/fonts/NotoKr_R.woff2) format('woff2'),
+    url(~@/assets/css/fonts/NotoKr_R.woff) format('woff'),
+    url(~@/assets/css/fonts/NotoKr_R.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NotoKr_T';
+  src: url(~@/assets/css/fonts/NotoKr_T.eot);
+  src: url(~@/assets/css/fonts/NotoKr_T.eot?#iefix) format('embedded-opentype'),
+    url(~@/assets/css/fonts/NotoKr_T.woff) format('woff'),
+    url(~@/assets/css/fonts/NotoKr_T.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+/* 숫자 폰트 */
+
+@font-face {
+  font-family: 'SpoqaHanSans_B';
+  src: url(~@/assets/css/fonts/SpoqaHanSans_B.eot);
+  src: url(~@/assets/css/fonts/SpoqaHanSans_B.eot?#iefix) format('embedded-opentype'),
+    url(~@/assets/css/fonts/SpoqaHanSans_B.woff2) format('woff2'),
+    url(~@/assets/css/fonts/SpoqaHanSans_B.woff) format('woff'),
+    url(~@/assets/css/fonts/SpoqaHanSans_B.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'SpoqaHanSans_R';
+  src: url(~@/assets/css/fonts/SpoqaHanSans_R.eot);
+  src: url(~@/assets/css/fonts/SpoqaHanSans_R.eot?#iefix) format('embedded-opentype'),
+    url(~@/assets/css/fonts/SpoqaHanSans_R.woff2) format('woff2'),
+    url(~@/assets/css/fonts/SpoqaHanSans_R.woff) format('woff'),
+    url(~@/assets/css/fonts/SpoqaHanSans_R.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'SpoqaHanSans_L';
+  src: url(~@/assets/css/fonts/SpoqaHanSans_L.eot);
+  src: url(~@/assets/css/fonts/SpoqaHanSans_L.eot?#iefix) format('embedded-opentype'),
+    url(~@/assets/css/fonts/SpoqaHanSans_L.woff2) format('woff2'),
+    url(~@/assets/css/fonts/SpoqaHanSans_L.woff) format('woff'),
+    url(~@/assets/css/fonts/SpoqaHanSans_L.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'SpoqaHanSans_T';
+  src: url(~@/assets/css/fonts/SpoqaHanSans_T.eot);
+  src: url(~@/assets/css/fonts/SpoqaHanSans_T.eot?#iefix) format('embedded-opentype'),
+    url(~@/assets/css/fonts/SpoqaHanSans_T.woff2) format('woff2'),
+    url(~@/assets/css/fonts/SpoqaHanSans_T.woff) format('woff'),
+    url(~@/assets/css/fonts/SpoqaHanSans_T.ttf) format('truetype'), ;
+}
+
+
+
+/* 제목 */
+
+
+
+/*font------------------------------------------------------------------------------------------------------------------ */
+.NS_L {
+  font-family: 'NanumSquare_L', sans-serif;
+}
+
+.NS_R {
+  font-family: 'NanumSquare_R', sans-serif;
+}
+
+.NS_B {
+  font-family: 'NanumSquare_B', sans-serif;
+}
+
+.NS_EB {
+  font-family: 'NanumSquare_EB', sans-serif;
+}
+
+.NS_RL {
+  font-family: 'NanumSquare_RL', sans-serif;
+}
+
+.NS_RR {
+  font-family: 'NanumSquare_RR', sans-serif;
+}
+
+.NS_RB {
+  font-family: 'NanumSquare_RB', sans-serif;
+}
+
+.NS_REB {
+  font-family: 'NanumSquare_REB', sans-serif;
+}
+
+.Nt_R {
+  font-family: 'NotoKr_R';
+}
+
+.Nt_BK {
+  font-family: 'NotoKr_BK';
+}
+
+.Nt_B {
+  font-family: 'NotoKr_B';
+}
+
+.Nt_DL {
+  font-family: 'NotoKr_DL';
+}
+
+.Nt_L {
+  font-family: 'NotoKr_L';
+}
+
+.Nt_M {
+  font-family: 'NotoKr_M';
+}
+
+.Nt_T {
+  font-family: 'NotoKr_T';
+}
+
+.Cabin {
+  font-family: 'Cabin', sans-serif;
+}
+
+.Mont_R {
+  font-family: 'Montserrat_R', sans-serif;
+}
+
+.Mont_L {
+  font-family: 'Montserrat_L', sans-serif;
+}
+
+.Mont_M {
+  font-family: 'Montserrat_M', sans-serif;
+}
+
+.Mont_B {
+  font-family: 'Montserrat_B', sans-serif;
+}
+
+/*추가 폰트*/
+/*본문*/
+.SHS_B {
+  font-family: 'SpoqaHanSans_B', sans-serif;
+}
+
+.SHS_R {
+  font-family: 'SpoqaHanSans_R', sans-serif;
+}
+
+.SHS_L {
+  font-family: 'SpoqaHanSans_L', sans-serif;
+}
+
+.SHS_T {
+  font-family: 'SpoqaHanSans_T', sans-serif;
+}
+
+.SN_B {
+  font-family: 'SeoulNamsan_B', sans-serif;
+}
+
+.SN_R {
+  font-family: 'SeoulNamsan_R', sans-serif;
+}
+
+
+
+/*나눔스퀘어*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'NanumSquare_R', sans-serif;
+}
+
+/*숫자*/
+.num {
+  font-family: 'SpoqaHanSans_R', sans-serif;
+}
+
+/*set_up-----------------------------------------------------------------------------------------------------------------*/
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background: #fff;
+  margin: 0;
+  padding: 0;
+  font-family: 'NotoKr_R', sans-serif;
+  font-size: 14px;
+  width: 100%;
+  height: auto;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+ul,
+ol,
+dl {
+  list-style: none;
+}
+
+fieldset {
+  border: none;
+}
+
+legend {
+  display: none;
+}
+
+img {
+  border: none;
+}
+
+/*텍스트 밑줄 없애기*/
+a {
+  text-decoration: none;
+  color: #767676;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+  color: #010101;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #010101;
+}
+
+/*인용구*/
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+main {
+  display: block;
+}
+
+/*clearfix*/
+.cf:after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+/*float*/
+.FL {
+  float: left
+}
+
+.FR {
+  float: right
+}
+
+/*set_up-----------------------------------------------------------------------------------------------------------------*/
+
+/*custom-----------------------------------------------------------------------------------------------------------------*/
+
+/*추가 편의*/

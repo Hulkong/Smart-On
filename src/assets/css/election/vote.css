@@ -1,0 +1,2134 @@
+/*--전체--*/
+#mGeneralElection >>> section.cont_wrap {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+::-webkit-scrollbar {
+  width: 0px !important;
+  height: 0px !important;
+}
+
+/*총선 게이트 시작-----------------------------------------------------------------------------------------------------------*/
+#mGeneralElection >>> div.vote_gate {
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  padding-top: 5vh;
+
+
+}
+
+#mGeneralElection >>> div.vote_gate div.cont_wrap {
+  width: 86%;
+  margin-left: 7%;
+  height: 85vh;
+  background: #fff;
+  border-radius: 32px;
+  overflow: hidden;
+  position: relative;
+}
+
+#mGeneralElection >>> div.vote_gate .select {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 5%;
+  margin-left: 8%;
+  width: 84%;
+  float: left;
+  font-size: 16px;
+
+}
+
+#mGeneralElection >>> div.vote_gate .st01 select {
+  display: inline-block;
+  width: 100%;
+  cursor: pointer;
+  padding: 13px 21px;
+  outline: 0;
+  border: 0;
+  border-radius: 0;
+  background: #fff;
+  border: #6326FF 2px solid;
+  border-radius: 10px;
+  color: #464973;
+
+  font-weight: bold;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  box-shadow: 0 6px 6px 3px rgba(23, 7, 38, 0.1);
+}
+
+#mGeneralElection >>> div.vote_gate .st02 select {
+  display: inline-block;
+  width: 100%;
+  cursor: pointer;
+  padding: 13px 21px;
+  outline: 0;
+  border: 0;
+  border-radius: 0;
+  background: #fff;
+  border: #8252FD 2px solid;
+  border-radius: 10px;
+  color: #464973;
+
+  font-weight: bold;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  box-shadow: 0 6px 6px 3px rgba(23, 7, 38, 0.1);
+}
+
+#mGeneralElection >>> div.vote_gate .st03 select {
+  display: inline-block;
+  width: 100%;
+  cursor: pointer;
+  padding: 13px 21px;
+  outline: 0;
+  border: 0;
+  border-radius: 0;
+  background: #fff;
+  border: #A584FA 2px solid;
+  border-radius: 10px;
+  color: #464973;
+
+  font-weight: bold;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  box-shadow: 0 6px 6px 3px rgba(23, 7, 38, 0.1);
+}
+
+
+#mGeneralElection >>> div.vote_gate .select select::-ms-expand {
+  display: none;
+}
+
+#mGeneralElection >>> div.vote_gate .select select:hover,
+#mGeneralElection >>> div.vote_gate .select select:focus {
+  color: #f8f8f8;
+  background: #6326FF;
+}
+
+#mGeneralElection >>> div.vote_gate .select select.active {
+  color: #f8f8f8;
+  background: #6326FF;
+}
+
+#mGeneralElection >>> div.vote_gate .select select:disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+#mGeneralElection >>> div.vote_gate .select__arrow {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: 20px;
+  right: 20px;
+  background: url("../../images/mobile/select_arrow.png") center no-repeat;
+  background-size: contain;
+
+}
+
+#mGeneralElection >>> div.vote_gate .select select:hover~.select__arrow,
+#mGeneralElection >>> #mGeneralElection >>>div.vote_gate .select select:focus~.select__arrow {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: 20px;
+  right: 20px;
+  background-size: contain;
+  background: url("../../images/event/select_arrow_R.png") center no-repeat;
+}
+
+
+#mGeneralElection >>> div.ranking {
+  position: absolute;
+  padding: 0% 10% 4% 10%;
+  bottom: 5%;
+  width: 100%;
+  height: auto;
+  background: #EBECF9;
+}
+
+#mGeneralElection >>> div.ranking span.standard {
+  font-family: 'SpoqaHanSans_R';
+  font-size: 10px;
+  color: #7e809d;
+  display: inline-block;
+  width: 100%;
+  text-align: right;
+  position: relative;
+  top: -20px;
+}
+
+#mGeneralElection >>> div.ranking ul {}
+
+#mGeneralElection >>> div.ranking ul li {
+  position: relative;
+  font-size: 15px;
+  line-height: 3em;
+  margin-left: 14%;
+}
+
+#mGeneralElection >>> div.ranking ul li strong {
+  background: #fff;
+  color: #202457;
+  margin-left: 5%;
+  border-radius: 6px;
+  padding: 7px 10px;
+  box-shadow: 0 6px 6px 3px rgba(23, 7, 38, 0.1);
+}
+
+#mGeneralElection >>> div.ranking ul li img {
+  position: relative;
+  top: 2px;
+  width: 15px;
+  height: auto
+}
+
+#mGeneralElection >>> div.ranking ul li.rank01 {
+  color: #2E3CFA;
+}
+
+#mGeneralElection >>> div.ranking ul li.rank01:before {
+  position: absolute;
+  background: #2E3CFA;
+  border-radius: 50%;
+  top: 20px;
+  left: -20px;
+  content: '';
+  display: block;
+  width: 5px;
+  height: 5px;
+}
+
+#mGeneralElection >>> div.ranking ul li.rank02 {
+  color: #1C01A3
+}
+
+#mGeneralElection >>> div.ranking ul li.rank02:before {
+  position: absolute;
+  background: #1C01A3;
+  border-radius: 50%;
+  top: 20px;
+  left: -20px;
+  content: '';
+  display: block;
+  width: 5px;
+  height: 5px;
+}
+
+
+#mGeneralElection >>> div.vote_gate div.cont_wrap h1 {
+  position: relative;
+  width: 100%;
+  padding: 7%;
+  text-align: center;
+  font-weight: normal;
+  font-size: 22px;
+  height: auto;
+  background: #6326FF;
+  color: #fff;
+}
+
+#mGeneralElection >>> div.vote_gate div.cont_wrap img.home_btn {
+  width: 26px;
+  height: auto;
+  position: absolute;
+  top: 15px;
+  left: 20px;
+}
+
+#mGeneralElection >>> div.vote_gate div.cont_wrap img.logo {}
+
+#mGeneralElection >>> div.vote_gate div.cont_wrap img.vote_icon {
+  position: absolute;
+  width: 50px;
+  height: auto;
+  bottom: 16px;
+  left: 27px;
+}
+
+#mGeneralElection >>> div.vote_gate div.cont_wrap h2 {
+  margin-bottom: 5%;
+  margin-top: 3%;
+}
+
+#mGeneralElection >>> div.vote_gate div.cont_wrap h2 span {
+  display: inline-block;
+  letter-spacing: 3px;
+  font-size: 18px;
+  padding-left: 5%;
+  margin-left: 12%;
+  line-height: 1.5em;
+  border-left: 3px solid #6326FF;
+  font-weight: normal;
+  color: #6326FF
+}
+
+#mGeneralElection >>> div.vote_gate div.cont_wrap h2 img {
+  position: relative;
+  top: 10px;
+}
+
+/*총선 게이트 끝-----------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*관련기사 시작-----------------------------------------------------------------------------------------------------------*/
+#mGeneralElection >>> div.sort_article {
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  padding-top: 5vh;
+  position: fixed;
+  z-index: 100;
+  /* display: none; */
+}
+
+#mGeneralElection >>> div.sort_article div.cont_wrap {
+  width: 86%;
+  margin-left: 7%;
+  height: 90vh;
+  background: #fff;
+  border-radius: 32px;
+  overflow: hidden;
+  overflow-y: scroll;
+  position: relative;
+}
+
+
+#mGeneralElection >>> div.sort_article div.cont_wrap h1 {
+  position: fixed;
+  width: 86%;
+  padding: 3% 6%;
+  text-align: center;
+  font-weight: normal;
+  font-size: 22px;
+  height: auto;
+  background: #6326FF;
+  color: #fff;
+  border-top-left-radius: 32px;
+  border-top-right-radius: 32px;
+}
+
+#mGeneralElection >>> div.sort_article div.cont_wrap img.close_btn {
+  width: 40px;
+  height: auto;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+#mGeneralElection >>> div.sort_article div.cont_wrap img.logo {}
+
+#mGeneralElection >>> div.sort_article div.cont_wrap img.article_icon {
+  width: 20px;
+  position: relative;
+  top: 5px;
+  height: auto;
+  left: -5px;
+}
+
+#mGeneralElection >>> div.sort_article div.cont_wrap h2 {
+  margin-bottom: 5%;
+  margin-top: 3%;
+}
+
+#mGeneralElection >>> div.sort_article div.cont_wrap h2 span {
+  display: inline-block;
+  letter-spacing: 3px;
+  font-size: 18px;
+  padding-left: 5%;
+  margin-left: 12%;
+  line-height: 1.5em;
+  border-left: 3px solid #6326FF;
+  font-weight: normal;
+  color: #6326FF
+}
+
+#mGeneralElection >>> div.sort_article div.cont_wrap h2 img {
+  position: relative;
+  top: 10px;
+}
+
+#mGeneralElection >>> div.sort_article div.cont_wrap ul {
+  width: 100%;
+  padding-top: 25%;
+}
+
+#mGeneralElection >>> div.sort_article div.cont_wrap ul li {
+  width: 94%;
+  padding: 5% 5% 2% 5%;
+  border: 1px solid #f8f8f8;
+  border-radius: 13px;
+  height: auto;
+  margin-bottom: 3%;
+  margin-left: 3%;
+  box-shadow: 0 6px 6px 3px rgba(23, 7, 38, 0.1);
+}
+
+#mGeneralElection >>> div.sort_article div.cont_wrap dl {
+  width: 100%;
+}
+
+#mGeneralElection >>> div.sort_article div.cont_wrap dl dd {
+  width: 40%;
+  float: left;
+  text-align: right;
+  padding-right: 6%;
+  margin-top: 22px;
+  font-size: 18px;
+}
+
+#mGeneralElection >>> div.sort_article div.cont_wrap dl dt {
+  width: 60%;
+  float: left;
+  text-align: left;
+}
+
+#mGeneralElection >>> div.sort_article div.cont_wrap dl dt span.num {
+  display: inline;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+#mGeneralElection >>> div.sort_article div.cont_wrap dl dt span.name {
+  display: inline-block;
+  font-size: 18px;
+  float: right;
+  font-weight: bold;
+  margin-top: 3px;
+  margin-right: 30px;
+  letter-spacing: 7px;
+}
+
+#mGeneralElection >>> div.sort_article div.cont_wrap span.link {
+  display: inline-block;
+  width: 28%;
+  float: right;
+  border: 2px solid #6326FF;
+  color: #6326FF;
+  font-size: 12px;
+  padding: 2%;
+  margin-right: 4%;
+}
+
+#mGeneralElection >>> div.sort_article div.cont_wrap h3 {
+  float: left;
+  width: 65%;
+  font-size: 14px;
+  color: #202457;
+  display: inline-block;
+  font-family: 'NotoKr_R';
+  padding-left: 3%;
+  border-left: 2px solid #202457;
+}
+
+#mGeneralElection >>> div.sort_article div.cont_wrap p {
+  display: inline-block;
+  padding: 2%;
+  width: 100%;
+  font-size: 12px;
+  color: #636578
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+  width: 0px
+}
+
+/*관련기사 끝-----------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*필터 시작-----------------------------------------------------------------------------------------------------------*/
+#mGeneralElection >>> div.filter {
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  z-index: 100;
+  /* display: none; */
+}
+
+#mGeneralElection >>> div.filter div.cont_wrap {
+  width: 50%;
+  margin-left: 50%;
+  height: 100vh;
+  background: #fff;
+  overflow: hidden;
+  position: relative;
+}
+
+#mGeneralElection >>> div.filter div.cont_wrap h1 {
+  position: relative;
+  width: 100%;
+  padding: 7%;
+  padding-top: 0%;
+  text-align: center;
+  font-weight: normal;
+  font-size: 22px;
+  height: auto;
+  background: #6326FF;
+  color: #fff;
+}
+
+#mGeneralElection >>> div.filter div.cont_wrap img.close_btn {
+  position: relative;
+  width: 30px;
+  top: 12px;
+  left: -64px;
+}
+
+#mGeneralElection >>> div.filter div.cont_wrap h1 b {
+  display: inline-block;
+  text-align: left;
+  width: 100%;
+  font-size: 16px;
+  color: #fff;
+}
+
+#mGeneralElection >>> div.filter div.cont_wrap h1 b:before {
+  position: relative;
+  top: 12px;
+  margin-left: 3px;
+  margin-right: 5px;
+  content: '';
+  display: inline-block;
+  width: 25px;
+  height: 30px;
+  background-size: contain;
+  background: url("../../images/mobile/bul01.png") center no-repeat;
+}
+
+#mGeneralElection >>> div.filter div.cont_wrap h1 span.refresh {
+  position: absolute;
+  bottom: 14px;
+  right: 8px;
+  border: 1px solid #fff;
+  padding: 4px;
+  color: #fff;
+  font-size: 10px;
+}
+
+#mGeneralElection >>> div.filter div.cont_wrap img.logo {}
+
+#mGeneralElection >>> div.filter div.cont_wrap img.vote_icon {
+  position: absolute;
+  width: 50px;
+  height: auto;
+  bottom: 16px;
+  left: 27px;
+}
+
+#mGeneralElection >>> div.filter div.cont_wrap h2 {
+  font-size: 16px;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  display: inline-block;
+  border-left: 2px solid #202457;
+  margin-left: 20px;
+  padding-left: 8px;
+}
+
+#mGeneralElection >>> div.filter div.cont_wrap h2 span {
+  display: inline-block;
+  letter-spacing: 3px;
+  font-size: 18px;
+  padding-left: 5%;
+  margin-left: 12%;
+  line-height: 1.5em;
+  border-left: 3px solid #6326FF;
+  font-weight: normal;
+  color: #6326FF
+}
+
+#mGeneralElection >>> div.filter div.cont_wrap h2 img {
+  position: relative;
+  top: 10px;
+}
+
+#mGeneralElection >>> div.filter div.cont_wrap ul {
+  display: block;
+  margin-left: 20px;
+  padding: 8%;
+  padding-left: 15%;
+  background: #F5F5FB;
+}
+
+#mGeneralElection >>> div.filter div.cont_wrap ul li {
+  line-height: 2.2em;
+  font-size: 13px;
+}
+
+#mGeneralElection >>> div.filter div.cont_wrap ul li.row_line {
+  width: 100%;
+  height: 1px;
+  background: #CECECE;
+  margin: 5px 0px;
+}
+
+#mGeneralElection >>> div.filter div.cont_wrap ol {
+  display: block;
+  margin-left: 20px;
+  padding: 8%;
+  padding-left: 15%;
+  background: #F5F5FB;
+}
+
+#mGeneralElection >>> div.filter div.cont_wrap ol li {
+  line-height: 2.2em;
+  font-size: 13px;
+}
+
+#mGeneralElection >>> div.filter div.cont_wrap ol li:before {
+  position: relative;
+  top: -3px;
+  margin-left: -3px;
+  margin-right: 5px;
+  content: '';
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: #9b9db6;
+}
+
+#mGeneralElection >>> div.filter div.cont_wrap input[type=radio] {
+  position: relative;
+  top: 8px;
+  left: 10px;
+  float: right;
+  margin-right: 28px;
+}
+
+
+
+/*필터 끝-----------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*예산 및 사업현황 시작-----------------------------------------------------------------------------------------------------------------------------------------*/
+#mGeneralElection >>> div.budget {
+  /*display:none;*/
+}
+
+
+#mGeneralElection >>> div.fixed_menu {
+  position: fixed;
+  z-index: 10;
+}
+
+#mGeneralElection >>> div.fixed_menu h1 {
+  position: fixed;
+  display: inline-block;
+  padding: 15px;
+  background: #6326FF;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  font-size: 14px;
+}
+
+#mGeneralElection >>> div.fixed_menu div.sort {
+  position: fixed;
+  width: 100%;
+  padding: 8px 12px;
+  margin-top: 45px;
+  border-top: 1px solid #946cfb;
+  background: #521DDB;
+  border-bottom: 1px solid #946cfb;
+}
+
+#mGeneralElection >>> div.fixed_menu .select {
+  position: relative;
+  display: inline-block;
+
+  width: 33.33333%;
+  float: left;
+  font-size: 14px;
+
+}
+
+#mGeneralElection >>> div.fixed_menu .st04 select {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  cursor: pointer;
+  padding: 12px 10px;
+  padding-right: 28px;
+  outline: 0;
+  border: 0;
+  border-radius: 0;
+  
+  border: #A584FA 1px solid;
+  border-right: 0px;
+  border-radius: 0px;
+  color: #bfabf2;
+  font-weight: bold;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  box-shadow: 0 6px 6px 3px rgba(23, 7, 38, 0.1);
+  z-index: 2;
+
+}
+
+
+#mGeneralElection >>> div.fixed_menu .st04:nth-of-type(3) select {
+  border-right: #A584FA 1px solid;
+
+}
+
+#mGeneralElection >>> div.fixed_menu .select select::-ms-expand {
+  display: none;
+}
+
+#mGeneralElection >>> div.fixed_menu .select select:hover,
+#mGeneralElection >>> div.fixed_menu .select select:focus {
+  color: #f8f8f8;
+  background: #6326FF;
+}
+
+#mGeneralElection >>> div.fixed_menu .select select.active {
+  color: #f8f8f8;
+  background: #6326FF;
+}
+
+#mGeneralElection >>> div.fixed_menu .select select:disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+#mGeneralElection >>> div.fixed_menu .select__arrow {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: 16px;
+  right: 10px;
+  background: url("../../images/mobile/select_arrow_st04.png") center no-repeat;
+  background-size: contain;
+  z-index: 1;
+
+}
+
+#mGeneralElection >>> div.fixed_menu .select select:hover~.select__arrow,
+#mGeneralElection >>> #mGeneralElection >>>div.fixed_menu .select select:focus~.select__arrow {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: 20px;
+  right: 20px;
+  background-size: contain;
+  background: url("../../images/event/select_arrow_R.png") center no-repeat;
+}
+
+#mGeneralElection >>> div.budget {
+  position: relative;
+  z-index: 1;
+  padding-top: 100px;
+}
+
+#mGeneralElection >>> div.budget h2 {
+  display: inline-block;
+  position: relative;
+  padding: 10px 0px;
+  width: 100%;
+  font-size: 13px;
+  font-weight: 100;
+  font-family: 'NotoKr_R';
+}
+
+#mGeneralElection >>> div.budget h2 b {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#mGeneralElection >>> div.budget h2:before {
+  position: relative;
+  top: 12px;
+  margin-left: 20px;
+  margin-right: 5px;
+  content: '';
+  display: inline-block;
+  width: 25px;
+  height: 30px;
+  background-size: contain;
+  background: url("../../images/mobile/bul01.png") center no-repeat;
+}
+
+#mGeneralElection >>> div.budget h2 span.standard {
+  bottom: 11px;
+  right: 10px;
+  font-family: 'SpoqaHanSans_R';
+  font-size: 10px;
+  color: #7e809d;
+  display: inline-block;
+  position: absolute;
+}
+
+#mGeneralElection >>> div.budget div.keyword_wrap {
+  position: relative;
+  width: 100%;
+  padding: 10px 0px;
+
+  overflow-x: scroll;
+  background: #EBECF9;
+}
+
+#mGeneralElection >>> div.budget div.keyword_wrap div.keyword {
+  background: #fff;
+  padding: 5px;
+  padding-top: 32px;
+  width: 20000px;
+  box-shadow: 0 6px 6px 3px rgba(23, 7, 38, 0.1);
+}
+
+#mGeneralElection >>> div.budget h3.keyword_tit {
+  position: absolute;
+  font-size: 12px;
+  left: 135px;
+  top: 175px;
+}
+
+#mGeneralElection >>> div.budget div.keyword_wrap div.keyword span {
+  display: inline-block;
+  border: 1px solid #1C01A3;
+  border-radius: 20px;
+  margin-right: 10px;
+  color: #1C01A3;
+  padding: 4px 8px;
+  float: left;
+  font-size: 11px;
+}
+
+#mGeneralElection >>> div.budget div.keyword_wrap div.keyword span:nth-child(1n) {
+  border: 1px solid #1C01A3;
+  color: #1C01A3;
+}
+
+#mGeneralElection >>> div.budget div.keyword_wrap div.keyword span:nth-child(2n) {
+  border: 1px solid #2B01FC;
+  color: #2B01FC;
+}
+
+#mGeneralElection >>> div.budget div.keyword_wrap div.keyword span:nth-child(3n) {
+  border: 1px solid #6326FF;
+  color: #6326FF;
+}
+
+#mGeneralElection >>> div.budget div.keyword_wrap div.keyword span:nth-child(4n) {
+  border: 1px solid #7153BC;
+  color: #7153BC;
+}
+
+#mGeneralElection >>> div.budget div.keyword_wrap div.keyword span:nth-child(5n) {
+  border: 1px solid #A584FA;
+  color: #A584FA;
+}
+
+
+
+
+#mGeneralElection >>> div.budget article h4 {
+  width: 100%;
+  text-align: center;
+  margin: 20px 0px;
+  display: inline-block;
+}
+
+#mGeneralElection >>> div.budget article h4 span {
+  border-left: 2px solid #202457;
+  padding-left: 5px;
+  color: #464973;
+  font-family: 'NotoKr_R';
+  font-size: 16px;
+}
+
+#mGeneralElection >>> div.budget article h4 b {
+  font-family: 'SpoqaHanSans_R';
+  color: #2B01FC;
+}
+
+#mGeneralElection >>> div.budget article ol.row_graph {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+}
+
+#mGeneralElection >>> div.budget article ol.row_graph li {
+  width: 100%;
+  height: 20px;
+  margin-bottom: 10px;
+}
+
+#mGeneralElection >>> div.budget article ol.row_graph li span {
+  display: inline-block;
+  width: 25%;
+  padding-right: 3%;
+  ;
+  text-align: right;
+  float: left;
+}
+#mGeneralElection >>> div.budget article ol.row_graph li span.percent { font-weight: 100 !important; width: auto;}
+#mGeneralElection >>> div.budget article ol.row_graph li span b{ font-weight: bold;} 
+#mGeneralElection >>> div.budget article ol.row_graph li div.bargraph_bg {
+  position: relative;
+  background: #EBECF9;
+  display: inline-block;
+  width: 70%;
+  float: left;
+}
+
+#mGeneralElection >>> div.budget article ol.row_graph li div.bargraph_bg .bargraph {
+  width: 100%;
+}
+
+#mGeneralElection >>> div.budget article ol.row_graph li:nth-child(1n) div.bargraph_bg .bargraph span.budget {
+  position: relative;
+  font-weight: bold;
+  display: inline-block;
+  width: 48%;
+  padding-right: 4%;
+  font-family: 'SpoqaHanSans_R';
+  color: #fff;
+  line-height: 20px;
+  font-size: 11px;
+  background: #1C01A3;
+}
+
+#mGeneralElection >>> div.budget article ol.row_graph li:nth-child(1n) div.bargraph_bg .bargraph span.budget:after {
+  position: absolute;
+  top: 0px;
+  right: -10px;
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  background-size: contain;
+  background: #1C01A3;
+}
+
+#mGeneralElection >>> div.budget article ol.row_graph li:nth-child(1n) div.bargraph_bg .bargraph span.percent {
+  text-align: left;
+  margin-left: 6%;
+  font-family: 'SpoqaHanSans_R';
+  font-weight: bold;
+  color: #1C01A3;
+  line-height: 20px;
+  font-size: 11px;
+}
+
+#mGeneralElection >>> div.budget article ol.row_graph li:nth-child(2n) div.bargraph_bg .bargraph span.budget {
+  position: relative;
+  font-weight: bold;
+  display: inline-block;
+  width: 48%;
+  padding-right: 4%;
+  font-family: 'SpoqaHanSans_R';
+  color: #fff;
+  line-height: 20px;
+  font-size: 11px;
+  background: #2B01FC;
+}
+
+#mGeneralElection >>> div.budget article ol.row_graph li:nth-child(2n) div.bargraph_bg .bargraph span.budget:after {
+  position: absolute;
+  top: 0px;
+  right: -10px;
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  background-size: contain;
+  background: #2B01FC;
+}
+
+#mGeneralElection >>> div.budget article ol.row_graph li:nth-child(2n) div.bargraph_bg .bargraph span.percent {
+  text-align: left;
+  margin-left: 6%;
+  font-family: 'SpoqaHanSans_R';
+  font-weight: bold;
+  color: #2B01FC;
+  line-height: 20px;
+  font-size: 11px;
+}
+
+#mGeneralElection >>> div.budget article ol.row_graph li:nth-child(3n) div.bargraph_bg .bargraph span.budget {
+  position: relative;
+  font-weight: bold;
+  display: inline-block;
+  width: 48%;
+  padding-right: 4%;
+  font-family: 'SpoqaHanSans_R';
+  color: #fff;
+  line-height: 20px;
+  font-size: 11px;
+  background: #6326FF;
+}
+
+#mGeneralElection >>> div.budget article ol.row_graph li:nth-child(3n) div.bargraph_bg .bargraph span.budget:after {
+  position: absolute;
+  top: 0px;
+  right: -10px;
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  background-size: contain;
+  background: #6326FF;
+}
+
+#mGeneralElection >>> div.budget article ol.row_graph li:nth-child(3n) div.bargraph_bg .bargraph span.percent {
+  text-align: left;
+  margin-left: 6%;
+  font-family: 'SpoqaHanSans_R';
+  font-weight: bold;
+  color: #6326FF;
+  line-height: 20px;
+  font-size: 11px;
+}
+
+#mGeneralElection >>> div.budget article ol.row_graph li:nth-child(4n) div.bargraph_bg .bargraph span.budget {
+  position: relative;
+  font-weight: bold;
+  display: inline-block;
+  width: 48%;
+  padding-right: 4%;
+  font-family: 'SpoqaHanSans_R';
+  color: #fff;
+  line-height: 20px;
+  font-size: 11px;
+  background: #7153BC;
+}
+
+#mGeneralElection >>> div.budget article ol.row_graph li:nth-child(4n) div.bargraph_bg .bargraph span.budget:after {
+  position: absolute;
+  top: 0px;
+  right: -10px;
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  background-size: contain;
+  background: #7153BC;
+}
+
+#mGeneralElection >>> div.budget article ol.row_graph li:nth-child(4n) div.bargraph_bg .bargraph span.percent {
+  text-align: left;
+  margin-left: 6%;
+  font-family: 'SpoqaHanSans_R';
+  font-weight: bold;
+  color: #7153BC;
+  line-height: 20px;
+  font-size: 11px;
+}
+
+#mGeneralElection >>> div.budget article ol.row_graph li:nth-child(5n) div.bargraph_bg .bargraph span.budget {
+  position: relative;
+  font-weight: bold;
+  display: inline-block;
+  width: 48%;
+  padding-right: 4%;
+  font-family: 'SpoqaHanSans_R';
+  color: #fff;
+  line-height: 20px;
+  font-size: 11px;
+  background: #A584FA;
+}
+
+#mGeneralElection >>> div.budget article ol.row_graph li:nth-child(5n) div.bargraph_bg .bargraph span.budget:after {
+  position: absolute;
+  top: 0px;
+  right: -10px;
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  background-size: contain;
+  background: #A584FA;
+}
+
+#mGeneralElection >>> div.budget article ol.row_graph li:nth-child(5n) div.bargraph_bg .bargraph span.percent {
+  text-align: left;
+  margin-left: 6%;
+  font-family: 'SpoqaHanSans_R';
+  font-weight: bold;
+  color: #A584FA;
+  line-height: 20px;
+  font-size: 11px;
+}
+
+#mGeneralElection >>> div.budget article ol.row_graph li:nth-child(6n) div.bargraph_bg .bargraph span.budget {
+  position: relative;
+  font-weight: bold;
+  display: inline-block;
+  width: 48%;
+  padding-right: 4%;
+  font-family: 'SpoqaHanSans_R';
+  color: #fff;
+  line-height: 20px;
+  font-size: 11px;
+  background: #1C01A3;
+}
+
+#mGeneralElection >>> div.budget article ol.row_graph li:nth-child(6n) div.bargraph_bg .bargraph span.budget:after {
+  position: absolute;
+  top: 0px;
+  right: -10px;
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  background-size: contain;
+  background: #1C01A3;
+}
+
+#mGeneralElection >>> div.budget article ol.row_graph li:nth-child(6n) div.bargraph_bg .bargraph span.percent {
+  text-align: left;
+  margin-left: 6%;
+  font-family: 'SpoqaHanSans_R';
+  font-weight: bold;
+  color: #1C01A3;
+  line-height: 20px;
+  font-size: 11px;
+}
+
+
+#mGeneralElection >>> div.budget article ol.row_graph li:nth-child(7n) div.bargraph_bg .bargraph span.budget {
+  position: relative;
+  font-weight: bold;
+  display: inline-block;
+  width: 48%;
+  padding-right: 4%;
+  font-family: 'SpoqaHanSans_R';
+  color: #fff;
+  line-height: 20px;
+  font-size: 11px;
+  background: #2B01FC;
+}
+
+#mGeneralElection >>> div.budget article ol.row_graph li:nth-child(7n) div.bargraph_bg .bargraph span.budget:after {
+  position: absolute;
+  top: 0px;
+  right: -10px;
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  background-size: contain;
+  background: #2B01FC;
+}
+
+#mGeneralElection >>> div.budget article ol.row_graph li:nth-child(7n) div.bargraph_bg .bargraph span.percent {
+  text-align: left;
+  margin-left: 6%;
+  font-family: 'SpoqaHanSans_R';
+  font-weight: bold;
+  color: #2B01FC;
+  line-height: 20px;
+  font-size: 11px;
+}
+
+#mGeneralElection >>> div.budget article ol.row_graph li:nth-child(8n) div.bargraph_bg .bargraph span.budget {
+  position: relative;
+  font-weight: bold;
+  display: inline-block;
+  width: 48%;
+  padding-right: 4%;
+  font-family: 'SpoqaHanSans_R';
+  color: #fff;
+  line-height: 20px;
+  font-size: 11px;
+  background: #6326FF;
+}
+
+#mGeneralElection >>> div.budget article ol.row_graph li:nth-child(8n) div.bargraph_bg .bargraph span.budget:after {
+  position: absolute;
+  top: 0px;
+  right: -10px;
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  background-size: contain;
+  background: #6326FF;
+}
+
+#mGeneralElection >>> div.budget article ol.row_graph li:nth-child(8n) div.bargraph_bg .bargraph span.percent {
+  text-align: left;
+  margin-left: 6%;
+  font-family: 'SpoqaHanSans_R';
+  font-weight: bold;
+  color: #6326FF;
+  line-height: 20px;
+  font-size: 11px;
+}
+
+#mGeneralElection >>> div.budget article ol.row_graph li:nth-child(9n) div.bargraph_bg .bargraph span.budget {
+  position: relative;
+  font-weight: bold;
+  display: inline-block;
+  width: 48%;
+  padding-right: 4%;
+  font-family: 'SpoqaHanSans_R';
+  color: #fff;
+  line-height: 20px;
+  font-size: 11px;
+  background: #7153BC;
+  ;
+}
+
+#mGeneralElection >>> div.budget article ol.row_graph li:nth-child(9n) div.bargraph_bg .bargraph span.budget:after {
+  position: absolute;
+  top: 0px;
+  right: -10px;
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  background-size: contain;
+  background: #7153BC;
+  ;
+}
+
+#mGeneralElection >>> div.budget article ol.row_graph li:nth-child(9n) div.bargraph_bg .bargraph span.percent {
+  text-align: left;
+  margin-left: 6%;
+  font-family: 'SpoqaHanSans_R';
+  font-weight: bold;
+  color: #7153BC;
+  ;
+  line-height: 20px;
+  font-size: 11px;
+}
+
+#mGeneralElection >>> div.budget article ol.row_graph li:nth-child(12n) div.bargraph_bg .bargraph span.budget {
+  position: relative;
+  font-weight: bold;
+  display: inline-block;
+  width: 48%;
+  padding-right: 4%;
+  font-family: 'SpoqaHanSans_R';
+  color: #fff;
+  line-height: 20px;
+  font-size: 11px;
+  background: #2B01FC;
+}
+
+#mGeneralElection >>> div.budget article ol.row_graph li:nth-child(12n) div.bargraph_bg .bargraph span.budget:after {
+  position: absolute;
+  top: 0px;
+  right: -10px;
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  background-size: contain;
+  background: #2B01FC;
+}
+
+#mGeneralElection >>> div.budget article ol.row_graph li:nth-child(12n) div.bargraph_bg .bargraph span.percent {
+  text-align: left;
+  margin-left: 6%;
+  font-family: 'SpoqaHanSans_R';
+  font-weight: bold;
+  color: #2B01FC;
+  line-height: 20px;
+  font-size: 11px;
+}
+
+
+/*예산 및 사업현황 끝-------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*분야별 진단 시작----------------------------------------------------------------------------------------------------------------------------------------------*/
+#mGeneralElection >>> div.field {}
+
+
+
+#mGeneralElection >>> div.field {
+  position: relative;
+  z-index: 1;
+  padding-top: 10px;
+}
+
+#mGeneralElection >>> div.field h2 {
+  border-top: 20px solid #EBECF9;
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  padding-bottom: 10px;
+  font-size: 13px;
+  font-weight: 100;
+  font-family: 'NotoKr_R';
+}
+
+#mGeneralElection >>> div.field h2 b {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#mGeneralElection >>> div.field h2:before {
+  position: relative;
+  top: 12px;
+  margin-left: 20px;
+  margin-right: 5px;
+  content: '';
+  display: inline-block;
+  width: 25px;
+  height: 30px;
+  background-size: contain;
+  background: url("../../images/mobile/bul01.png") center no-repeat;
+}
+
+#mGeneralElection >>> div.field h2 span.standard {
+  bottom: 11px;
+  right: 10px;
+  font-family: 'SpoqaHanSans_R';
+  font-size: 10px;
+  color: #7e809d;
+  display: inline-block;
+  position: absolute;
+}
+
+#mGeneralElection >>> div.field div.keyword_wrap {
+  position: relative;
+  width: 100%;
+  padding: 10px 0px;
+
+  overflow-x: scroll;
+  background: #EBECF9;
+}
+
+#mGeneralElection >>> div.field div.keyword_wrap div.keyword {
+  background: #fff;
+  padding: 5px;
+  padding-top: 32px;
+  width: 20000px;
+  box-shadow: 0 6px 6px 3px rgba(23, 7, 38, 0.1);
+}
+
+#mGeneralElection >>> div.field h3.keyword_tit {
+  position: absolute;
+  font-size: 12px;
+  left: 135px;
+  top: 94px;
+}
+
+#mGeneralElection >>> div.field div.keyword_wrap div.keyword span {
+  display: inline-block;
+  border: 1px solid #1C01A3;
+  border-radius: 20px;
+  margin-right: 10px;
+  color: #1C01A3;
+  padding: 4px 8px;
+  float: left;
+  font-size: 11px;
+}
+
+#mGeneralElection >>> div.field div.keyword_wrap div.keyword span:nth-child(1n) {
+  border: 1px solid #6326FF;
+  color: #6326FF;
+}
+
+#mGeneralElection >>> div.field div.keyword_wrap div.keyword span:nth-child(2n) {
+  border: 1px solid #925EFF;
+  color: #925EFF;
+}
+
+#mGeneralElection >>> div.field div.keyword_wrap div.keyword span:nth-child(3n) {
+  border: 1px solid #AD56E8;
+  color: #AD56E8;
+}
+
+#mGeneralElection >>> div.field div.keyword_wrap div.keyword span:nth-child(4n) {
+  border: 1px solid #EB6BFF;
+  color: #EB6BFF;
+}
+
+#mGeneralElection >>> div.field div.keyword_wrap div.keyword span:nth-child(5n) {
+  border: 1px solid #E856C3;
+  color: #E856C3;
+}
+
+
+
+
+
+#mGeneralElection >>> div.field div.radial_graph {
+  width: 100%;
+  height: auto;
+}
+
+#mGeneralElection >>> div.field div.radial_graph img {
+  width: 100%;
+  height: auto;
+}
+
+/*분야별 진단 끝------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*후보자정보 시작-----------------------------------------------------------------------------------------------------------------------------------------------*/
+#mGeneralElection >>> div.candidate {}
+
+#mGeneralElection >>> div.candidate h2 {
+  border-top: 20px solid #EBECF9;
+  display: inline-block;
+  padding-bottom: 10px;
+  position: relative;
+  width: 100%;
+  font-size: 13px;
+  font-weight: 100;
+  font-family: 'NotoKr_R';
+}
+
+#mGeneralElection >>> div.candidate h2 b {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#mGeneralElection >>> div.candidate h2:before {
+  position: relative;
+  top: 12px;
+  margin-left: 20px;
+  margin-right: 5px;
+  content: '';
+  display: inline-block;
+  width: 25px;
+  height: 30px;
+  background-size: contain;
+  background: url("../../images/mobile/bul01.png") center no-repeat;
+}
+
+#mGeneralElection >>> div.candidate h2 span {
+  float: right;
+  margin-right: 2%;
+}
+
+#mGeneralElection >>> div.candidate h2 span.filter {
+  display: inline-block;
+  border: 2px solid #1C01A3;
+  color: #1C01A3;
+  font-size: 12px;
+  position: relative;
+  top: 8px;
+  padding: 1%
+}
+
+#mGeneralElection >>> div.candidate h2 span.hide {
+  display: inline-block;
+  border: 2px solid #6326FF;
+  color: #6326FF;
+  font-size: 12px;
+  position: relative;
+  top: 8px;
+  padding: 1%;
+  margin-right: 4%;
+}
+
+#mGeneralElection >>> div.candidate article.cont_wrap {
+  width: 100%;
+  height: auto;
+  background: #EBECF9;
+  padding-top: 3%;
+}
+
+#mGeneralElection >>> .dropdown-container {
+  width: 94%;
+  margin-left: 3%;
+  border-radius: 6px;
+  background: #fff;
+  height: auto;
+  text-align: center;
+  position: relative;
+  float: left;
+  border-radius: 6px;
+  box-shadow: 0 6px 6px 3px rgba(23, 7, 38, 0.1);
+  margin-bottom: 3%;
+  padding: 0%;
+}
+
+#mGeneralElection >>> .dropdown-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#mGeneralElection >>> .dropdown-container label {
+  position: relative;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+
+  color: #202457;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  padding: 4%;
+  padding-bottom: 2%;
+  padding-right: 10px;
+}
+
+#mGeneralElection >>> .dropdown-container label {
+  display: inline-block;
+  width: 100%;
+
+}
+
+
+#mGeneralElection >>> .dropdown-container label dl.default dd {
+  display: inline-block;
+  width: 47%;
+  float: left;
+  word-break: break-all;
+}
+
+#mGeneralElection >>> .dropdown-container label dl.default dd img {
+  float: left;
+  width: 45%;
+}
+
+#mGeneralElection >>> .dropdown-container label dl.default dd h5 {
+  float: left;
+  font-size: 13px;
+  line-height: 1.5em;
+  font-weight: 100;
+  text-align: left;
+  margin-left: 5%;
+  width: 50%;
+}
+
+#mGeneralElection >>> .dropdown-container label dl.default dd h6 {
+  float: left;
+  font-size: 13px;
+  line-height: 1.5em;
+  font-weight: bold;
+  color: #898a8e;
+  text-align: left;
+  margin-left: 5%;
+  width: 50%;
+}
+
+
+#mGeneralElection >>> .dropdown-container label dl.default dd h6.p01 {
+   color: #004ea7;
+ }
+
+ #mGeneralElection >>> .dropdown-container label dl.default dd h6.p02 {
+   color: #e84573;
+  }
+  #mGeneralElection >>> .dropdown-container label dl.default dd h6.p03 {
+    color: #e33b3c;
+   }
+   #mGeneralElection >>> .dropdown-container label dl.default dd h6.p04 {
+    color: #e89b01;
+   }
+   #mGeneralElection >>> .dropdown-container label dl.default dd h6.p05 {
+    color: #f47920;
+   }
+   #mGeneralElection >>> .dropdown-container label dl.default dd h6.p06 {
+    color: #2e9c74;
+   }
+
+
+   #mGeneralElection >>> .dropdown-container label dl.default dd span.h7 {
+  float: left;
+  font-size: 18px;
+  line-height: 1.5em;
+  font-weight: bold;
+  text-align: left;
+  margin-left: 5%;
+  width: 50%;
+}
+
+#mGeneralElection >>> .dropdown-container label dl.default dt {
+  display: inline-block;
+  width: 40%;
+  float: left;
+}
+
+#mGeneralElection >>> .dropdown-container label dl.default dt div {
+  border-radius: 8px;
+  border: 2px solid #ccc;
+  width: 100%;
+  height: 70px;
+  padding: 5%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: keep-all;
+}
+
+#mGeneralElection >>> .dropdown-container label dl.on dd {
+  display: inline-block;
+  width: 25%;
+  float: left;
+  word-break: break-all;
+}
+
+#mGeneralElection >>> .dropdown-container label dl.on dd img {
+  float: left;
+  width: 100%;
+}
+
+#mGeneralElection >>> .dropdown-container label dl.on dt {
+  width: 75%;
+  float: left;
+  display: inline-block;
+}
+
+#mGeneralElection >>> .dropdown-container label dl.on dt h5 {
+  float: left;
+  font-size: 13px;
+  line-height: 1.5em;
+  font-weight: 100;
+  text-align: left;
+  width: 40%;
+}
+
+#mGeneralElection >>> .dropdown-container label dl.on dt h6 {
+  float: left;
+  font-size: 13px;
+  line-height: 1.5em;
+  font-weight: bold;
+  text-align: left;
+  width: 60%;
+}
+
+#mGeneralElection >>> .dropdown-container label dl.on dt h6 strong.male {
+  color: #1368BC;
+}
+
+#mGeneralElection >>> .dropdown-container label dl.on dt h6 strong.female {
+  color: #E856C3;
+}
+
+#mGeneralElection >>> .dropdown-container label dl.on dt span.h7 {
+  float: left;
+  font-size: 13px;
+  line-height: 1.5em;
+  font-weight: bold;
+  color: #1368BC;
+  text-align: left;
+  width: 40%;
+  line-height: 18px;
+}
+
+#mGeneralElection >>> .dropdown-container label dl.on dt span.h8 {
+  float: left;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: left;
+  width: 60%;
+  line-height: 18px;
+}
+
+#mGeneralElection >>> .dropdown-container label dl.on dt span {
+  display: block;
+  width: 100%;
+  height: auto;
+  text-align: left;
+
+}
+
+#mGeneralElection >>> .dropdown-container label dl.on dt span.career01 {font-size: 12px;}
+
+#mGeneralElection >>> ul.content li.btn {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+#mGeneralElection >>> ul.content li.graph {
+  width: auto;
+  height: auto;
+  text-align: center;
+  background: #F5F5FB;
+  margin: 0%;
+  border-radius: 13px;
+}
+
+#mGeneralElection >>> ul.content li.graph div.radial_graph{ width:290px; }
+
+#mGeneralElection >>> ul.content li.graph span.h8 {
+  display: inline-block;
+  background: #fff;
+  padding: 3px 6px;
+  margin: 4px;
+}
+/*공약집 없을때*/
+#mGeneralElection >>> ul.content li.graph span.off {
+  display: none;
+
+}
+
+#mGeneralElection >>> div.candidate div.off{display: none;}
+
+#mGeneralElection >>> ul.content li span.book {
+  display: inline-block;
+  border: 2px solid #521DDB;
+  margin-right: 3px;
+  color: #521DDB;
+  font-size: 12px;
+  padding: 1%
+}
+
+#mGeneralElection >>> ul.content li span.article {
+  display: inline-block;
+  border: 2px solid #5D54FF;
+  margin-right: 3px;
+  color: #5D54FF;
+  font-size: 12px;
+  padding: 1%
+}
+
+#mGeneralElection >>> ul.content li span.crime {
+  display: inline-block;
+  border: 2px solid #6451FF;
+  color: #6451FF;
+  font-size: 12px;
+  padding: 1%
+}
+
+#mGeneralElection >>> ul.content li span.non_book {
+  display: inline-block;
+  border: 2px solid #ddd;
+  margin-right: 3px;
+  color: #ddd;
+  font-size: 12px;
+  padding: 1%
+}
+
+#mGeneralElection >>> ul.content li span.non_article {
+  display: inline-block;
+  border: 2px solid #ddd;
+  margin-right: 3px;
+  color: #ddd;
+  font-size: 12px;
+  padding: 1%
+}
+
+#mGeneralElection >>> ul.content li span.non_crime {
+  display: inline-block;
+  border: 2px solid #ddd;
+  color: #ddd;
+  font-size: 12px;
+  padding: 1%
+}
+
+#mGeneralElection >>> .dropdown-container label span.on {
+  display: none;
+}
+
+#mGeneralElection >>> .dropdown-container label:hover {}
+
+#mGeneralElection >>> .dropdown-container label:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 37px;
+  right: 23px;
+  width: 40px;
+
+  height: 15px;
+  width: 15px;
+  border: 4px solid #bebfce;
+  border-width: 4px 4px 0 0;
+  -webkit-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+
+#mGeneralElection >>> .dropdown-container label:before {
+  content: "";
+  display: none;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 40px;
+
+  height: 15px;
+  width: 15px;
+  border: 4px solid #bebfce;
+  border-width: 4px 4px 0 0;
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+
+#mGeneralElection >>> .dropdown-container .content {
+  height: 0;
+  max-height: 0px;
+  margin: 0;
+  text-align: left;
+  overflow: hidden;
+  -webkit-transition: 0.3s linear;
+  transition: 0.3s linear;
+  position: absolute;
+  z-index: 999;
+  background: #fff;
+}
+
+#mGeneralElection >>> .dropdown-container .content li {
+  padding: 3px 10px;
+}
+
+#mGeneralElection >>> .dropdown-container .content li:first-child {
+  padding-top: 10px;
+}
+
+#mGeneralElection >>> .dropdown-container .content li:last-child {
+  padding-bottom: 10px;
+}
+
+#mGeneralElection >>> .dropdown-container .dropdown {
+  display: none;
+
+}
+
+#mGeneralElection >>> .dropdown-container .dropdown:checked~.content {
+  z-index: 9;
+  height: auto;
+  width: 100%;
+  max-height: 900px;
+  -webkit-transition: max-height 1s ease-in;
+  transition: max-height 1s ease-in;
+  overflow: hidden;
+
+  position: relative;
+}
+
+#mGeneralElection >>> .dropdown-container .on {
+  display: none;
+}
+
+
+#mGeneralElection >>> .dropdown-container .dropdown:checked~label .on {
+  display: block;
+}
+
+#mGeneralElection >>> .dropdown-container .dropdown:checked~label .default {
+  display: none;
+}
+
+#mGeneralElection >>> .dropdown-container .dropdown:checked~label:after {
+  content: "";
+  display: none;
+  position: absolute;
+  top: 20px;
+  right: 7px;
+  width: 40px;
+
+  height: 15px;
+  width: 15px;
+  border: 3px solid #bebfce;
+  border-width: 4px 4px 0 0;
+  -webkit-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+
+#mGeneralElection >>> .dropdown-container .dropdown:checked~label:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 37px;
+  right: 23px;
+  width: 40px;
+
+  height: 15px;
+  width: 15px;
+  border: 3px solid #bebfce;
+  border-width: 4px 4px 0 0;
+  -webkit-transform: rotate(315deg);
+  transform: rotate(315deg);
+}
+
+
+/* .dropdown-container #drop02 {
+  display: none;
+
+}
+
+.dropdown-container #drop02:checked~.content {
+  z-index: 9999;
+  height: auto;
+  width: 100%;
+  max-height: 900px;
+  -webkit-transition: max-height 1s ease-in;
+  transition: max-height 1s ease-in;
+  overflow: hidden;
+  background: #25285f;
+}
+
+.dropdown-container #drop02:checked~label .on {
+  display: block;
+}
+
+.dropdown-container #drop02:checked~label .default {
+  display: none;
+}
+
+.dropdown-container #drop02:checked~label:after {
+  content: "";
+  display: none;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 40px;
+
+  height: 15px;
+  width: 15px;
+  border: 1px solid tomato;
+  border-width: 2px 2px 0 0;
+  -webkit-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+
+.dropdown-container #drop02:checked~label:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 40px;
+
+  height: 15px;
+  width: 15px;
+  border: 1px solid tomato;
+  border-width: 2px 2px 0 0;
+  -webkit-transform: rotate(315deg);
+  transform: rotate(315deg);
+} */
+
+#mGeneralElection >>> div.candidate div.keyword_wrap {
+  width: 100%;
+  padding: 0px;
+  overflow: scroll;
+  background: #EBECF9;
+  margin-top: 8px;
+}
+
+#mGeneralElection >>> div.candidate div.keyword_wrap div.keyword {
+  background: #fff;
+  padding: 9px;
+  width: 20000px;
+  box-shadow: 0 6px 6px 3px rgba(23, 7, 38, 0.1);
+}
+
+#mGeneralElection >>> div.candidate div.keyword_wrap div.keyword span {
+  display: inline-block;
+  border: 1px solid #1C01A3;
+  border-radius: 20px;
+  margin-right: 10px;
+  color: #1C01A3;
+  padding: 4px 8px;
+  float: left;
+  font-size: 11px;
+}
+
+#mGeneralElection >>> div.candidate div.keyword_wrap div.keyword span:nth-child(1n) {
+  border: 1px solid #6326FF;
+  color: #6326FF;
+}
+
+#mGeneralElection >>> div.candidate div.keyword_wrap div.keyword span:nth-child(2n) {
+  border: 1px solid #925EFF;
+  color: #925EFF;
+}
+
+#mGeneralElection >>> div.candidate div.keyword_wrap div.keyword span:nth-child(3n) {
+  border: 1px solid #AD56E8;
+  color: #AD56E8;
+}
+
+#mGeneralElection >>> div.candidate div.keyword_wrap div.keyword span:nth-child(4n) {
+  border: 1px solid #EB6BFF;
+  color: #EB6BFF;
+}
+
+#mGeneralElection >>> div.candidate div.keyword_wrap div.keyword span:nth-child(5n) {
+  border: 1px solid #E856C3;
+  color: #E856C3;
+}
+#mGeneralElection >>> div.fixed_menu img.home_btn{width:26px; height:auto; position:absolute; top:9px; left:20px;}
+#mGeneralElection >>> div.fixed_menu img.kakao_btn{width:28px; height:auto; position:absolute; top:9px; right:20px;}
+
+#mGeneralElection >>> .dropdown-container label dl dd div.candidate_img{width:65px; height:65px; border-radius:50%; float:left; overflow:hidden;}
+#mGeneralElection >>> .dropdown-container label dl dd div.candidate_img img{ width: 65px; height: auto; }
+
+/*후보자정보 끝-------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*반응형 시작*/
+
+/*6step*/
+@media (max-width:768px) and (min-width:601px) {
+
+  #mGeneralElection >>> div.fixed_menu h1{ font-size: 24px; padding: 24px;}
+  #mGeneralElection >>> div.budget h3.keyword_tit{ font-size: 16px; left:330px; top:215px;}
+  #mGeneralElection >>> div.field h3.keyword_tit{ font-size: 16px; left:330px; top:106px;}
+  #mGeneralElection >>> div.budget h2 b{ font-size: 22px;}
+  #mGeneralElection >>> div.fixed_menu div.sort{margin-top: 75px;}
+  #mGeneralElection >>> div.fixed_menu img.home_btn{width:35px; height:auto; position:absolute; top:20px; left:20px;}
+  
+  #mGeneralElection >>> div.budget{ padding-top: 139px;}
+
+  #mGeneralElection >>> div.budget div.keyword_wrap div.keyword{ padding: 10px; padding-top: 40px;}
+  #mGeneralElection >>> div.budget div.keyword_wrap div.keyword span{ font-size: 12px; padding: 6px 8px;}
+  #mGeneralElection >>> div.budget h3.keyword_tit{}
+
+  #mGeneralElection >>> .dropdown-container label dl.default dd h5{ margin-left: 10%;}
+  #mGeneralElection >>> .dropdown-container label dl.default dd h6{ margin-left: 10%;}
+  #mGeneralElection >>> .dropdown-container label dl.default dd span.h7{margin-left: 10%;}
+  #mGeneralElection >>> .dropdown-container label dl.on dd{ width: 18%;}
+  #mGeneralElection >>> div.filter div.cont_wrap img.close_btn{left:-112px;}
+  #mGeneralElection >>> div.filter div.cont_wrap h1 span.refresh{ bottom:21px;}
+  #mGeneralElection >>> div.sort_article div.cont_wrap span.link{width: 16%;}
+  #mGeneralElection >>> div.sort_article div.cont_wrap dl dd{ font-size: 22px;}
+  #mGeneralElection >>> div.sort_article div.cont_wrap dl dt span.name{ 
+    font-size: 22px;
+    float: right;
+    margin-top: -3px;
+    margin-right: 128px;
+   }
+   #mGeneralElection >>> div.budget article h4 span{ font-size: 18px;}
+   #mGeneralElection >>> div.budget article h4 b{ font-size: 18px;}
+   #mGeneralElection >>> div.budget article ol.row_graph li span{ font-size: 16px;}
+   #mGeneralElection >>> div.budget article ol.row_graph li{ height:25px;}
+
+   #mGeneralElection >>> div.budget article ol.row_graph li div.bargraph_bg .bargraph span.budget{ line-height: 24px !important;}
+   #mGeneralElection >>> div.budget article ol.row_graph li div.bargraph_bg .bargraph span.budget:after{ width:24px !important; height:24px !important; }
+
+   #mGeneralElection >>> div.budget article ol.row_graph li div.bargraph_bg .bargraph span.percent{ line-height: 24px !important; font-size: 14px !important;}
+
+   #mGeneralElection >>> div.field h2{ padding-top:10px;}
+   #mGeneralElection >>> div.field h2 b{ font-size: 22px;}
+   #mGeneralElection >>> div.candidate h2{ padding-top:10px;}
+   #mGeneralElection >>> div.candidate h2 b{ font-size: 22px;}
+
+   #mGeneralElection >>> div.field div.keyword_wrap div.keyword{ padding: 10px; padding-top: 40px;}
+   #mGeneralElection >>> div.field div.keyword_wrap div.keyword span{ font-size: 12px; padding: 6px 8px;}
+
+   #mGeneralElection >>> div.candidate h2 span.filter{ top:1px;}
+   #mGeneralElection >>> div.candidate h2 span.hide{ top:1px;}
+
+   #mGeneralElection >>> .dropdown-container label dl dd div.candidate_img{width:75px; height:75px; border-radius:50%; float:left; overflow:hidden;}
+   #mGeneralElection >>> .dropdown-container label dl dd div.candidate_img img{ width: 75px; height: auto; }
+   #mGeneralElection >>> .dropdown-container label dl.default dd h5{ font-size: 15px;}
+   #mGeneralElection >>> .dropdown-container label dl.default dd h6{ font-size: 15px;}
+   #mGeneralElection >>> .dropdown-container label dl.default dd span.h7{ font-size: 20px;}
+   #mGeneralElection >>> ul.content li.graph div.radial_graph{ width:355px; height: 325px;  margin-left: 140px; }
+
+   #mGeneralElection >>> div.fixed_menu img.kakao_btn{width: 45px;
+    height: auto;
+    position: absolute;
+    top: 16px;
+    right: 20px;}
+}
+/*5step height:920*/
+@media (max-width:600px) and (min-width:415px) {
+  #mGeneralElection >>> div.budget h3.keyword_tit{ font-size: 14px; left:244px;}
+  #mGeneralElection >>> div.field h3.keyword_tit{ font-size: 14px; left:244px;}
+
+  #mGeneralElection >>> .dropdown-container label dl.default dd h5{ margin-left: 10%;}
+  #mGeneralElection >>> .dropdown-container label dl.default dd h6{ margin-left: 10%;}
+  #mGeneralElection >>> .dropdown-container label dl.default dd span.h7{margin-left: 10%;}
+  #mGeneralElection >>> .dropdown-container label dl.on dd{ width: 18%;}
+  #mGeneralElection >>> div.filter div.cont_wrap img.close_btn{left:-112px;}
+  #mGeneralElection >>> div.filter div.cont_wrap h1 span.refresh{ bottom:21px;}
+  #mGeneralElection >>> div.sort_article div.cont_wrap span.link{width: 20%;}
+  #mGeneralElection >>> div.sort_article div.cont_wrap dl dd{ font-size: 22px;}
+  #mGeneralElection >>> div.sort_article div.cont_wrap dl dt span.name{ 
+    font-size: 22px;
+    float: right;
+    margin-top: -3px;
+    margin-right: 128px;
+   }
+   #mGeneralElection >>> ul.content li.graph div.radial_graph{ width:355px; height: 325px;  margin-left: 70px; }
+}
+
+/*1step height:680*/
+@media (max-width:414px) and (min-width:385px) {
+  #mGeneralElection >>> div.budget h3.keyword_tit{left:160px; }
+  #mGeneralElection >>> div.field h3.keyword_tit{left:160px; }
+
+  #mGeneralElection >>> ul.content li.graph div.radial_graph{ width:280px; height: 260px; margin-left: 30px; }
+}
+
+/*2step*/
+@media (max-width:384px) and (min-width:376px) {
+  #mGeneralElection >>> div.budget h3.keyword_tit{left:149px; }
+  #mGeneralElection >>> div.field h3.keyword_tit{left:149px; }
+  #mGeneralElection >>> ul.content li.graph div.radial_graph{ width:260px; height: 240px; margin-left: 20px; }
+  
+
+}
+/*default*/
+@media (max-width:375px) and (min-width:361px) {
+
+  #mGeneralElection >>> ul.content li.graph div.radial_graph{ width:260px; height: 240px; margin-left: 20px; }
+
+}
+/*4step*/
+@media (max-width:360px) and (min-width:350px) {
+  #mGeneralElection >>> div.budget article ol.row_graph li span{ font-size: 13px;}
+
+  #mGeneralElection >>> .dropdown-container label dl.default dd h6{  font-size: 12px;}
+  #mGeneralElection >>> .dropdown-container label dl.default dd span.h7{ font-size: 15px;}
+  #mGeneralElection >>> div.filter div.cont_wrap h1 span.refresh{ bottom:49px}
+
+  #mGeneralElection >>> div.sort_article div.cont_wrap span.link {
+    display: inline-block;
+    width: 30%;
+    float: right;
+    border: 2px solid #6326FF;
+    color: #6326FF;
+    font-size: 12px;
+    padding: 2%;
+    margin-right: 2%;}
+
+    #mGeneralElection >>> ul.content li.graph div.radial_graph{ width:260px; height: 240px; margin-left: 20px; }
+
+}
+
+/*3step*/
+@media (max-width:350px) and (min-width:320px) {
+  
+  #mGeneralElection >>> div.budget h2 span.standard{display: none;}
+  #mGeneralElection >>> div.field h2 span.standard{display: none;}
+  #mGeneralElection >>> .dropdown-container label dl.default dd h5{ width: 45%;}
+  #mGeneralElection >>> .dropdown-container label dl.default dd h6{ width: 45%; font-size: 12px;}
+  #mGeneralElection >>> .dropdown-container label dl.default dd span.h7{width: 45%; font-size: 15px;}
+
+  #mGeneralElection >>> div.budget h3.keyword_tit{left:112px; }
+  #mGeneralElection >>> div.field h3.keyword_tit{left:112px; }
+  #mGeneralElection >>> div.budget article ol.row_graph li span{ font-size: 12px;}
+  #mGeneralElection >>> div.filter div.cont_wrap h1 span.refresh{ bottom:48px}
+  #mGeneralElection >>> .dropdown-container label dl.on dt{ width: 70%; margin-left: 5%;}
+  #mGeneralElection >>> div.sort_article div.cont_wrap dl dd{font-size: 16px;}
+  #mGeneralElection >>> div.sort_article div.cont_wrap dl dt span.name{ font-size: 16px;}
+  #mGeneralElection >>> div.sort_article div.cont_wrap span.link {
+    display: inline-block;
+    width: 32%;
+    float: right;
+    border: 2px solid #6326FF;
+    color: #6326FF;
+    font-size: 12px;
+    padding: 2%;
+    margin-right: 2%;}
+
+
+    #mGeneralElection >>> ul.content li.graph div.radial_graph{ width:225px; height: 200px; margin-left: 20px; }
+    #mGeneralElection >>> div.budget article ol.row_graph li:nth-child(1n) div.bargraph_bg .bargraph span.percent{ letter-spacing: -0.5px;}
+
+}

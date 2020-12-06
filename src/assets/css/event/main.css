@@ -1,0 +1,50 @@
+html{width:100%;} 
+body{width:100%; background:#f5f5f5; overflow-x: hidden;}
+@keyframes AnimationName { 0% { background-position: 0% 50%; } 50% { background-position: 100% 50%; } 100% { background-position: 0% 50%; } }
+
+section.bg_img {
+	background: url("../../images/event/bg_img_main.jpg") center no-repeat;
+	background-size: cover;
+	width: 100%;
+	height:100vh;
+	position: relative;
+}
+
+section.bg_img div.bg_gradient {
+	width: 100%;
+	height:100vh;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background: -moz-linear-gradient(270deg, #330867 0%, #06118f 100%);
+	background: -webkit-linear-gradient(270deg, #330867 0%, #06118f 100%);
+	background: linear-gradient(270deg, #330867 0%, #06118f 100%);
+	background-size: 400% 400%;
+	animation: AnimationName 10s infinite;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#330867', endColorstr='#06118f', GradientType=1);
+	opacity: 0.8;
+}
+section.bg_img div.bg_gradient div.bg_graph {
+	background: url("../../images/event/bg_img_graph.png") center right no-repeat;
+	width: 100%;
+	height:100%;
+	margin-right: 10%;
+	background-size: contain;
+
+}
+section.bg_img div.corona{ position: absolute; top:40vh; left:55%; letter-spacing: 10px; }
+section.bg_img div.corona h3{ text-align: right; font-size: 30px; color:#e8ebed; font-weight: 100; margin-bottom: 8px;}
+section.bg_img div.corona h3 b{ color:#c6122b}
+
+section.bg_img div.corona h4{ text-align: right; font-size: 24px; color:#e8ebed; font-weight: 100; margin-bottom: 15px;}
+section.bg_img div.corona h4 b{}
+
+section.bg_img div.corona a{  display: inline-block; float: right; border: 3px solid #f8f8f8 ; border-radius: 40px; color: #f8f8f8; padding: 12px 35px; }
+
+
+
+
+
+

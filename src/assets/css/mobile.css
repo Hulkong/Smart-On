@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+#mobile_home {
+  width: 100%;
+  height: 100%;
+  display: table;
+}
+
+#mobile_home .applyFinish {
+  height: 100%;
+  display: table-row;
+  width: 100%;
+  height: 1px;
+}
+
+#mobile_home .applyFinish .layer_con {
+  color: #313131;
+}
+
+#mobile_home .applyFinish .group_txt {
+  margin: 25px 0;
+  text-align: center;
+}
+
+#mobile_home .applyFinish .group_txt .tit {
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #6224fb;
+}
+
+#mobile_home .applyFinish .group_txt .txt {
+  line-height: 1.4;
+  font-size: 19px;
+  font-weight: bold;
+}
+
+/* HEADER */
+#mobile_home .main_logo {
+  display: inline-block;
+  width: 135px;
+  height: 50px;
+  margin-left: 10px;
+}
+
+/* 숨겨진 검색창 */
+#mobile_home .content {
+  display: block;
+  height: 90px;
+  background: #6224fb;
+  width: 100%;
+  color: #fff;
+}
+
+#mobile_home .content .con_top {
+  position: relative;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  background: transparent;
+  padding-top: 22px;
+}
+
+#mobile_home .content .con_top .tit {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+}
+
+#mobile_home .logo {
+  color: #ffffff;
+  display: block;
+  font-size: 16px;
+  width: 100%;
+  height: 100%;
+}
+
+#mobile_home .finishImg {
+  margin-bottom: 45px;
+  padding: 0 20px;
+}

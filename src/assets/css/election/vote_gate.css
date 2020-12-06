@@ -1,0 +1,299 @@
+/*총선 게이트 시작-----------------------------------------------------------------------------------------------------------*/
+.vote_gate {
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  padding-top: 5vh;
+}
+
+.vote_gate div.cont_wrap {
+  width: 86%;
+  margin-left: 7%;
+  height: 78vh;
+  background: #fff;
+  border-radius: 32px;
+  overflow: hidden;
+  position: relative;
+}
+
+.vote_gate .select {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 5%;
+  margin-left: 8%;
+  width: 84%;
+  float: left;
+  font-size: 16px;
+}
+
+.vote_gate .st01 select {
+  display: inline-block;
+  width: 100%;
+  cursor: pointer;
+  padding: 13px 21px;
+  outline: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  border: #6326ff 2px solid;
+  border-radius: 10px;
+  color: #464973;
+
+  font-weight: bold;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  box-shadow: 0 6px 6px 3px rgba(23, 7, 38, 0.1);
+  z-index: 2;
+  position: relative;
+}
+
+.vote_gate .st02 select {
+  display: inline-block;
+  width: 100%;
+  cursor: pointer;
+  padding: 13px 21px;
+  outline: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  border: #8252fd 2px solid;
+  border-radius: 10px;
+  color: #464973;
+
+  font-weight: bold;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  box-shadow: 0 6px 6px 3px rgba(23, 7, 38, 0.1);
+  z-index: 2;
+  position: relative;
+}
+
+.vote_gate .st03 select {
+  display: inline-block;
+  width: 100%;
+  cursor: pointer;
+  padding: 13px 21px;
+  outline: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  border: #a584fa 2px solid;
+  border-radius: 10px;
+  color: #464973;
+
+  font-weight: bold;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  box-shadow: 0 6px 6px 3px rgba(23, 7, 38, 0.1);
+  z-index: 2;
+  position: relative;
+}
+
+.vote_gate .select select::-ms-expand {
+  display: none;
+}
+
+.vote_gate .select select:hover,
+.vote_gate .select select:focus {
+  color: #f8f8f8;
+  background: #6326ff;
+}
+
+.vote_gate .select select.active {
+  color: #f8f8f8;
+  background: #6326ff;
+}
+
+.vote_gate .select select:disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.vote_gate .select__arrow {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: 20px;
+  right: 20px;
+  background: url("../../images/mobile/select_arrow.png") center no-repeat;
+  background-size: contain;
+  z-index: 1;
+}
+
+.vote_gate .select select:hover~.select__arrow,
+.vote_gate .select select:focus~.select__arrow {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: 20px;
+  right: 20px;
+  background-size: contain;
+  background: url("../../images/event/select_arrow_R.png") center no-repeat;
+}
+
+.ranking {
+  position: absolute;
+  padding: 0% 10% 4% 10%;
+  bottom: 5%;
+  width: 100%;
+  height: auto;
+  background: #ebecf9;
+}
+
+.ranking span.standard {
+  font-family: "SpoqaHanSans_R";
+  font-size: 10px;
+  color: #7e809d;
+  display: inline-block;
+  width: 100%;
+  text-align: right;
+  position: relative;
+  top: -20px;
+}
+
+.ranking ul {}
+
+.ranking ul li {
+  position: relative;
+  font-size: 15px;
+  line-height: 3em;
+  margin-left: 14%;
+}
+
+.ranking ul li strong {
+  background: #fff;
+  color: #202457;
+  margin-left: 5%;
+  border-radius: 6px;
+  padding: 7px 10px;
+  box-shadow: 0 6px 6px 3px rgba(23, 7, 38, 0.1);
+}
+
+.ranking ul li img {
+  position: relative;
+  top: 2px;
+  width: 15px;
+  height: auto;
+}
+
+.ranking ul li.rank01 {
+  color: #2e3cfa;
+}
+
+.ranking ul li.rank01:before {
+  position: absolute;
+  background: #2e3cfa;
+  border-radius: 50%;
+  top: 20px;
+  left: -20px;
+  content: "";
+  display: block;
+  width: 5px;
+  height: 5px;
+}
+
+.ranking ul li.rank02 {
+  color: #1c01a3;
+}
+
+.ranking ul li.rank02:before {
+  position: absolute;
+  background: #1c01a3;
+  border-radius: 50%;
+  top: 20px;
+  left: -20px;
+  content: "";
+  display: block;
+  width: 5px;
+  height: 5px;
+}
+
+.vote_gate div.cont_wrap h1 {
+  position: relative;
+  width: 100%;
+  padding: 7%;
+  text-align: center;
+  font-weight: normal;
+  font-size: 22px;
+  height: auto;
+  background: #6326ff;
+  color: #fff;
+}
+
+.vote_gate div.cont_wrap img.home_btn {
+  width: 26px;
+  height: auto;
+  position: absolute;
+  top: 15px;
+  left: 20px;
+}
+
+.vote_gate div.cont_wrap img.logo {}
+
+.vote_gate div.cont_wrap img.vote_icon {
+  position: absolute;
+  width: 50px;
+  height: auto;
+  bottom: 16px;
+  left: 27px;
+}
+
+.vote_gate div.cont_wrap h2 {
+  margin-bottom: 5%;
+  margin-top: 3%;
+}
+
+.vote_gate div.cont_wrap h2 span {
+  display: inline-block;
+  letter-spacing: 3px;
+  font-size: 18px;
+  padding-left: 5%;
+  margin-left: 12%;
+  line-height: 1.5em;
+  border-left: 3px solid #6326ff;
+  font-weight: normal;
+  color: #6326ff;
+}
+
+.vote_gate div.cont_wrap h2 img {
+  position: relative;
+  top: 10px;
+}
+
+
+@media (max-width:768px) and (min-width:601px) {
+
+  .vote_gate div.cont_wrap img.vote_icon{
+    width: 60px;
+   
+    bottom: 38px;
+    left: 175px;}
+    .vote_gate div.cont_wrap h2 img{ left:6px;}
+
+
+}
+
+
+@media (max-width:600px) and (min-width:415px) {
+
+  .vote_gate div.cont_wrap img.vote_icon{
+    width: 60px;
+   
+    bottom: 26px;
+    left: 97px;}
+
+    .vote_gate div.cont_wrap h2 img{ left:95px;}
+}
+
+
+/*3step*/
+@media (max-width:350px) and (min-width:320px) {
+
+  .vote_gate div.cont_wrap h2 span{ margin-left: 7%;}
+
+}
+
+/*총선 게이트 끝-----------------------------------------------------------------------------------------------------------------------------------------------*/
