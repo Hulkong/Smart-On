@@ -7,8 +7,14 @@
           <div class="_header"></div>
           <div class="_contents">
             <p class="tit">알려드립니다</p>
-            <p class="desc">스마트온 서비스 내 코로나19 현황은 주말 및 공휴일에는 업데이트되지 않습니다.</p>
-            <p class="desc">추가로 회사의 작업일정에 따라 업데이트가 연기되는 일자가 발생할 수 있습니다.</p>
+            <p class="desc">
+              스마트온 서비스 내 코로나19 현황은 주말 및 공휴일에는 업데이트되지
+              않습니다.
+            </p>
+            <p class="desc">
+              추가로 회사의 작업일정에 따라 업데이트가 연기되는 일자가 발생할 수
+              있습니다.
+            </p>
             <p class="desc">이용에 참고 부탁 드립니다.</p>
           </div>
           <div class="_bottom">
@@ -42,7 +48,16 @@
     </div>
     <!-- 모바일 - 안내창 -->
 
-    <div style="position:fixed;width:100%;height:100%;z-index:250;opacity:0.7;background:black;"></div>
+    <div
+      style="
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        z-index: 250;
+        opacity: 0.7;
+        background: black;
+      "
+    ></div>
 
     <!--모달 추가 시작-->
     <div class="mo_modal" v-show="mo_modal" @click="closeModal">
@@ -54,7 +69,12 @@
     <!--	코로나 팝업 시작	-->
     <div class="map_wrap">
       <!-- 지도 시작	-->
-      <vworld :options="mapOption" :deviceType="device" :queryDate="stdrDate" ref="map2"></vworld>
+      <vworld
+        :options="mapOption"
+        :deviceType="device"
+        :queryDate="stdrDate"
+        ref="map2"
+      ></vworld>
       <!-- 지도 끝	-->
       <header class="map_top cf">
         <a class="home" href="#" target="_blank">
@@ -63,35 +83,43 @@
 
         <h1>
           <b>코로나19 현황</b>
-          <strong v-if="device=='web'">(COVID-19)</strong>
+          <strong v-if="device == 'web'">(COVID-19)</strong>
         </h1>
         <a class="refresh" href="#none" @click="initZoom">
           <img :src="getImageUrl('event/korea.png')" />전국 현황으로 이동
         </a>
         <div class="select">
-          <select v-model="selmegacd" :class="{active:(selmegacd != '')}">
+          <select v-model="selmegacd" :class="{ active: selmegacd != '' }">
             <option value>광역시/도</option>
             <option
-              v-for="(item,index) in megaSelOption"
+              v-for="(item, index) in megaSelOption"
               :key="index"
               :value="item.id"
-            >{{item.mega_nm}}</option>
+            >
+              {{ item.mega_nm }}
+            </option>
           </select>
           <div class="select__arrow"></div>
         </div>
         <div class="select">
-          <select v-model="selctycd" :class="{active:(selctycd != '')}">
+          <select v-model="selctycd" :class="{ active: selctycd != '' }">
             <option value>시/군/구</option>
             <option
-              v-for="(item,index) in ctySelOption"
+              v-for="(item, index) in ctySelOption"
               :key="index"
               :value="item.id"
-            >{{item.cty_nm}}</option>
+            >
+              {{ item.cty_nm }}
+            </option>
           </select>
           <div class="select__arrow"></div>
         </div>
 
-        <img class="close" :src="getImageUrl('event/cancel.png')" @click="closeComponent" />
+        <img
+          class="close"
+          :src="getImageUrl('event/cancel.png')"
+          @click="closeComponent"
+        />
       </header>
 
       <!--수정 20200316-->
@@ -101,7 +129,10 @@
         <div class="swiper-container hidden_menu__nav">
           <label id="btn" for="checkbox" ref="btn">
             <span class="off">
-              <img style="width:40px; height:auto;" :src="getImageUrl('event/down-arrow.svg')" />
+              <img
+                style="width: 40px; height: auto"
+                :src="getImageUrl('event/down-arrow.svg')"
+              />
             </span>
             <span class="on">
               정보보기
@@ -111,19 +142,19 @@
           <div class="swiper-wrapper nav__item">
             <div class="swiper-slide">
               <h2>
-                <b>{{titleRegion}}</b> 현황
+                <b>{{ titleRegion }}</b> 현황
               </h2>
               <a :href="coronaInfo.url" target="_blank">
                 상세보기
                 <img :src="getImageUrl('event/search.png')" />
               </a>
-              <span class="num">{{last_fm}}</span>
+              <span class="num">{{ last_fm }}</span>
               <ul class="cf">
                 <li class="tit">
                   <b>확진환자</b>
                   <br />
                   <b class="num">
-                    {{confirmed_n}}&nbsp;
+                    {{ confirmed_n }}&nbsp;
                     <strong>명</strong>
                   </b>
                 </li>
@@ -131,7 +162,7 @@
                   <b>격리해제/퇴원</b>
                   <br />
                   <b class="num">
-                    {{cured_n}}&nbsp;
+                    {{ cured_n }}&nbsp;
                     <strong>명</strong>
                   </b>
                 </li>
@@ -139,7 +170,7 @@
                   <b>사망자</b>
                   <br />
                   <b class="num">
-                    {{death_n}}&nbsp;
+                    {{ death_n }}&nbsp;
                     <strong>명</strong>
                   </b>
                 </li>
@@ -147,7 +178,7 @@
                   <b>격리 중</b>
                   <br />
                   <b class="num">
-                    {{isolated_n}}&nbsp;
+                    {{ isolated_n }}&nbsp;
                     <strong>명</strong>
                   </b>
                 </li>
@@ -156,9 +187,9 @@
             <!--.swiper-slide-->
             <div class="swiper-slide">
               <h2>
-                <b>{{titleRegion}}</b> 일자별 확진자 수
+                <b>{{ titleRegion }}</b> 일자별 확진자 수
               </h2>
-              <div class="graph" style="background-color:transparent;">
+              <div class="graph" style="background-color: transparent">
                 <linechart :options="lineOption" ref="linechart"></linechart>
               </div>
             </div>
@@ -170,7 +201,9 @@
               </h2>
               <h2 v-else>
                 확진자 이동경로
-                <span class="_upt_date" style="font-size:12px;">(업데이트일시: {{ updFlwDate }})</span>
+                <span class="_upt_date" style="font-size: 12px"
+                  >(업데이트일시: {{ updFlwDate }})</span
+                >
               </h2>
               <!-- <h2 v-else>인구 10만 명당 발생률</h2> -->
               <ul v-if="selctycd == ''" ref="covidList">
@@ -178,26 +211,30 @@
                   v-for="(item, index) in regionConfirmList"
                   :key="index"
                   @click="selectRegion(item)"
-                  :class="{on:(item.id == hoverId)}"
+                  :class="{ on: item.id == hoverId }"
                   @mouseenter="listEnter(item)"
                   @mouseleave="listLeave()"
                 >
-                  <span class="num pior">{{index+1}}</span>
-                  {{item.nm}}
-                  <b class="num">{{item.confirmed_n}} 명</b>
+                  <span class="num pior">{{ index + 1 }}</span>
+                  {{ item.nm }}
+                  <b class="num">{{ item.confirmed_n }} 명</b>
                   (
-                  <strong class="num">{{item.diff}}</strong>
+                  <strong class="num">{{ item.diff }}</strong>
                   <img
                     v-if="item.sign != ''"
-                    style="width:20px; height:auto;"
-                    :src="getImageUrl('event/'+item.sign+'.png')"
+                    style="width: 20px; height: auto"
+                    :src="getImageUrl('event/' + item.sign + '.png')"
                   />
                   )
                 </li>
               </ul>
               <ul class v-else ref="covidList">
-                <li class="t_left" v-for="(item, index) in regionConfirmList" :key="index">
-                  <span class="num pior">{{item.num}}</span>
+                <li
+                  class="t_left"
+                  v-for="(item, index) in regionConfirmList"
+                  :key="index"
+                >
+                  <span class="num pior">{{ item.num }}</span>
                   <!-- {{item.flw}} -->
                   <p v-html="item.flw"></p>
                 </li>
@@ -254,15 +291,15 @@ export default {
       regionDivision: "시도",
       nullMsg: "", // 확진자 이동경로 default 메시지
       swiper: null, // 스와프 객체
-      updFlwDate: "" // 업데이트 날짜
+      updFlwDate: "", // 업데이트 날짜
     };
   },
   watch: {
-    layerPopup: function(nTogg) {
+    layerPopup: function (nTogg) {
       if (nTogg) this.initPopup();
     },
 
-    selmegacd: function(newMega) {
+    selmegacd: function (newMega) {
       // 시도 selectbox 선택
       const that = this;
       // 타이틀 변경
@@ -292,7 +329,7 @@ export default {
         }
       }
     },
-    selctycd: function(newCty) {
+    selctycd: function (newCty) {
       // 시군구 selectbox 선택
       const that = this;
       // 타이틀 변경
@@ -315,7 +352,7 @@ export default {
           }
         }
       }
-    }
+    },
     // swBox: function(newSw) {
     //   let elBtn = this.$refs["swBtn"];
     //   if (newSw) elBtn.addAttributes("class", "on");
@@ -324,7 +361,7 @@ export default {
   },
   components: {
     vworld: Vworld,
-    linechart: linechart
+    linechart: linechart,
   },
 
   computed: {
@@ -337,24 +374,24 @@ export default {
       "coronaCtyList", // 코로나 지역선택 selectbox option 리스트
       "coronaText01", // 코로나 지역별 정보
       "coronaListMega", // 코로나 리스트-시도(왼쪽 맨아래)
-      "coronaListCty" // 코로나 리스트-시군구(왼쪽 맨아래)
+      "coronaListCty", // 코로나 리스트-시군구(왼쪽 맨아래)
     ]),
     // 지도 관련 스토어
     ...mapState("mapstore", {
-      mapOption: "map2"
+      mapOption: "map2",
     }),
     // 지도위에 올라갈 레이어 관련 스토어
     ...mapGetters("layerstore", {
-      getLayerInfo: "getLayerInfo"
+      getLayerInfo: "getLayerInfo",
     }),
     // 지도위에 올라갈 레이어 관련 스토어
     ...mapGetters("commonstore", {
-      getDevice: "getDevice"
+      getDevice: "getDevice",
     }),
     // 그래프 관련 스토어
     ...mapState("chartstore", {
-      lineOption: "linechart"
-    })
+      lineOption: "linechart",
+    }),
   },
 
   methods: {
@@ -364,7 +401,7 @@ export default {
      * @description 다시보지 않기
      */
     neverSee() {
-      localStorage.setItem("willYouNeverSee", "Y");
+      localStorage.setItem("willYouNeverSee", "YES");
       this.closeNotice();
     },
 
@@ -375,7 +412,7 @@ export default {
       const willYouNeverSee = localStorage.getItem("willYouNeverSee");
       this.excuteLayerPopup(false);
 
-      if (willYouNeverSee !== "Y") this.willYouSee = true; // 데이너 안내팝업창 보임
+      if (willYouNeverSee !== "YES") this.willYouSee = true; // 데이너 안내팝업창 보임
     },
 
     /**
@@ -409,7 +446,7 @@ export default {
     /**
      * @description 코로나 팝업을 처음 열었을때
      */
-    initPopup: function() {
+    initPopup: function () {
       var that = this;
       const layerInfo = this.getDefaultLayers(
         "map2",
@@ -419,7 +456,7 @@ export default {
 
       // 지역 경계 지도 세팅
       this.getData(this.mapOption["dataURL"], this.mapOption["dataQuery"]).then(
-        result => {
+        (result) => {
           that.setRegionMap(layerInfo);
         }
       );
@@ -436,7 +473,7 @@ export default {
      * @description SQL 파라미터 설정하는 메소드
      * @param {Object} query
      */
-    setQuery: function(query) {
+    setQuery: function (query) {
       if (!query) return;
 
       const that = this;
@@ -479,20 +516,20 @@ export default {
     /**
      * @description 지도생성
      */
-    setRegionMap: function(data) {
+    setRegionMap: function (data) {
       const target = this.$refs["map2"];
       target.draw(data, this.mapOption);
     },
     /**
      * @description 시군구select box 리스트 데이터 가져오기
      */
-    getCtyOptionList: function(callback) {
+    getCtyOptionList: function (callback) {
       var mega_cd = this.selmegacd;
       this.getData(this.coronaCtyList["dataURL"], {
         rgnclss: "H3",
         parentId: mega_cd,
-        odby: "cty_nm"
-      }).then(result => {
+        odby: "cty_nm",
+      }).then((result) => {
         this.ctySelOption = result["data"];
         if ("36,50".indexOf(mega_cd) != -1) {
           if (callback) callback();
@@ -502,7 +539,7 @@ export default {
     /**
      * @description 각 타이틀에 선택한 지역명 추가
      */
-    setTitleNm: function(arrNm) {
+    setTitleNm: function (arrNm) {
       const that = this;
       const id = arrNm == "mega" ? this.selmegacd : this.selctycd;
       const optionArr = this[arrNm + "SelOption"];
@@ -515,13 +552,13 @@ export default {
     /**
      * @description 이벤트 페이지 왼쪽 내용 가져오기
      */
-    setInfo: _.debounce(function(arrNm) {
+    setInfo: _.debounce(function (arrNm) {
       const that = this;
       let query = {
         rgnclss: "H0",
         id: "",
         lastdate: that.stdrDate.stdr_date,
-        lastTime: that.stdrDate.stdr_time
+        lastTime: that.stdrDate.stdr_time,
       };
       query = this.setQuery(query);
 
@@ -562,13 +599,13 @@ export default {
      * @description 시도별 확진자수-전국선택, 시군구별 확진자수-시도선택(coronaListMega),
      * 확진자(coronaListCty) 이동경로 리스트 가져오기
      */
-    setCoronaList: function(query, arrNm) {
+    setCoronaList: function (query, arrNm) {
       const that = this;
       let msg = null;
       if (arrNm == "Cty") msg = this["coronaList" + arrNm]["errorMsg"];
-      
+
       this.getData(this["coronaList" + arrNm]["dataURL"], query).then(
-        result => {
+        (result) => {
           that.regionConfirmList = result["data"];
           if (arrNm == "Cty") {
             // if (msg !== null) {
@@ -579,7 +616,7 @@ export default {
             //   ){
             //     that.nullMsg = msg["null_" + query.id.substr(0, 2)];
             //     that.regionConfirmList = [];
-            //   }else{ 
+            //   }else{
             //     that.nullMsg = msg["nullall"];
             //   }
             // }
@@ -592,9 +629,9 @@ export default {
     /**
      * @description 지역 정보 데이터 가져오기(현황)
      */
-    setDataArea: function(query) {
+    setDataArea: function (query) {
       const that = this;
-      this.getData(this.coronaText01["dataURL"], query).then(result => {
+      this.getData(this.coronaText01["dataURL"], query).then((result) => {
         let info = result["data"][0];
         that.coronaInfo = info;
         that.startCounter("confirmed_n", info.confirmed_n);
@@ -606,7 +643,7 @@ export default {
     /**
      * @description 현황내용 업데이트시 200ms동안 랜덤 [0~value 사이의] number 보여주기
      */
-    startCounter: function(name, value) {
+    startCounter: function (name, value) {
       // 초기화
       const that = this;
       if (value == 0) {
@@ -640,7 +677,7 @@ export default {
     /**
      * @description 시도별 확진자수, 시군구별 확진자수 리스트 선택시
      */
-    selectRegion: function(item) {
+    selectRegion: function (item) {
       if (item.id === undefined) return false;
       const that = this;
       if (item.rgn_clss == "H1") {
@@ -653,7 +690,7 @@ export default {
     /**
      * @description 모바일 안내 모달 닫기
      */
-    closeModal: function() {
+    closeModal: function () {
       // 스와이프 닫기
       const btn = document.getElementById("btn");
       btn.click();
@@ -664,7 +701,7 @@ export default {
     /**
      * @description 화면 조절에 따른 chart 새로그리기
      */
-    resizeDraw: function() {
+    resizeDraw: function () {
       const lineComponent = this.$refs["linechart"];
       const lineTarget = this.makeChartTargets(["linechart"]);
       lineComponent.remove();
@@ -674,7 +711,7 @@ export default {
     /**
      * @description 시군구 확진자수, 시도 확진자수 리스트 mouseover (지도 polygon 색상 변경)
      */
-    listEnter: function(item) {
+    listEnter: function (item) {
       const mapcomponent = this.$refs["map2"];
       if (this.selmegacd == "") {
         mapcomponent.resetFeatureStyle("mega_bound_layer");
@@ -688,7 +725,7 @@ export default {
     /**
      * @description 시군구 확진자수, 시도 확진자수 리스트 mouseleave (지도 polygon 색상 초기화)
      */
-    listLeave: function() {
+    listLeave: function () {
       const mapcomponent = this.$refs["map2"];
       if (this.selmegacd == "")
         mapcomponent.resetFeatureStyle("mega_bound_layer");
@@ -710,7 +747,7 @@ export default {
       } else {
         that.selctycd = "36110";
       }
-    }
+    },
   },
 
   created() {},
@@ -721,13 +758,13 @@ export default {
 
     const willYouNeverSee = localStorage.getItem("willYouNeverSee");
 
-    if (willYouNeverSee === "Y") this.closeNotice();
+    if (willYouNeverSee === "YES") this.closeNotice();
 
     // 모바일인지 확인후 처리
     if (this.getDevice == "mo") {
       // 모바일 팝업 내림
       const btn = document.getElementById("btn");
-      btn.addEventListener("click", function() {
+      btn.addEventListener("click", function () {
         if (this.className == "on") this.classList.remove("on");
         else this.classList.add("on");
       });
@@ -743,20 +780,20 @@ export default {
         observeParents: true,
         pagination: {
           el: ".swiper-pagination",
-          dynamicBullets: true
-        }
+          dynamicBullets: true,
+        },
       });
     }
 
     // 시도 리스트 가져오기 (selectbox option)
     this.getData(this.coronaMegaList["dataURL"], {
       rgnclss: "H1",
-      odby: "id"
-    }).then(result => {
+      odby: "id",
+    }).then((result) => {
       this.megaSelOption = result["data"];
     });
     // 코로나 마지막 업데이트 날짜가져오기
-    this.getData(this.coronaLastDate["dataURL"]).then(result => {
+    this.getData(this.coronaLastDate["dataURL"]).then((result) => {
       this.stdrDate = result["data"].corona[0];
       this.stdrDate_flw = result["data"].corona_flw[0];
       this.last_fm = this.stdrDate["stdr_fm"];
@@ -778,7 +815,7 @@ export default {
 
   destroyed() {
     window.removeEventListener("resize", this.resizeDraw); // resize 이벤트리스너 해제
-  }
+  },
 };
 </script>
 <style scoped src="@/assets/css/event/sub_main.css"></style>
