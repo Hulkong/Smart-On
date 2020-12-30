@@ -7,7 +7,7 @@
   "private": true,
   "scripts": {
     "dev_test": "webpack-dev-server --inline --progress --open --hot --config build/webpack.dev.conf.js --host 127.0.0.1 --port 8480",
-    "dev": "webpack-dev-server --inline --progress --open --hot --config build/webpack.dev.conf.js --host localhost --port 8480",
+    "dev": "webpack-dev-server --inline --progress --open --hot --config build/webpack.dev.conf.js --host 0.0.0.0 --port 8480",
     "start": "npm run dev",
     "unit": "jest --config test/unit/jest.conf.js --coverage",
     "e2e": "node test/e2e/runner.js",
